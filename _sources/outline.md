@@ -17,7 +17,7 @@ The optimistic schedule below may be subject of change, dependent on time constr
 | Date (day/month/year) 🗓 | Topic 💡 👨🏻‍🏫 |
 |-------------------------|-------------|
 | 22/10/2026 | Introduction I: course information; homework assignment: install first parts of software |
-| 29/10/2026 | Introductory Session II: Checking and finalizing software setup; if time allows: Introduction II - Jupyter notebooks |
+| 29/10/2026 | Introductory Session II: Checking and finalizing software setup; if time allows: Introduction II - Jupyter notebooks (Michael Ernst) |
 | 05/11/2026 | No in person session! Introductory Session III: Intro to Python Part I |
 | 12/11/2026 | Introductory Session IV: Recap Intro to Python Part II  |
 | 19/11/2026 | No in person session! Introductory Session V: Intro to Python Part III |
