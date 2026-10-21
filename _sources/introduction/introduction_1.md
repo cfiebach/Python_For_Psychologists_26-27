@@ -23,7 +23,7 @@ First things first: what is going to happen in this course? What is it all about
 
 #### Materials 📓
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJs_KLb0qqn146AxHr-cld2Sk3hMzjCisoeyPctHkVxb-aGCGCDekwbhcQuL7X76O_ZTX40TBrv6Uw/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJs_KLb0qqn146AxHr-cld2Sk3hMzjCisoeyPctHkVxb-aGCGCDekwbhcQuL7X76O_ZTX40TBrv6Uw/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQJs_KLb0qqn146AxHr-cld2Sk3hMzjCisoeyPctHkVxb-aGCGCDekwbhcQuL7X76O_ZTX40TBrv6Uw/present" target="_blank">Diashow in neuem Fenster öffnen</a>
 
