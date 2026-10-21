@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Analysing Experimental Data in Table Form with Pandas &#8212; Winter Term - 2026/2026</title>
   
@@ -28,36 +29,37 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'newanalyses/DataAnalysis_lecture';</script>
     <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/newanalyses/DataAnalysis_lecture.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -548,7 +550,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="analysing-experimental-data-in-table-form-with-pandas">
-<h1>Analysing Experimental Data in Table Form with Pandas<a class="headerlink" href="#analysing-experimental-data-in-table-form-with-pandas" title="Link to this heading">#</a></h1>
+<h1>Analysing Experimental Data in Table Form with Pandas<a class="headerlink" href="#analysing-experimental-data-in-table-form-with-pandas" title="Permalink to this heading">#</a></h1>
 <p>There are (as usually the case with python) many different ways and packages to do data analysis and visualisation in python. The package we will look at in this notebook is called <a class="reference external" href="https://pandas.pydata.org">Pandas</a> and is probably the most widely used python package for data analysis if the data is in table form. There are many ressources online for free that we encourage you to check out. This notebook will really only scratch the surface of what you can do with pandas.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -559,7 +561,7 @@ document.write(`
 </div>
 </div>
 <section id="loading-data-file">
-<h2>Loading data file<a class="headerlink" href="#loading-data-file" title="Link to this heading">#</a></h2>
+<h2>Loading data file<a class="headerlink" href="#loading-data-file" title="Permalink to this heading">#</a></h2>
 <p>The file “data.csv” contains results from a participant who participated in the gaze cue experiment you programmed today!
 using <code class="docutils literal notranslate"><span class="pre">.read_csv</span></code> we can read in our data file and store it under <code class="docutils literal notranslate"><span class="pre">df</span></code>.</p>
 <div class="cell docutils container">
@@ -874,7 +876,7 @@ using <code class="docutils literal notranslate"><span class="pre">.read_csv</sp
 <p>As you can see, we have 9 columns with 15 rows, each row representing a trial. <code class="docutils literal notranslate"><span class="pre">Congruency</span></code> refers to whether <strong>gaze cue</strong> and <strong>target position</strong> matched in a trial (if yes = congruent, if no = incongruent), the other variables here are pretty self explanatory.</p>
 </section>
 <section id="data-frame-slicing">
-<h2>Data frame slicing<a class="headerlink" href="#data-frame-slicing" title="Link to this heading">#</a></h2>
+<h2>Data frame slicing<a class="headerlink" href="#data-frame-slicing" title="Permalink to this heading">#</a></h2>
 <p>If you want to look at a specific column you can use square brackets and the column name to <em>slice</em> the data frame.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -910,7 +912,7 @@ Name: response, dtype: object
 <p>For more information on indexing in pandas: <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html">https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html</a></p>
 </section>
 <section id="data-frame-methods-helper-functions">
-<h2>Data frame methods, helper functions<a class="headerlink" href="#data-frame-methods-helper-functions" title="Link to this heading">#</a></h2>
+<h2>Data frame methods, helper functions<a class="headerlink" href="#data-frame-methods-helper-functions" title="Permalink to this heading">#</a></h2>
 <p>Pandas has a lot of data frame methods that allow us to do basic analyses.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1242,7 +1244,7 @@ Name: count, dtype: int64
 </div>
 </section>
 <section id="comparisons">
-<h2>Comparisons<a class="headerlink" href="#comparisons" title="Link to this heading">#</a></h2>
+<h2>Comparisons<a class="headerlink" href="#comparisons" title="Permalink to this heading">#</a></h2>
 <p>You can pretty easily add new columns to a data frame (see below).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1768,7 +1770,7 @@ Name: count, dtype: int64
 <b>Create columns:</b> We can create new columns by assigning a single value like this: df["number 4"] = 4 or we could do what we did above which is varying the entry depending on entries in other columns: You could also read it like this: If rt is greater than 0.4, assign "true" to slow, else assign False.
 </div></section>
 <section id="group-by">
-<h2>Group By<a class="headerlink" href="#group-by" title="Link to this heading">#</a></h2>
+<h2>Group By<a class="headerlink" href="#group-by" title="Permalink to this heading">#</a></h2>
 <p>If we have different groups within our data - in our case for example we have some congruent and some incongruent trials - we can use <code class="docutils literal notranslate"><span class="pre">groupby</span></code> to get some grouped summary statistics for example, mean accuracy per group.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1820,7 +1822,7 @@ Name: rt, dtype: object
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="visualisation-with-seaborn">
-<h1>Visualisation with seaborn<a class="headerlink" href="#visualisation-with-seaborn" title="Link to this heading">#</a></h1>
+<h1>Visualisation with seaborn<a class="headerlink" href="#visualisation-with-seaborn" title="Permalink to this heading">#</a></h1>
 <p>Let’s also go over some data visualisation using the widely used package <a class="reference external" href="https://seaborn.pydata.org">seaborn</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">

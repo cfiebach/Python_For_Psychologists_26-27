@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Nilearn GLM: statistical analyses of MRI in Python &#8212; Winter Term - 2026/2026</title>
   
@@ -28,36 +29,37 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'showcases/statistical_analyses_MRI';</script>
     <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/showcases/statistical_analyses_MRI.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -569,16 +571,16 @@ document.write(`
 </div>
 </div>
 <section class="tex2jax_ignore mathjax_ignore" id="nilearn-glm-statistical-analyses-of-mri-in-python">
-<h1>Nilearn GLM: statistical analyses of MRI in Python<a class="headerlink" href="#nilearn-glm-statistical-analyses-of-mri-in-python" title="Link to this heading">#</a></h1>
+<h1>Nilearn GLM: statistical analyses of MRI in Python<a class="headerlink" href="#nilearn-glm-statistical-analyses-of-mri-in-python" title="Permalink to this heading">#</a></h1>
 <p><a class="reference internal" href="#"><span class="xref myst">Nilearn</span></a>’s <a class="reference internal" href="#"><span class="xref myst">GLM/stats</span></a> module allows fast and easy MRI statistical analysis.</p>
 <p>It leverages <a class="reference internal" href="#"><span class="xref myst">Nibabel</span></a> and other Python libraries from the Python scientific stack like <a class="reference internal" href="#"><span class="xref myst">Scipy</span></a>, <a class="reference internal" href="#"><span class="xref myst">Numpy</span></a> and <a class="reference internal" href="#"><span class="xref myst">Pandas</span></a>.</p>
 <p>In this tutorial, we’re going to explore <code class="docutils literal notranslate"><span class="pre">nilearn's</span> <span class="pre">GLM</span></code> functionality by analyzing 1) a single subject single run and 2) three subject group level example using a General Linear Model (GLM). We’re gonna use the same example dataset (ds000114) as from the <code class="docutils literal notranslate"><span class="pre">nibabel</span></code> and <code class="docutils literal notranslate"><span class="pre">nilearn</span></code> tutorials. As this is a multi run multi task dataset, we’ve to decide on a run and a task we want to analyze. Let’s go with <code class="docutils literal notranslate"><span class="pre">ses-test</span></code> and <code class="docutils literal notranslate"><span class="pre">task-fingerfootlips</span></code>, starting with a single subject <code class="docutils literal notranslate"><span class="pre">sub-01</span></code>.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="individual-level-analysis">
-<h1>Individual level analysis<a class="headerlink" href="#individual-level-analysis" title="Link to this heading">#</a></h1>
+<h1>Individual level analysis<a class="headerlink" href="#individual-level-analysis" title="Permalink to this heading">#</a></h1>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="setting-and-inspecting-the-data">
-<h1>Setting and inspecting the data<a class="headerlink" href="#setting-and-inspecting-the-data" title="Link to this heading">#</a></h1>
+<h1>Setting and inspecting the data<a class="headerlink" href="#setting-and-inspecting-the-data" title="Permalink to this heading">#</a></h1>
 <p>At first, we have to set and indicate the data we want to analyze. As stated above, we’re going to use the anatomical image and the preprocessed functional image of <code class="docutils literal notranslate"><span class="pre">sub-01</span></code> from <code class="docutils literal notranslate"><span class="pre">ses-test</span></code>. The preprocessing was conducted through <a class="reference external" href="https://fmriprep.readthedocs.io/en/stable/index.html">fmriprep</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -614,7 +616,7 @@ document.write(`
 </div>
 </div>
 <section id="specifying-the-experimental-paradigm">
-<h2>Specifying the experimental paradigm<a class="headerlink" href="#specifying-the-experimental-paradigm" title="Link to this heading">#</a></h2>
+<h2>Specifying the experimental paradigm<a class="headerlink" href="#specifying-the-experimental-paradigm" title="Permalink to this heading">#</a></h2>
 <p>We must now provide a description of the experiment, that is, define the
 timing of the task and rest periods. This is typically
 provided in an events.tsv file.</p>
@@ -649,7 +651,7 @@ provided in an events.tsv file.</p>
 </div>
 </section>
 <section id="performing-the-glm-analysis">
-<h2>Performing the GLM analysis<a class="headerlink" href="#performing-the-glm-analysis" title="Link to this heading">#</a></h2>
+<h2>Performing the GLM analysis<a class="headerlink" href="#performing-the-glm-analysis" title="Permalink to this heading">#</a></h2>
 <p>It is now time to create and estimate a <code class="docutils literal notranslate"><span class="pre">FirstLevelModel</span></code> object, that will generate the <em>design matrix</em> using the  information provided by the <code class="docutils literal notranslate"><span class="pre">events</span></code> object.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1254,7 +1256,7 @@ sensitive to the “Finger” task. Let’s plot this first column:</p>
 </div>
 </section>
 <section id="detecting-voxels-with-significant-effects">
-<h2>Detecting voxels with significant effects<a class="headerlink" href="#detecting-voxels-with-significant-effects" title="Link to this heading">#</a></h2>
+<h2>Detecting voxels with significant effects<a class="headerlink" href="#detecting-voxels-with-significant-effects" title="Permalink to this heading">#</a></h2>
 <p>To access the estimated coefficients (Betas of the GLM model), we
 created constrast with a single ‘1’ in each of the columns: The role
 of the contrast is to select some columns of the model –and
@@ -2412,7 +2414,7 @@ https://github.com/miykael/atlasreader/tree/master/atlasreader/data
 " width="1600" height="800" frameBorder="0"></iframe></div></div>
 </div>
 <section id="performing-an-f-test">
-<h3>Performing an F-test<a class="headerlink" href="#performing-an-f-test" title="Link to this heading">#</a></h3>
+<h3>Performing an F-test<a class="headerlink" href="#performing-an-f-test" title="Permalink to this heading">#</a></h3>
 <p>“active vs rest” is a typical t test: condition versus
 baseline. Another popular type of test is an F test in which one
 seeks whether a certain combination of conditions (possibly two-,
@@ -2462,7 +2464,7 @@ makes it easier to represent it.</p>
 </div>
 </section>
 <section id="evaluating-models">
-<h3>Evaluating models<a class="headerlink" href="#evaluating-models" title="Link to this heading">#</a></h3>
+<h3>Evaluating models<a class="headerlink" href="#evaluating-models" title="Permalink to this heading">#</a></h3>
 <p>While not commonly done, it’s a very good and important idea to actually evaluate your model in terms of its fit. We can do that comprehensively, yet easily through <code class="docutils literal notranslate"><span class="pre">nilearn</span></code> functionality. In more detail, we’re going to inspect the residuals and evaluate the predicted time series. Let’s  do this for the peak voxels. At first, we have to extract them using <code class="docutils literal notranslate"><span class="pre">get_clusters_table</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2567,7 +2569,7 @@ makes it easier to represent it.</p>
 </div>
 </div>
 <section id="get-and-check-model-residuals">
-<h4>Get and check model residuals<a class="headerlink" href="#get-and-check-model-residuals" title="Link to this heading">#</a></h4>
+<h4>Get and check model residuals<a class="headerlink" href="#get-and-check-model-residuals" title="Permalink to this heading">#</a></h4>
 <p>We can simply obtain the <code class="docutils literal notranslate"><span class="pre">residuals</span></code> of the peak voxels from our <code class="docutils literal notranslate"><span class="pre">fitted</span> <span class="pre">model</span></code> via applying the prepared <code class="docutils literal notranslate"><span class="pre">masker</span></code> (and thus <code class="docutils literal notranslate"><span class="pre">peak</span> <span class="pre">voxel</span></code>) to the <code class="docutils literal notranslate"><span class="pre">residuals</span></code> our:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2613,7 +2615,7 @@ Mean residuals: 418.41548583493346
 </div>
 </section>
 <section id="get-and-check-predicted-time-series">
-<h4>Get and check predicted time series<a class="headerlink" href="#get-and-check-predicted-time-series" title="Link to this heading">#</a></h4>
+<h4>Get and check predicted time series<a class="headerlink" href="#get-and-check-predicted-time-series" title="Permalink to this heading">#</a></h4>
 <p>In order to evaluate the <code class="docutils literal notranslate"><span class="pre">predicted</span> <span class="pre">time</span> <span class="pre">series</span></code> we need to extract them, as well as the <code class="docutils literal notranslate"><span class="pre">actual</span> <span class="pre">time</span> <span class="pre">series</span></code>. To do so, we can use the <code class="docutils literal notranslate"><span class="pre">masker</span></code> again:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2652,7 +2654,7 @@ Mean residuals: 418.41548583493346
 </div>
 </section>
 <section id="plot-the-r-squared">
-<h4>Plot the R-squared<a class="headerlink" href="#plot-the-r-squared" title="Link to this heading">#</a></h4>
+<h4>Plot the R-squared<a class="headerlink" href="#plot-the-r-squared" title="Permalink to this heading">#</a></h4>
 <p>Another option to evaluate our model is to plot the <code class="docutils literal notranslate"><span class="pre">R-squared</span></code>, that is the amount of variance explained through our <code class="docutils literal notranslate"><span class="pre">GLM</span></code> in total. While this plot will be informative, its interpretation will be limited as we can’t tell if a voxel exhibits a large <code class="docutils literal notranslate"><span class="pre">R-squared</span></code> because of a response to a <code class="docutils literal notranslate"><span class="pre">condition</span></code> in our experiment or to <code class="docutils literal notranslate"><span class="pre">noise</span></code>. For these things, one should employ <code class="docutils literal notranslate"><span class="pre">F-Tests</span></code> as shown above. However, as expected we see that the <code class="docutils literal notranslate"><span class="pre">R-squared</span></code> decreases the further away <code class="docutils literal notranslate"><span class="pre">voxels</span></code> are from the <code class="docutils literal notranslate"><span class="pre">receive</span> <span class="pre">coils</span></code> (e.g. deeper in the brain).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2672,10 +2674,10 @@ Mean residuals: 418.41548583493346
 </section>
 </section>
 <section id="group-level-statistics">
-<h2>Group level statistics<a class="headerlink" href="#group-level-statistics" title="Link to this heading">#</a></h2>
+<h2>Group level statistics<a class="headerlink" href="#group-level-statistics" title="Permalink to this heading">#</a></h2>
 <p>Now that we’ve explored the individual level analysis quite a bit, one might ask: but what about <code class="docutils literal notranslate"><span class="pre">group</span> <span class="pre">level</span></code> statistics? No problem at all, <code class="docutils literal notranslate"><span class="pre">nilearn</span></code>’s <code class="docutils literal notranslate"><span class="pre">GLM</span></code> functionality of course supports this as well. As in other software packages, we need to repeat the <code class="docutils literal notranslate"><span class="pre">individual</span> <span class="pre">level</span> <span class="pre">analysis</span></code> for each subject to obtain the same contrast images, that we can submit to a <code class="docutils literal notranslate"><span class="pre">group</span> <span class="pre">level</span> <span class="pre">analysis</span></code>.</p>
 <section id="run-individual-level-analysis-for-multiple-participants">
-<h3>Run individual level analysis for multiple participants<a class="headerlink" href="#run-individual-level-analysis-for-multiple-participants" title="Link to this heading">#</a></h3>
+<h3>Run individual level analysis for multiple participants<a class="headerlink" href="#run-individual-level-analysis-for-multiple-participants" title="Permalink to this heading">#</a></h3>
 <p>By now, we know how to do this easily. Let’s use a simple <code class="docutils literal notranslate"><span class="pre">for</span> <span class="pre">loop</span></code> to repeat the analysis from above for <code class="docutils literal notranslate"><span class="pre">sub-02</span></code> and <code class="docutils literal notranslate"><span class="pre">sub-03</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2714,7 +2716,7 @@ Mean residuals: 418.41548583493346
 </div>
 </section>
 <section id="define-a-group-level-model">
-<h3>Define a group level model<a class="headerlink" href="#define-a-group-level-model" title="Link to this heading">#</a></h3>
+<h3>Define a group level model<a class="headerlink" href="#define-a-group-level-model" title="Permalink to this heading">#</a></h3>
 <p>As we now have the same contrast from multiple <code class="docutils literal notranslate"><span class="pre">subjects</span></code> we can define our <code class="docutils literal notranslate"><span class="pre">group</span> <span class="pre">level</span> <span class="pre">model</span></code>. At first, we need to gather the <code class="docutils literal notranslate"><span class="pre">individual</span> <span class="pre">contrast</span> <span class="pre">maps</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -2783,7 +2785,7 @@ Mean residuals: 418.41548583493346
 </section>
 </section>
 <section id="performing-statistical-analyses-on-bids-datasets">
-<h2>Performing statistical analyses on BIDS datasets<a class="headerlink" href="#performing-statistical-analyses-on-bids-datasets" title="Link to this heading">#</a></h2>
+<h2>Performing statistical analyses on BIDS datasets<a class="headerlink" href="#performing-statistical-analyses-on-bids-datasets" title="Permalink to this heading">#</a></h2>
 <p>Even though model specification and running was comparably easy and straightforward, it can be even better. <code class="docutils literal notranslate"><span class="pre">Nilearn</span></code>’s <code class="docutils literal notranslate"><span class="pre">GLM</span></code> functionality actually enables you to define models for multiple participants through one function by leveraging the <code class="docutils literal notranslate"><span class="pre">BIDS</span></code> standard. More precisely, the function <code class="docutils literal notranslate"><span class="pre">first_level_from_bids</span></code> takes the same input arguments as <code class="docutils literal notranslate"><span class="pre">First_Level_model</span></code> (e.g. <code class="docutils literal notranslate"><span class="pre">t_r</span></code>, <code class="docutils literal notranslate"><span class="pre">hrf_model</span></code>, <code class="docutils literal notranslate"><span class="pre">high_pass</span></code>, etc.), but through defining the <code class="docutils literal notranslate"><span class="pre">BIDS</span> <span class="pre">raw</span></code> and <code class="docutils literal notranslate"><span class="pre">derivatives</span> <span class="pre">folder</span></code>, as well as a <code class="docutils literal notranslate"><span class="pre">task</span></code> and <code class="docutils literal notranslate"><span class="pre">space</span></code> label automatically extracts all information necessary to run <code class="docutils literal notranslate"><span class="pre">individual</span> <span class="pre">level</span> <span class="pre">models</span></code> and creates the <code class="docutils literal notranslate"><span class="pre">model</span></code> itself for all participants.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">

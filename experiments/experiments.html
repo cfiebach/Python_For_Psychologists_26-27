@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Running experiments in Python &#8212; Winter Term - 2026/2026</title>
   
@@ -28,36 +29,37 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'experiments/experiments';</script>
     <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/experiments/experiments.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -515,16 +517,16 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="running-experiments-in-python">
-<h1>Running experiments in Python<a class="headerlink" href="#running-experiments-in-python" title="Link to this heading">#</a></h1>
+<h1>Running experiments in Python<a class="headerlink" href="#running-experiments-in-python" title="Permalink to this heading">#</a></h1>
 <p>After spending quite a good while on important prerequisites concerning scientific computing and the basics of the <code class="docutils literal notranslate"><span class="pre">python</span></code> programming language, it’s finally time to combine them via transitioning to more applied topics. This adventure will start with a brief exploration of how to create and run experiments using <a class="reference external" href="https://www.psychopy.org/index.html">PsychoPy</a>, a <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">library</span></code> dedicated to conducting experiments in the realm of <code class="docutils literal notranslate"><span class="pre">psychology</span></code> and adjacent fields. Due to time constraints we will only have a quick look at things and showcase the most important aspects to allow folks to explore things further after the course ends. We’ll further concentrate on using psychopy to further your understanding of the Python essential such as control-flow statements.</p>
 <section id="introduction-to-psychopy-i">
-<h2>Introduction to PsychoPy - I<a class="headerlink" href="#introduction-to-psychopy-i" title="Link to this heading">#</a></h2>
+<h2>Introduction to PsychoPy - I<a class="headerlink" href="#introduction-to-psychopy-i" title="Permalink to this heading">#</a></h2>
 <p>Most of us already conducted or at least watched or helped conduct an experiment. However, there’s a fair number of different software options and tools out there, which mostly depends on the computational infrastructure at hand, but also on what people have the experience and skills to master - or simply what they used to use in the past. Often, these other solutions are not <code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">source</span></code> but paid software.</p>
 <p>That being said: We’ll quickly discuss some tools to conduct experiments and work out if we can actually use <code class="docutils literal notranslate"><span class="pre">python</span></code> based resources in this context with a clear conscience or if you’re better off by defaulting to paid software packages.</p>
 <p>To get some idea on how to present experiments via Python, we will explore the <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">library</span></code> <a class="reference external" href="https://www.psychopy.org/index.html">PsychoPy</a>, including its setup, basic working principles, as well as advantages and disadvantages, showcased on a very simple experiment. Buckle up y’all, this is the first time we will use <code class="docutils literal notranslate"><span class="pre">python</span></code> “in the wild”.</p>
 </section>
 <section id="materials">
-<h2>Materials 📓<a class="headerlink" href="#materials" title="Link to this heading">#</a></h2>
+<h2>Materials 📓<a class="headerlink" href="#materials" title="Permalink to this heading">#</a></h2>
 <p>In case you have not yet done so - please install <code class="docutils literal notranslate"><span class="pre">PsychoPy</span></code> from <a class="reference external" href="https://www.psychopy.org/download.html">here</a>.</p>
 <p>You can download the slides for todays session <a class="reference external" href="https://docs.google.com/presentation/d/1Sjo6YW92Ju_Zk5_glrQZpFsBNYYD88fTy2vYziZ1wR4/edit?usp=sharing">here</a></p>
 <p>In this session, we will jointly go through a tutorial, implementing a simple rating task - led by Dr. Cosimo Iaia from our research group. As homework assignment, you will adjust this experiment to work with different stimuli.</p>
@@ -534,7 +536,7 @@ You can also access the pre-rendered version of this notebook through the table 
 <p><strong>Remember: For this, you need to have installed PsychoPy as a stand-alone program! The <code class="docutils literal notranslate"><span class="pre">PsychoPy</span></code> code does not and should not be run in jupyter notebooks - we will use <code class="docutils literal notranslate"><span class="pre">coder</span></code>, i.e., a code editor that is provided with <code class="docutils literal notranslate"><span class="pre">PsychoPy</span></code>.</strong></p>
 </section>
 <section id="homework-assignment-7">
-<h2>Homework assignment #7<a class="headerlink" href="#homework-assignment-7" title="Link to this heading">#</a></h2>
+<h2>Homework assignment #7<a class="headerlink" href="#homework-assignment-7" title="Permalink to this heading">#</a></h2>
 <p>Your next homework assignment will entail the generation of a “new” psychopy experiment. You can use the tutorial as a starting point. Your new experiment should include a trial sequence where some stimulus is presented and a response is collected.</p>
 <p>Please implemente a rating task using the words below, asking participants to rate <strong>on a scale from 1 to 9</strong> how concrete (1 = very concrete) vs. abstract (9 = very abstract) these words are.</p>
 <p>Words: Felsen, Gabel, Apfel, Hammer, Frieden, Ruhm, Pfanne, Ehre, Anker, Stuhl, Wahrheit, Tragik, Seele, Hoffnung, Besen, Toaster, Weisheit, Klugheit, Bagger, Liebe.</p>
@@ -552,17 +554,17 @@ You can also access the pre-rendered version of this notebook through the table 
 </ul>
 <p>Save the experiment script as a .py file that contains your name in its filename.</p>
 <section id="part-2">
-<h3>Part 2:<a class="headerlink" href="#part-2" title="Link to this heading">#</a></h3>
+<h3>Part 2:<a class="headerlink" href="#part-2" title="Permalink to this heading">#</a></h3>
 <p>Please run the experiment and send the output file also. We want to assemble all output files into dataset after the winter holiday and analyze the acquired data.</p>
 </section>
 <section id="submission-of-assignment">
-<h3>Submission of Assignment<a class="headerlink" href="#submission-of-assignment" title="Link to this heading">#</a></h3>
+<h3>Submission of Assignment<a class="headerlink" href="#submission-of-assignment" title="Permalink to this heading">#</a></h3>
 <p>Please e-mail both files to fiebach[ at ]<a class="reference external" href="http://psych.uni-frankfurt.de">psych.uni-frankfurt.de</a>.</p>
 <p><strong>Deadline is Monday, January 12, 2026!</strong></p>
 </section>
 </section>
 <section id="optional-reading-further-materials">
-<h2>optional/reading/further materials<a class="headerlink" href="#optional-reading-further-materials" title="Link to this heading">#</a></h2>
+<h2>optional/reading/further materials<a class="headerlink" href="#optional-reading-further-materials" title="Permalink to this heading">#</a></h2>
 <p>The official website of PsychoPy provides a lot of helpful information. For example, <a class="reference external" href="https://www.youtube.com/&#64;PsychoPy_official/videos">here</a> you can find video tutorials, on interesting topics like <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">your</span> <span class="pre">first</span> <span class="pre">PsychoPy</span> <span class="pre">experiment</span> <span class="pre">(Stroop</span> <span class="pre">task)</span></code>, <code class="docutils literal notranslate"><span class="pre">PsychoPy</span> <span class="pre">is</span> <span class="pre">Easy:</span> <span class="pre">Posner</span> <span class="pre">cueing</span> <span class="pre">task</span></code>, <code class="docutils literal notranslate"><span class="pre">How</span> <span class="pre">to</span> <span class="pre">copy</span> <span class="pre">and</span> <span class="pre">paste</span> <span class="pre">a</span> <span class="pre">routine</span> <span class="pre">in</span> <span class="pre">PsychoPy</span></code> or <code class="docutils literal notranslate"><span class="pre">How</span> <span class="pre">to</span> <span class="pre">check</span> <span class="pre">if</span> <span class="pre">a</span> <span class="pre">typed</span> <span class="pre">response</span> <span class="pre">is</span> <span class="pre">correct</span> <span class="pre">in</span> <span class="pre">PsychoPy</span></code>.</p>
 <p>There are many more resources … Here, for example, you find the first video in an easy introduction series to PsychoPy:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tTq6IfESVZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

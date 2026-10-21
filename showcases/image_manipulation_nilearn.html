@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Using Python for neuroimaging data - Nilearn &#8212; Winter Term - 2026/2026</title>
   
@@ -28,36 +29,37 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'showcases/image_manipulation_nilearn';</script>
     <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/showcases/image_manipulation_nilearn.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -569,13 +571,13 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="using-python-for-neuroimaging-data-nilearn">
-<h1>Using Python for neuroimaging data - Nilearn<a class="headerlink" href="#using-python-for-neuroimaging-data-nilearn" title="Link to this heading">#</a></h1>
+<h1>Using Python for neuroimaging data - Nilearn<a class="headerlink" href="#using-python-for-neuroimaging-data-nilearn" title="Permalink to this heading">#</a></h1>
 <p>The primary goal of this section is to become familiar with loading, modifying, saving, and visualizing neuroimages in Python. A secondary goal is to develop a conceptual understanding of the data structures involved, to facilitate diagnosing problems in data or analysis pipelines.</p>
 <p>To these ends, we’ll be exploring two libraries: <a class="reference external" href="http://nipy.org/nibabel/">nibabel</a> and <a class="reference external" href="https://nilearn.github.io/">nilearn</a>. Each of these projects has excellent documentation. While this should get you started, it is well worth your time to look through these sites.</p>
 <p>This notebook only covers nilearn, see the notebook <a class="reference internal" href="image_manipulation_nibabel.html"><span class="std std-doc"><code class="docutils literal notranslate"><span class="pre">image_manipulation_nibabel.ipynb</span></code></span></a> for more information about nibabel.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="nilearn">
-<h1>Nilearn<a class="headerlink" href="#nilearn" title="Link to this heading">#</a></h1>
+<h1>Nilearn<a class="headerlink" href="#nilearn" title="Permalink to this heading">#</a></h1>
 <p><a class="reference external" href="http://nilearn.github.io/index.html">Nilearn</a> labels itself as: <em>A Python module for fast and easy statistical learning on NeuroImaging data. It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modeling, classification, decoding, or connectivity analysis.</em></p>
 <p>But it’s much more than that. It is also an excellent library to <strong>manipulate</strong> (e.g. resample images, smooth images, ROI extraction, etc.) and <strong>visualize</strong> your neuroimages.</p>
 <p>So let’s visit all three of those domains:</p>
@@ -584,7 +586,7 @@ document.write(`
 <li><p>Image visualization</p></li>
 </ol>
 <section id="setup">
-<h2>Setup<a class="headerlink" href="#setup" title="Link to this heading">#</a></h2>
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Image settings</span>
@@ -617,9 +619,9 @@ document.write(`
 </div>
 </section>
 <section id="image-manipulation-with-nilearn">
-<h2>1. Image manipulation with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#image-manipulation-with-nilearn" title="Link to this heading">#</a></h2>
+<h2>1. Image manipulation with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#image-manipulation-with-nilearn" title="Permalink to this heading">#</a></h2>
 <section id="let-s-create-a-mean-image">
-<h3>Let’s create a mean image<a class="headerlink" href="#let-s-create-a-mean-image" title="Link to this heading">#</a></h3>
+<h3>Let’s create a mean image<a class="headerlink" href="#let-s-create-a-mean-image" title="Permalink to this heading">#</a></h3>
 <p>If you use nibabel to compute the mean image, you first need to load the img, get the data and then compute the mean thereof. With nilearn, you can do all this in just one line with <code class="docutils literal notranslate"><span class="pre">mean</span> <span class="pre">image</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -681,7 +683,7 @@ document.write(`
 Let’s see…</p>
 </section>
 <section id="resample-image-to-a-template">
-<h3>Resample image to a template<a class="headerlink" href="#resample-image-to-a-template" title="Link to this heading">#</a></h3>
+<h3>Resample image to a template<a class="headerlink" href="#resample-image-to-a-template" title="Permalink to this heading">#</a></h3>
 <p>Using <code class="docutils literal notranslate"><span class="pre">resample_to_img</span></code>, we can resample one image to have the same dimensions as another one. For example, let’s resample an anatomical T1 image to the computed mean image above.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -730,7 +732,7 @@ Let’s see…</p>
 </div>
 </section>
 <section id="smooth-an-image">
-<h3>Smooth an image<a class="headerlink" href="#smooth-an-image" title="Link to this heading">#</a></h3>
+<h3>Smooth an image<a class="headerlink" href="#smooth-an-image" title="Permalink to this heading">#</a></h3>
 <p>Using <code class="docutils literal notranslate"><span class="pre">smooth_img</span></code>, we can very quickly smooth any kind of MRI image. Let’s, for example, take the mean image from above and smooth it with different FWHM values.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -749,7 +751,7 @@ Let’s see…</p>
 </div>
 </section>
 <section id="clean-an-image-to-improve-snr">
-<h3>Clean an image to improve SNR<a class="headerlink" href="#clean-an-image-to-improve-snr" title="Link to this heading">#</a></h3>
+<h3>Clean an image to improve SNR<a class="headerlink" href="#clean-an-image-to-improve-snr" title="Permalink to this heading">#</a></h3>
 <p>Sometimes you also want to clean your functional images a bit to improve the SNR. For this, nilearn offers <code class="docutils literal notranslate"><span class="pre">clean_img</span></code>. You can improve the SNR of your fMRI signal by using one or more of the following options:</p>
 <ul class="simple">
 <li><p>detrend</p></li>
@@ -844,7 +846,7 @@ Let’s see…</p>
 </div>
 </section>
 <section id="mask-an-image-and-extract-an-average-signal-of-a-region">
-<h3>Mask an image and extract an average signal of a region<a class="headerlink" href="#mask-an-image-and-extract-an-average-signal-of-a-region" title="Link to this heading">#</a></h3>
+<h3>Mask an image and extract an average signal of a region<a class="headerlink" href="#mask-an-image-and-extract-an-average-signal-of-a-region" title="Permalink to this heading">#</a></h3>
 <p>Thanks to nibabel and nilearn you can consider your images just a special kind of a numpy array. Which means that you have all the liberties that you are used to.</p>
 <p>For example, let’s take a functional image, (1) create the mean image thereof, then we (2) threshold it to only keep the voxels that have a value that is higher than 95% of all voxels. Of this thresholded image, we only (3) keep those regions that are bigger than 1000mm^3. And finally, we (4) binarize those regions to create a mask image.</p>
 <p>So first, we load again a functional image and compute the mean thereof.</p>
@@ -997,7 +999,7 @@ Let’s see…</p>
 </div>
 </section>
 <section id="extracting-signal-from-fmri-volumes">
-<h3>Extracting signal from <code class="docutils literal notranslate"><span class="pre">fMRI</span></code> volumes<a class="headerlink" href="#extracting-signal-from-fmri-volumes" title="Link to this heading">#</a></h3>
+<h3>Extracting signal from <code class="docutils literal notranslate"><span class="pre">fMRI</span></code> volumes<a class="headerlink" href="#extracting-signal-from-fmri-volumes" title="Permalink to this heading">#</a></h3>
 <p><strong>this part is heavily based on <a class="reference external" href="https://emdupre.github.io/nha2020-nilearn/01-data-structures.html">Elizabeth DuPre’s NiLearn tutorial</a></strong></p>
 <p>What we just did but didn’t really specify/talk about is <code class="docutils literal notranslate"><span class="pre">extracting</span> <span class="pre">signal</span> <span class="pre">from</span> <span class="pre">fMRI</span> <span class="pre">volumes</span></code>. In more detail, we want to <code class="docutils literal notranslate"><span class="pre">extract</span></code> and potentially <code class="docutils literal notranslate"><span class="pre">transform</span></code> <code class="docutils literal notranslate"><span class="pre">data</span></code> to a format that we can easily work with. For example, we could work with the full <code class="docutils literal notranslate"><span class="pre">whole-brain</span> <span class="pre">time</span> <span class="pre">series</span></code> directly via using the <a class="reference external" href="https://nilearn.github.io/modules/generated/nilearn.input_data.NiftiMasker.html#nilearn.input_data.NiftiMasker">NiftiMasker object</a> and specifying the <code class="docutils literal notranslate"><span class="pre">T1</span> <span class="pre">template</span></code> as <code class="docutils literal notranslate"><span class="pre">mask_img</span></code>. But we often want to <code class="docutils literal notranslate"><span class="pre">reduce</span> <span class="pre">the</span> <span class="pre">dimensionality</span></code> of our data in a structured way. That is, we may only want to consider signal within certain learned or pre-defined <code class="docutils literal notranslate"><span class="pre">regions</span> <span class="pre">of</span> <span class="pre">interest</span> <span class="pre">(ROIs)</span></code>, and when taking into account known sources of noise. To do this, we’ll use <a class="reference external" href="https://nilearn.github.io/manipulating_images/masker_objects.html">nilearn’s Masker objects</a>. What are the <code class="docutils literal notranslate"><span class="pre">masker</span> <span class="pre">objects</span></code> ? First, let’s think about what <code class="docutils literal notranslate"><span class="pre">masking</span> <span class="pre">fMRI</span> <span class="pre">data</span></code> is doing:</p>
 <img title="fmri masking" alt="Alt text" src="https://raw.githubusercontent.com/neurohackademy/nh2020-curriculum/master/we-nilearn-dupre/book/_images/masking.jpg"><p>Essentially, we can imagine overlaying a <code class="docutils literal notranslate"><span class="pre">3D</span> <span class="pre">grid</span></code> on an <code class="docutils literal notranslate"><span class="pre">image</span></code>. Then, our <code class="docutils literal notranslate"><span class="pre">mask</span></code> tells us which cubes or <code class="docutils literal notranslate"><span class="pre">“voxels”</span></code> (like <code class="docutils literal notranslate"><span class="pre">3D</span> <span class="pre">pixels</span></code>) to sample from. Since our <code class="docutils literal notranslate"><span class="pre">Nifti</span> <span class="pre">images</span></code> are <code class="docutils literal notranslate"><span class="pre">4D</span> <span class="pre">files</span></code>, we can’t overlay a single grid – instead, we use a series of <code class="docutils literal notranslate"><span class="pre">3D</span> <span class="pre">grids</span></code> (one for each <code class="docutils literal notranslate"><span class="pre">volume</span></code> in the <code class="docutils literal notranslate"><span class="pre">4D</span> <span class="pre">file</span></code>), so we can get a measurement for each <code class="docutils literal notranslate"><span class="pre">voxel</span></code> at each <code class="docutils literal notranslate"><span class="pre">timepoint</span></code>.</p>
@@ -1055,14 +1057,14 @@ Extracting data from /home/neuro/nilearn_data/msdl_atlas/5d25e157f36214b8ca9a12f
 </div>
 </div>
 <section id="a-quick-side-note-on-the-niftimasker-zoo">
-<h4>A quick side-note on the NiftiMasker zoo<a class="headerlink" href="#a-quick-side-note-on-the-niftimasker-zoo" title="Link to this heading">#</a></h4>
+<h4>A quick side-note on the NiftiMasker zoo<a class="headerlink" href="#a-quick-side-note-on-the-niftimasker-zoo" title="Permalink to this heading">#</a></h4>
 <p>We’d like to supply these <code class="docutils literal notranslate"><span class="pre">ROIs</span></code> to a <code class="docutils literal notranslate"><span class="pre">Masker</span> <span class="pre">object</span></code>. All <code class="docutils literal notranslate"><span class="pre">Masker</span> <span class="pre">objects</span></code> share the same basic structure and functionality, but each is designed to work with a different kind of <code class="docutils literal notranslate"><span class="pre">ROI</span></code>.</p>
 <p>The canonical <a class="reference external" href="https://nilearn.github.io/modules/generated/nilearn.input_data.NiftiMasker.html">nilearn.input_data.NiftiMasker</a> works well if we want to apply a <code class="docutils literal notranslate"><span class="pre">single</span> <span class="pre">mask</span></code> to the data, like a <code class="docutils literal notranslate"><span class="pre">single</span> <span class="pre">region</span> <span class="pre">of</span> <span class="pre">interest</span></code>.</p>
 <p>But what if we actually have several <code class="docutils literal notranslate"><span class="pre">ROIs</span></code> that we’d like to apply to the data all at once? If these <code class="docutils literal notranslate"><span class="pre">ROIs</span></code> are <code class="docutils literal notranslate"><span class="pre">non-overlapping</span></code>, as in “hard” or <code class="docutils literal notranslate"><span class="pre">deterministic</span> <span class="pre">parcellations</span></code>, then we can use <a class="reference external" href="https://nilearn.github.io/modules/generated/nilearn.input_data.NiftiLabelsMasker.html">nilearn.input_data.NiftiLabelsMasker</a>. Because we’re working with “soft” or <code class="docutils literal notranslate"><span class="pre">probabilistic</span> <span class="pre">ROIs</span></code>, we can instead supply these <code class="docutils literal notranslate"><span class="pre">ROIs</span></code> to <a class="reference external" href="https://nilearn.github.io/modules/generated/nilearn.input_data.NiftiMapsMasker.html">nilearn.input_data.NiftiMapsMasker</a>.</p>
 <p>For a full list of the available Masker objects, see the <a class="reference external" href="https://nilearn.github.io/modules/reference.html#module-nilearn.input_data">Nilearn documentation</a>.</p>
 </section>
 <section id="applying-a-masker-object">
-<h4>Applying a `Masker object``<a class="headerlink" href="#applying-a-masker-object" title="Link to this heading">#</a></h4>
+<h4>Applying a `Masker object``<a class="headerlink" href="#applying-a-masker-object" title="Permalink to this heading">#</a></h4>
 <p>We can supply our <code class="docutils literal notranslate"><span class="pre">MSDL</span> <span class="pre">atlas-defined</span> <span class="pre">ROIs</span></code> to the <code class="docutils literal notranslate"><span class="pre">NiftiMapsMasker</span> <span class="pre">object</span></code>, along with <code class="docutils literal notranslate"><span class="pre">resampling</span></code>, <code class="docutils literal notranslate"><span class="pre">filtering</span></code>, and <code class="docutils literal notranslate"><span class="pre">detrending</span> <span class="pre">parameters</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1111,7 +1113,7 @@ Extracting data from /home/neuro/nilearn_data/msdl_atlas/5d25e157f36214b8ca9a12f
 <img title="samples" alt="Alt text" src="https://raw.githubusercontent.com/neurohackademy/nh2020-curriculum/master/we-nilearn-dupre/book/_images/samples-features.png"></section>
 </section>
 <section id="independent-component-analysis">
-<h3>Independent Component Analysis<a class="headerlink" href="#independent-component-analysis" title="Link to this heading">#</a></h3>
+<h3>Independent Component Analysis<a class="headerlink" href="#independent-component-analysis" title="Permalink to this heading">#</a></h3>
 <p>Nilearn gives you also the possibility to run an ICA on your data. This can either be on a single file or on multiple subjects.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1233,7 +1235,7 @@ ______________________________________randomized_svd cache loaded - 0.0s, 0.0min
 </div>
 </section>
 <section id="dictionary-learning">
-<h3>Dictionary Learning<a class="headerlink" href="#dictionary-learning" title="Link to this heading">#</a></h3>
+<h3>Dictionary Learning<a class="headerlink" href="#dictionary-learning" title="Permalink to this heading">#</a></h3>
 <p>Recent work has shown that dictionary learning based techniques outperform ICA in term of stability and constitutes a better first step in a statistical analysis pipeline. Dictionary learning in neuro-imaging seeks to extract a few representative temporal elements along with their sparse spatial loadings, which constitute good extracted maps. Luckily, doing dictionary learning with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code> is as easy as it can be.</p>
 <p>DictLearning is a ready-to-use class with the same interface as CanICA. The sparsity of output map is controlled by a parameter alpha: using a larger alpha yields sparser maps.</p>
 <div class="cell docutils container">
@@ -1348,7 +1350,7 @@ affine=array([[-3.99471426e+00, -2.04233140e-01,  2.29353290e-02,
 </section>
 </section>
 <section id="image-visualization-with-nilearn">
-<h2>2. Image visualization with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#image-visualization-with-nilearn" title="Link to this heading">#</a></h2>
+<h2>2. Image visualization with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#image-visualization-with-nilearn" title="Permalink to this heading">#</a></h2>
 <p>Above, we’ve already seen some ways on how to visualize brain images with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code>. And there are many more. To keep this notebook short, we will only take a look at some of them. For a complete list, see <a class="reference external" href="http://nilearn.github.io/plotting/index.html">nilearn’s plotting section</a>.</p>
 <p><strong>Note:</strong> In most of the <code class="docutils literal notranslate"><span class="pre">nilearn</span></code>’s plotting functions, you can specify the value <code class="docutils literal notranslate"><span class="pre">'output_file=example.png'</span></code>, to save the figure directly to a file.</p>
 <div class="cell docutils container">
@@ -1369,7 +1371,7 @@ affine=array([[-3.99471426e+00, -2.04233140e-01,  2.29353290e-02,
 </div>
 </div>
 <section id="glass-brain">
-<h3>Glass brain<a class="headerlink" href="#glass-brain" title="Link to this heading">#</a></h3>
+<h3>Glass brain<a class="headerlink" href="#glass-brain" title="Permalink to this heading">#</a></h3>
 <p>A really cool way to visualize your brain images on the MNI brain is nilearn’s <code class="docutils literal notranslate"><span class="pre">plot_glass_brain()</span></code> function. It gives you a good overview of all significant voxels in our image.</p>
 <p><strong>Note</strong>: It’s important that your data is normalized to the MNI-template, as the overlay is otherwise not overlapping.</p>
 <div class="cell docutils container">
@@ -1389,7 +1391,7 @@ affine=array([[-3.99471426e+00, -2.04233140e-01,  2.29353290e-02,
 </div>
 </section>
 <section id="overlay-functional-image-onto-anatomical-image">
-<h3>Overlay functional image onto anatomical image<a class="headerlink" href="#overlay-functional-image-onto-anatomical-image" title="Link to this heading">#</a></h3>
+<h3>Overlay functional image onto anatomical image<a class="headerlink" href="#overlay-functional-image-onto-anatomical-image" title="Permalink to this heading">#</a></h3>
 <p>In this type of visualization, you can specify the axis through which you want to cut and the cut coordinates. <code class="docutils literal notranslate"><span class="pre">cut_coords</span></code> as integer 5 without a list implies that number of cuts in the slices should be maximum of 5.
 The coordinates to cut the slices are selected automatically. But you could also specify the exact cuts with<code class="docutils literal notranslate"><span class="pre">cut_coords=[-10,</span> <span class="pre">0,</span> <span class="pre">10,</span> <span class="pre">20]</span></code>.</p>
 <div class="cell docutils container">
@@ -1423,7 +1425,7 @@ The coordinates to cut the slices are selected automatically. But you could also
 </div>
 </section>
 <section id="overlay-two-images-ontop-of-each-other">
-<h3>Overlay two images ontop of each other<a class="headerlink" href="#overlay-two-images-ontop-of-each-other" title="Link to this heading">#</a></h3>
+<h3>Overlay two images ontop of each other<a class="headerlink" href="#overlay-two-images-ontop-of-each-other" title="Permalink to this heading">#</a></h3>
 <p>We can also create a plot that overlays different anatomical images. Let’s show the <code class="docutils literal notranslate"><span class="pre">Harvard-Oxford-atlas</span></code> over the the <code class="docutils literal notranslate"><span class="pre">MNI</span> <span class="pre">152</span> <span class="pre">T1</span> <span class="pre">template</span></code> image:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1454,7 +1456,7 @@ The coordinates to cut the slices are selected automatically. But you could also
 <p>Notice that nilearn will accept an image or a filename equally. Also recall that <code class="docutils literal notranslate"><span class="pre">t1</span></code> was a NIfTI-1 image, while <code class="docutils literal notranslate"><span class="pre">aseg</span></code> is in a FreeSurfer <code class="docutils literal notranslate"><span class="pre">.mgz</span></code> file. Nilearn takes advantage of the common interface (data-affine-header) that nibabel provides for these different formats, and makes correctly aligned overlays.</p>
 </section>
 <section id="use-add-edges-to-see-the-overlay-between-two-images">
-<h3>Use <code class="docutils literal notranslate"><span class="pre">add_edges</span></code> to see the overlay between two images<a class="headerlink" href="#use-add-edges-to-see-the-overlay-between-two-images" title="Link to this heading">#</a></h3>
+<h3>Use <code class="docutils literal notranslate"><span class="pre">add_edges</span></code> to see the overlay between two images<a class="headerlink" href="#use-add-edges-to-see-the-overlay-between-two-images" title="Permalink to this heading">#</a></h3>
 <p>Let’s assume we want to see how well our anatomical image overlays with the mean functional image. Let’s first load those two files:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1478,7 +1480,7 @@ The coordinates to cut the slices are selected automatically. But you could also
 </div>
 </section>
 <section id="exercise-1">
-<h3>Exercise 1:<a class="headerlink" href="#exercise-1" title="Link to this heading">#</a></h3>
+<h3>Exercise 1:<a class="headerlink" href="#exercise-1" title="Permalink to this heading">#</a></h3>
 <p>Using the function <code class="docutils literal notranslate"><span class="pre">plot_epi()</span></code>, draw the image <code class="docutils literal notranslate"><span class="pre">mean</span></code> as a set of 5 slices spanning front to back. Suppress the background using the <code class="docutils literal notranslate"><span class="pre">vmin</span></code> option.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1502,7 +1504,7 @@ The coordinates to cut the slices are selected automatically. But you could also
 </div>
 </section>
 <section id="interactive-visualizations">
-<h3>Interactive visualizations<a class="headerlink" href="#interactive-visualizations" title="Link to this heading">#</a></h3>
+<h3>Interactive visualizations<a class="headerlink" href="#interactive-visualizations" title="Permalink to this heading">#</a></h3>
 <p>Nilearn also provides many methods for <code class="docutils literal notranslate"><span class="pre">interactive</span> <span class="pre">plotting</span></code>. For example, we can use <code class="docutils literal notranslate"><span class="pre">nilearn.plotting.view_img</span></code> to launch an <code class="docutils literal notranslate"><span class="pre">interactive</span> <span class="pre">viewer</span></code>. Because each <code class="docutils literal notranslate"><span class="pre">fMRI</span></code> run is a <code class="docutils literal notranslate"><span class="pre">4D</span> <span class="pre">time</span> <span class="pre">series</span></code> (three spatial dimensions plus time), we’ll also need to subset the data when we plot it, so that we can look at a single <code class="docutils literal notranslate"><span class="pre">3D</span> <span class="pre">image</span></code>. <code class="docutils literal notranslate"><span class="pre">Nilearn</span></code> provides (at least) two ways to do this: with <code class="docutils literal notranslate"><span class="pre">nilearn.image.index_img</span></code>, which allows us to index a particular frame–or several frames–of a time series, and as done before <code class="docutils literal notranslate"><span class="pre">nilearn.image.mean_img</span></code>, which allows us to take the mean 3D image over</p>
 <p>Lets view the previously computed <code class="docutils literal notranslate"><span class="pre">mean</span> <span class="pre">image</span></code> interactively using:</p>
 <div class="cell docutils container">
@@ -1555,7 +1557,7 @@ The coordinates to cut the slices are selected automatically. But you could also
 </div>
 </section>
 <section id="d-surface-plot">
-<h3>3D Surface Plot<a class="headerlink" href="#d-surface-plot" title="Link to this heading">#</a></h3>
+<h3>3D Surface Plot<a class="headerlink" href="#d-surface-plot" title="Permalink to this heading">#</a></h3>
 <p>One of the newest features in nilearn is the possibility to project a 3D statistical map onto a cortical mesh using <code class="docutils literal notranslate"><span class="pre">nilearn.surface.vol_to_surf</span></code>. And then to display a surface plot of the projected map using <code class="docutils literal notranslate"><span class="pre">nilearn.plotting.plot_surf_stat_map</span></code>.</p>
 <p><strong>Note:</strong> Both of those modules require that your <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> version is 1.3.1 or higher and that your <code class="docutils literal notranslate"><span class="pre">nilearn</span></code> version is 0.4 or higher.</p>
 <p>First, let’s specify the location of the surface files:</p>

@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Introduction to SciPy &#8212; Winter Term - 2026/2026</title>
   
@@ -28,36 +29,37 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'showcases/python_scipy';</script>
@@ -562,11 +564,11 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-scipy">
-<h1>Introduction to SciPy<a class="headerlink" href="#introduction-to-scipy" title="Link to this heading">#</a></h1>
+<h1>Introduction to SciPy<a class="headerlink" href="#introduction-to-scipy" title="Permalink to this heading">#</a></h1>
 <p><strong>Disclaimer:</strong> Most of the content in this notebook is coming from <a class="reference external" href="http://www.scipy-lectures.org/intro/index.html">www.scipy-lectures.org</a></p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="scipy-high-level-scientific-computing">
-<h1>Scipy - High-level Scientific Computing<a class="headerlink" href="#scipy-high-level-scientific-computing" title="Link to this heading">#</a></h1>
+<h1>Scipy - High-level Scientific Computing<a class="headerlink" href="#scipy-high-level-scientific-computing" title="Permalink to this heading">#</a></h1>
 <p>The <a class="reference external" href="https://www.scipy.org/">scipy</a> package contains various toolboxes dedicated to common issues in scientific computing. Its different submodules correspond to different applications, such as interpolation, integration, optimization, image processing, statistics, special functions, etc.</p>
 <p><code class="docutils literal notranslate"><span class="pre">scipy</span></code> is composed of task-specific sub-modules:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>scipy.cluster          Clustering package
@@ -603,9 +605,9 @@ is:</p>
 </div>
 <p><strong>Warning:</strong> This tutorial is far from a complete introduction to numerical computing. As enumerating the different submodules and functions in scipy would be very boring, we concentrate instead on a few examples to give a general idea of how to use <code class="docutils literal notranslate"><span class="pre">scipy</span></code> for scientific computing.</p>
 <section id="file-input-output-scipy-io">
-<h2>File input/output: <code class="docutils literal notranslate"><span class="pre">scipy.io</span></code><a class="headerlink" href="#file-input-output-scipy-io" title="Link to this heading">#</a></h2>
+<h2>File input/output: <code class="docutils literal notranslate"><span class="pre">scipy.io</span></code><a class="headerlink" href="#file-input-output-scipy-io" title="Permalink to this heading">#</a></h2>
 <section id="load-and-save-matlab-files">
-<h3>Load and Save <code class="docutils literal notranslate"><span class="pre">MATLAB</span></code> files<a class="headerlink" href="#load-and-save-matlab-files" title="Link to this heading">#</a></h3>
+<h3>Load and Save <code class="docutils literal notranslate"><span class="pre">MATLAB</span></code> files<a class="headerlink" href="#load-and-save-matlab-files" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">io</span> <span class="k">as</span> <span class="n">spio</span>
@@ -644,7 +646,7 @@ is:</p>
 </div>
 </section>
 <section id="see-also">
-<h3>See also<a class="headerlink" href="#see-also" title="Link to this heading">#</a></h3>
+<h3>See also<a class="headerlink" href="#see-also" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Load text files: <code class="docutils literal notranslate"><span class="pre">numpy.loadtxt</span></code>/<code class="docutils literal notranslate"><span class="pre">numpy.savetxt</span></code></p></li>
 <li><p>Clever loading of text/csv files: <code class="docutils literal notranslate"><span class="pre">numpy.genfromtxt</span></code>/<code class="docutils literal notranslate"><span class="pre">numpy.recfromcsv</span></code></p></li>
@@ -654,7 +656,7 @@ is:</p>
 </section>
 </section>
 <section id="linear-algebra-operations-scipy-linalg">
-<h2>Linear algebra operations: <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code><a class="headerlink" href="#linear-algebra-operations-scipy-linalg" title="Link to this heading">#</a></h2>
+<h2>Linear algebra operations: <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code><a class="headerlink" href="#linear-algebra-operations-scipy-linalg" title="Permalink to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code> module provides standard linear algebra operations.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.linalg.det</span></code> function computes the determinant of a square matrix:</p>
 <div class="cell docutils container">
@@ -740,7 +742,7 @@ is:</p>
 <p>SVD is commonly used in statistics and signal processing. Many other standard decompositions (QR, LU, Cholesky, Schur), as well as solvers for linear systems, are available in <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code>.</p>
 </section>
 <section id="interpolation-scipy-interpolate">
-<h2>Interpolation: <code class="docutils literal notranslate"><span class="pre">scipy.interpolate</span></code><a class="headerlink" href="#interpolation-scipy-interpolate" title="Link to this heading">#</a></h2>
+<h2>Interpolation: <code class="docutils literal notranslate"><span class="pre">scipy.interpolate</span></code><a class="headerlink" href="#interpolation-scipy-interpolate" title="Permalink to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">scipy.interpolate</span></code> is useful for fitting a function from experimental data and thus evaluating points where no measure exists.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -804,7 +806,7 @@ function:</p>
 </div>
 </section>
 <section id="optimization-and-fit-scipy-optimize">
-<h2>Optimization and fit: <code class="docutils literal notranslate"><span class="pre">scipy.optimize</span></code><a class="headerlink" href="#optimization-and-fit-scipy-optimize" title="Link to this heading">#</a></h2>
+<h2>Optimization and fit: <code class="docutils literal notranslate"><span class="pre">scipy.optimize</span></code><a class="headerlink" href="#optimization-and-fit-scipy-optimize" title="Permalink to this heading">#</a></h2>
 <p>Optimization is the problem of finding a numerical solution to a minimization or equality.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.optimize</span></code> module provides algorithms for function minimization (scalar or multi-dimensional), curve fitting and root finding.</p>
 <div class="cell docutils container">
@@ -815,7 +817,7 @@ function:</p>
 </div>
 </div>
 <section id="curve-fitting">
-<h3>Curve fitting<a class="headerlink" href="#curve-fitting" title="Link to this heading">#</a></h3>
+<h3>Curve fitting<a class="headerlink" href="#curve-fitting" title="Permalink to this heading">#</a></h3>
 <p>Suppose we have data on a sine wave, with some noise:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -881,7 +883,7 @@ function:</p>
 </div>
 </section>
 <section id="finding-the-minimum-of-a-scalar-function">
-<h3>Finding the minimum of a scalar function<a class="headerlink" href="#finding-the-minimum-of-a-scalar-function" title="Link to this heading">#</a></h3>
+<h3>Finding the minimum of a scalar function<a class="headerlink" href="#finding-the-minimum-of-a-scalar-function" title="Permalink to this heading">#</a></h3>
 <p>Let’s define the following function:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -943,7 +945,7 @@ function:</p>
 </section>
 </section>
 <section id="fast-fourier-transforms-scipy-fftpack">
-<h2>Fast Fourier transforms: <code class="docutils literal notranslate"><span class="pre">scipy.fftpack</span></code><a class="headerlink" href="#fast-fourier-transforms-scipy-fftpack" title="Link to this heading">#</a></h2>
+<h2>Fast Fourier transforms: <code class="docutils literal notranslate"><span class="pre">scipy.fftpack</span></code><a class="headerlink" href="#fast-fourier-transforms-scipy-fftpack" title="Permalink to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.fftpack</span></code> module computes fast Fourier transforms (FFTs)
 and offers utilities to handle them. The main functions are:</p>
 <ul class="simple">
@@ -1045,10 +1047,10 @@ and offers utilities to handle them. The main functions are:</p>
 </div>
 </section>
 <section id="signal-processing-scipy-signal">
-<h2>Signal processing: <code class="docutils literal notranslate"><span class="pre">scipy.signal</span></code><a class="headerlink" href="#signal-processing-scipy-signal" title="Link to this heading">#</a></h2>
+<h2>Signal processing: <code class="docutils literal notranslate"><span class="pre">scipy.signal</span></code><a class="headerlink" href="#signal-processing-scipy-signal" title="Permalink to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">scipy.signal</span></code> is for typical signal processing: 1D, regularly-sampled signals.</p>
 <section id="detrending-scipy-signal-detrend-remove-linear-trend-from-signal">
-<h3>Detrending <code class="docutils literal notranslate"><span class="pre">scipy.signal.detrend</span></code> - remove linear trend from signal:<a class="headerlink" href="#detrending-scipy-signal-detrend-remove-linear-trend-from-signal" title="Link to this heading">#</a></h3>
+<h3>Detrending <code class="docutils literal notranslate"><span class="pre">scipy.signal.detrend</span></code> - remove linear trend from signal:<a class="headerlink" href="#detrending-scipy-signal-detrend-remove-linear-trend-from-signal" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate a random signal with a trend</span>

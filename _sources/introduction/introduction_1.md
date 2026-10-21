@@ -23,7 +23,7 @@ First things first: what is going to happen in this course? What is it all about
 
 #### Materials 📓
 
-<iframe src="https://docs.google.com/presentation/d/1VByYJTMzl1F2bsxE_1WovsBOrGNdXbUI/edit?usp=sharing&ouid=109937401178037944068&rtpof=true&sd=true" frameborder="0" width="700" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ebO6_IyykLEMZvLAMYQomORt9DWEjNp8/edit?usp=sharing&ouid=109937401178037944068&rtpof=true&sd=true" frameborder="0" width="700" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Project related work 🥼🧑🏿‍🔬👩🏻‍🔬
 
@@ -31,7 +31,7 @@ Not applicable, as project related work didn't start yet.
 
 ## Tasks for subsequent meeting 🖥️✍🏽📖
 
-- Your main task for this week is to install the following software packages on your laptop computer: python3 (miniconda), the VScode editor, and the VScode extensions, as described in the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_25-26/setup.html). PLEASE WAIT UNTIL YOU GET MY 'GO-SIGNAL' FOR THE INSTALLATION ... we want to be sure everything works. There will also be the opportunity to consult a student from my lab when you have problems with the installation. Details will follw.
+- Your main task for this week is to install the following software packages on your laptop computer: python3 (miniconda), the VScode editor, and the VScode extensions, as described in the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html). PLEASE WAIT UNTIL YOU GET MY 'GO-SIGNAL' FOR THE INSTALLATION ... we want to be sure everything works. There will also be the opportunity to consult a student from my lab when you have problems with the installation. Details will follw.
 - If you happen to have a running version of python3 and a code editor, you are good to go, even if you have different installation / software.
 - Check whether you have a bash shell on your computer, also as described on the setup page.
 - Everything else - like downloading materials for the course - we will do together in the next session.

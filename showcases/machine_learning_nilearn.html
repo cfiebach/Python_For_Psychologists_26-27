@@ -1,12 +1,13 @@
 
+
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>MVPA and Searchlight with nilearn &#8212; Winter Term - 2026/2026</title>
   
@@ -28,36 +29,37 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'showcases/machine_learning_nilearn';</script>
     <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/showcases/machine_learning_nilearn.html" />
     <link rel="index" title="Index" href="../genindex.html" />
@@ -556,17 +558,17 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="mvpa-and-searchlight-with-nilearn">
-<h1>MVPA and Searchlight with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#mvpa-and-searchlight-with-nilearn" title="Link to this heading">#</a></h1>
+<h1>MVPA and Searchlight with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#mvpa-and-searchlight-with-nilearn" title="Permalink to this heading">#</a></h1>
 <p>In this section we will show how you can use <code class="docutils literal notranslate"><span class="pre">nilearn</span></code> to perform multivariate pattern analysis (MVPA) and a Searchlight analysis.</p>
 <section id="nilearn">
-<h2><code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#nilearn" title="Link to this heading">#</a></h2>
+<h2><code class="docutils literal notranslate"><span class="pre">nilearn</span></code><a class="headerlink" href="#nilearn" title="Permalink to this heading">#</a></h2>
 <p>Although nilearn’s visualizations are quite nice, its primary purpose was to facilitate machine learning in neuroimaging. It’s in some sense the bridge between <a class="reference external" href="http://nipy.org/nibabel/">nibabel</a> and <a class="reference external" href="http://scikit-learn.org/stable/">scikit-learn</a>. On the one hand, it reformats images to be easily passed to scikit-learn, and on the other, it reformats the results to produce valid nibabel images.</p>
 <p>So let’s take a look at a short multi-variate pattern analysis (MVPA) example.</p>
 <p><strong>Note 1</strong>: This section is heavily based on the <a class="reference external" href="https://nilearn.github.io/auto_examples/plot_decoding_tutorial.html">nilearn decoding tutorial</a>.<br />
 <strong>Note 2</strong>: This section is not intended to teach machine learning, but to demonstrate a simple nilearn pipeline.</p>
 </section>
 <section id="setup">
-<h2>Setup<a class="headerlink" href="#setup" title="Link to this heading">#</a></h2>
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">nilearn</span><span class="w"> </span><span class="kn">import</span> <span class="n">plotting</span>
@@ -579,7 +581,7 @@ document.write(`
 </div>
 </section>
 <section id="load-machine-learning-dataset">
-<h2>Load machine learning dataset<a class="headerlink" href="#load-machine-learning-dataset" title="Link to this heading">#</a></h2>
+<h2>Load machine learning dataset<a class="headerlink" href="#load-machine-learning-dataset" title="Permalink to this heading">#</a></h2>
 <p>Let’s load the dataset we prepared in the previous notebook:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -596,7 +598,7 @@ document.write(`
 </div>
 </section>
 <section id="create-mask">
-<h2>Create mask<a class="headerlink" href="#create-mask" title="Link to this heading">#</a></h2>
+<h2>Create mask<a class="headerlink" href="#create-mask" title="Permalink to this heading">#</a></h2>
 <p>As we only want to use voxels in a particular region of interest (ROI) for the classification, let’s create a function that returns a mask that either contains the only the brain, only the eyes or both:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -635,7 +637,7 @@ document.write(`
 </div>
 </section>
 <section id="masking-and-un-masking-data">
-<h2>Masking and Un-masking data<a class="headerlink" href="#masking-and-un-masking-data" title="Link to this heading">#</a></h2>
+<h2>Masking and Un-masking data<a class="headerlink" href="#masking-and-un-masking-data" title="Permalink to this heading">#</a></h2>
 <p>For the classification with <code class="docutils literal notranslate"><span class="pre">nilearn</span></code>, we need our functional data in a 2D, sample-by-voxel matrix. To get that, we’ll select all the voxels defined in our <code class="docutils literal notranslate"><span class="pre">mask</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -730,7 +732,7 @@ document.write(`
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="simple-mvpa-example">
-<h1>Simple MVPA Example<a class="headerlink" href="#simple-mvpa-example" title="Link to this heading">#</a></h1>
+<h1>Simple MVPA Example<a class="headerlink" href="#simple-mvpa-example" title="Permalink to this heading">#</a></h1>
 <p>Multi-voxel pattern analysis (MVPA) is a general term for techniques that contrast conditions over multiple voxels. It’s very common to use machine learning models to generate statistics of interest.</p>
 <p>In this case, we’ll use the response patterns of voxels in the mask to predict if the eyes were <strong>closed</strong> or <strong>open</strong> during a resting-state fMRI recording. But before we can do MVPA, we still need to specify two important parameters:</p>
 <p><em><strong>First</strong></em>, we need to know the label for each volume. From the last section of the <a class="reference internal" href="machine_learning_preparation.html"><span class="std std-doc">Machine Learning Preparation</span></a> notebook, we know that we have a total of 384 volumes in our <code class="docutils literal notranslate"><span class="pre">dataset_ML.nii.gz</span></code> file and that it’s always 4 volumes of the condition <code class="docutils literal notranslate"><span class="pre">eyes</span> <span class="pre">closed</span></code>, followed by 4 volumes of the condition <code class="docutils literal notranslate"><span class="pre">eyes</span> <span class="pre">open</span></code>, etc. Therefore our labels should be as follows:</p>
@@ -913,7 +915,7 @@ Accuracy per fold:
 </div>
 <p>The prediction accuracy is again above <strong>80%</strong>, much better! But anyhow, how do we know if an accuracy value is significant or not? Well, one way to find this out is to do some permutation testing.</p>
 <section id="permutation-testing">
-<h2>Permutation testing<a class="headerlink" href="#permutation-testing" title="Link to this heading">#</a></h2>
+<h2>Permutation testing<a class="headerlink" href="#permutation-testing" title="Permalink to this heading">#</a></h2>
 <p>One way to test the quality of the prediction accuracy is to run the cross-validation multiple times, but permutate the labels of the volumes randomly. Afterward we can compare the accuracy value of the correct labels to the ones with the random / false labels. Luckily <code class="docutils literal notranslate"><span class="pre">Scikit-learn</span></code> already has a function that does this for us. So let’s do it.</p>
 <p><strong>Note</strong>: We chose again the <code class="docutils literal notranslate"><span class="pre">GaussianNB</span></code> classifier to reduce the computation time per cross-validation. Additionally, we chose the number of iterations under <code class="docutils literal notranslate"><span class="pre">n_permutations</span></code> for the permutation testing very low, to reduce computation time as well. This value should ideally be much higher, at least 100.</p>
 <div class="cell docutils container">
@@ -974,11 +976,11 @@ p-value: 0.0385
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="which-region-is-driving-the-classification">
-<h1>Which region is driving the classification?<a class="headerlink" href="#which-region-is-driving-the-classification" title="Link to this heading">#</a></h1>
+<h1>Which region is driving the classification?<a class="headerlink" href="#which-region-is-driving-the-classification" title="Permalink to this heading">#</a></h1>
 <p>With a simple MVPA approach, we unfortunately don’t know which regions are driving the classification accuracy. We just know that all voxels in the mask allow the classification of the two classes, but why? We need a better technique that tells us where in the head we should look.</p>
 <p>There are many different ways to figure out which region is important for classification, but let us introduce you two different approaches that you can use in <code class="docutils literal notranslate"><span class="pre">nilearn</span></code>: <code class="docutils literal notranslate"><span class="pre">SpaceNet</span></code> and  <code class="docutils literal notranslate"><span class="pre">Searchlight</span></code></p>
 <section id="spacenet-decoding-with-spatial-structure-for-better-maps">
-<h2>SpaceNet: decoding with spatial structure for better maps<a class="headerlink" href="#spacenet-decoding-with-spatial-structure-for-better-maps" title="Link to this heading">#</a></h2>
+<h2>SpaceNet: decoding with spatial structure for better maps<a class="headerlink" href="#spacenet-decoding-with-spatial-structure-for-better-maps" title="Permalink to this heading">#</a></h2>
 <p>SpaceNet implements spatial penalties which improve brain decoding power as well as decoder maps. The results are brain maps which are both sparse (i.e regression coefficients are zero everywhere, except at predictive voxels) and structured (blobby). For more detail, check out <code class="docutils literal notranslate"><span class="pre">nilearn</span></code>’s section about <a class="reference external" href="http://nilearn.github.io/decoding/space_net.html">SpaceNet</a>.</p>
 <p>To train a SpaceNet on our data, let’s first split the data into a training set (chunk 0-4) and a test set (chunk 5).</p>
 <div class="cell docutils container">
@@ -1227,7 +1229,7 @@ affine=array([[  -4.,    0.,    0.,   78.],
 <p>Cool! As expected the visual cortex (in the back of the head) and the eyes are driving the classification!</p>
 </section>
 <section id="searchlight">
-<h2>Searchlight<a class="headerlink" href="#searchlight" title="Link to this heading">#</a></h2>
+<h2>Searchlight<a class="headerlink" href="#searchlight" title="Permalink to this heading">#</a></h2>
 <p>Now the next question is: How high would the prediction accuracy be if we only take one small region to do the classification?</p>
 <p>To answer this question we can use something that is called a <strong>Searchlight</strong> approach. The searchlight approach was first proposed by <a class="reference external" href="https://pdfs.semanticscholar.org/985c/ceaca8606443f9129616a26bbbbf952f2d7f.pdf">Kriegeskorte et al., 2006</a>. It is a widely used approach for the study of the fine-grained patterns of information in fMRI analysis. Its principle is relatively simple: a small group of neighboring features is extracted from the data, and the prediction function is instantiated on these features only. The resulting prediction accuracy is thus associated with all the features within the group, or only with the feature on the center. This yields a map of local fine-grained information, that can be used for assessing hypothesis on the local spatial layout of the neural code under investigation.</p>
 <p>You can do a searchlight analysis in <code class="docutils literal notranslate"><span class="pre">nilearn</span></code> as follows:</p>
