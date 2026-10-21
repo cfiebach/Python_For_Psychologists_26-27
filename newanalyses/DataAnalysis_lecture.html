@@ -1,15 +1,14 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Analysing Experimental Data in Table Form with Pandas &#8212; Winter Term - 2025/2026</title>
+    <title>Analysing Experimental Data in Table Form with Pandas &#8212; Winter Term - 2026/2026</title>
   
   
   
@@ -29,38 +28,38 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/sphinx_highlight.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=b8b12719"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'newanalyses/DataAnalysis_lecture';</script>
+    <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/newanalyses/DataAnalysis_lecture.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -156,8 +155,8 @@
       
     
     
-    <img src="../_static/pfp_logo.png" class="logo__image only-light" alt="Winter Term - 2025/2026 - Home"/>
-    <script>document.write(`<img src="../_static/pfp_logo.png" class="logo__image only-dark" alt="Winter Term - 2025/2026 - Home"/>`);</script>
+    <img src="../_static/pfp_logo.png" class="logo__image only-light" alt="Winter Term - 2026/2026 - Home"/>
+    <script>document.write(`<img src="../_static/pfp_logo.png" class="logo__image only-dark" alt="Winter Term - 2026/2026 - Home"/>`);</script>
   
   
 </a></div>
@@ -338,7 +337,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/aylinsgl/Python_For_Psychologists_23-24/master?urlpath=tree/lecture/newanalyses/DataAnalysis_lecture.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/cfiebach/Python_For_Psychologists_26-27/main?urlpath=tree/lecture/newanalyses/DataAnalysis_lecture.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -369,7 +368,7 @@
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24" target="_blank"
+      <li><a href="https://github.com/cfiebach/Python_For_Psychologists_26-27" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -386,7 +385,7 @@
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24/edit/master/lecture/newanalyses/DataAnalysis_lecture.ipynb" target="_blank"
+      <li><a href="https://github.com/cfiebach/Python_For_Psychologists_26-27/edit/main/lecture/newanalyses/DataAnalysis_lecture.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -403,7 +402,7 @@
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24/issues/new?title=Issue%20on%20page%20%2Fnewanalyses/DataAnalysis_lecture.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cfiebach/Python_For_Psychologists_26-27/issues/new?title=Issue%20on%20page%20%2Fnewanalyses/DataAnalysis_lecture.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -549,7 +548,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="analysing-experimental-data-in-table-form-with-pandas">
-<h1>Analysing Experimental Data in Table Form with Pandas<a class="headerlink" href="#analysing-experimental-data-in-table-form-with-pandas" title="Permalink to this heading">#</a></h1>
+<h1>Analysing Experimental Data in Table Form with Pandas<a class="headerlink" href="#analysing-experimental-data-in-table-form-with-pandas" title="Link to this heading">#</a></h1>
 <p>There are (as usually the case with python) many different ways and packages to do data analysis and visualisation in python. The package we will look at in this notebook is called <a class="reference external" href="https://pandas.pydata.org">Pandas</a> and is probably the most widely used python package for data analysis if the data is in table form. There are many ressources online for free that we encourage you to check out. This notebook will really only scratch the surface of what you can do with pandas.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -560,13 +559,13 @@ document.write(`
 </div>
 </div>
 <section id="loading-data-file">
-<h2>Loading data file<a class="headerlink" href="#loading-data-file" title="Permalink to this heading">#</a></h2>
+<h2>Loading data file<a class="headerlink" href="#loading-data-file" title="Link to this heading">#</a></h2>
 <p>The file “data.csv” contains results from a participant who participated in the gaze cue experiment you programmed today!
 using <code class="docutils literal notranslate"><span class="pre">.read_csv</span></code> we can read in our data file and store it under <code class="docutils literal notranslate"><span class="pre">df</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/file/d/1J9mUX7R0mmuQW3-Hwg3W_QNrjbQdzFv7/view?usp=sharing&#39;</span>
-<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/uc?id=&#39;</span> <span class="o">+</span> <span class="n">url</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="o">=</span><span class="s1">'https://drive.google.com/file/d/1J9mUX7R0mmuQW3-Hwg3W_QNrjbQdzFv7/view?usp=sharing'</span>
+<span class="n">url</span><span class="o">=</span><span class="s1">'https://drive.google.com/uc?id='</span> <span class="o">+</span> <span class="n">url</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">'/'</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -575,8 +574,8 @@ using <code class="docutils literal notranslate"><span class="pre">.read_csv</sp
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_tutors</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
-    <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Aylin&quot;</span><span class="p">,</span><span class="s2">&quot;Yuri&quot;</span><span class="p">],</span>
-    <span class="s2">&quot;Age&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">]</span>
+    <span class="s2">"Name"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Aylin"</span><span class="p">,</span><span class="s2">"Yuri"</span><span class="p">],</span>
+    <span class="s2">"Age"</span><span class="p">:</span> <span class="p">[</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">]</span>
 <span class="p">})</span>
 </pre></div>
 </div>
@@ -640,7 +639,7 @@ using <code class="docutils literal notranslate"><span class="pre">.read_csv</sp
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Let&#39;s look at what df looks like!</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Let's look at what df looks like!</span>
 <span class="n">df</span>
 </pre></div>
 </div>
@@ -875,11 +874,11 @@ using <code class="docutils literal notranslate"><span class="pre">.read_csv</sp
 <p>As you can see, we have 9 columns with 15 rows, each row representing a trial. <code class="docutils literal notranslate"><span class="pre">Congruency</span></code> refers to whether <strong>gaze cue</strong> and <strong>target position</strong> matched in a trial (if yes = congruent, if no = incongruent), the other variables here are pretty self explanatory.</p>
 </section>
 <section id="data-frame-slicing">
-<h2>Data frame slicing<a class="headerlink" href="#data-frame-slicing" title="Permalink to this heading">#</a></h2>
+<h2>Data frame slicing<a class="headerlink" href="#data-frame-slicing" title="Link to this heading">#</a></h2>
 <p>If you want to look at a specific column you can use square brackets and the column name to <em>slice</em> the data frame.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;response&quot;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"response"</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -911,7 +910,7 @@ Name: response, dtype: object
 <p>For more information on indexing in pandas: <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html">https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html</a></p>
 </section>
 <section id="data-frame-methods-helper-functions">
-<h2>Data frame methods, helper functions<a class="headerlink" href="#data-frame-methods-helper-functions" title="Permalink to this heading">#</a></h2>
+<h2>Data frame methods, helper functions<a class="headerlink" href="#data-frame-methods-helper-functions" title="Link to this heading">#</a></h2>
 <p>Pandas has a lot of data frame methods that allow us to do basic analyses.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1174,7 +1173,7 @@ Name: response, dtype: object
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># gives you mean for selected column accuracy</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;correct&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"correct"</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1187,12 +1186,12 @@ Name: response, dtype: object
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># gives unique entries for column gaze</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;gaze&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"gaze"</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([&#39;left&#39;, &#39;right&#39;], dtype=object)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array(['left', 'right'], dtype=object)
 </pre></div>
 </div>
 </div>
@@ -1200,7 +1199,7 @@ Name: response, dtype: object
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># counts number of entries per condition for column gaze</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;gaze&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"gaze"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1217,7 +1216,7 @@ Name: count, dtype: int64
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># histogram of accuracy</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;correct&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"correct"</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1230,7 +1229,7 @@ Name: count, dtype: int64
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;rt&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"rt"</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1243,11 +1242,11 @@ Name: count, dtype: int64
 </div>
 </section>
 <section id="comparisons">
-<h2>Comparisons<a class="headerlink" href="#comparisons" title="Permalink to this heading">#</a></h2>
+<h2>Comparisons<a class="headerlink" href="#comparisons" title="Link to this heading">#</a></h2>
 <p>You can pretty easily add new columns to a data frame (see below).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;number 4&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"number 4"</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span>
 <span class="n">df</span>
 </pre></div>
 </div>
@@ -1515,8 +1514,8 @@ Name: count, dtype: int64
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Run this cell and try to understand what&#39;s going on here</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;slow&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;rt&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.4</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Run this cell and try to understand what's going on here</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"slow"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"rt"</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.4</span>
 <span class="n">df</span>
 </pre></div>
 </div>
@@ -1769,11 +1768,11 @@ Name: count, dtype: int64
 <b>Create columns:</b> We can create new columns by assigning a single value like this: df["number 4"] = 4 or we could do what we did above which is varying the entry depending on entries in other columns: You could also read it like this: If rt is greater than 0.4, assign "true" to slow, else assign False.
 </div></section>
 <section id="group-by">
-<h2>Group By<a class="headerlink" href="#group-by" title="Permalink to this heading">#</a></h2>
+<h2>Group By<a class="headerlink" href="#group-by" title="Link to this heading">#</a></h2>
 <p>If we have different groups within our data - in our case for example we have some congruent and some incongruent trials - we can use <code class="docutils literal notranslate"><span class="pre">groupby</span></code> to get some grouped summary statistics for example, mean accuracy per group.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;congruency&quot;</span><span class="p">)[</span><span class="s2">&quot;correct&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"congruency"</span><span class="p">)[</span><span class="s2">"correct"</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1788,7 +1787,7 @@ Name: correct, dtype: float64
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;congruency&quot;</span><span class="p">)[</span><span class="s2">&quot;rt&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"congruency"</span><span class="p">)[</span><span class="s2">"rt"</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1804,7 +1803,7 @@ Name: rt, dtype: float64
 <p>instead of computing the mean we can also use groupby to plot grouped histograms:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;congruency&quot;</span><span class="p">)[</span><span class="s2">&quot;rt&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"congruency"</span><span class="p">)[</span><span class="s2">"rt"</span><span class="p">]</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1821,7 +1820,7 @@ Name: rt, dtype: object
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="visualisation-with-seaborn">
-<h1>Visualisation with seaborn<a class="headerlink" href="#visualisation-with-seaborn" title="Permalink to this heading">#</a></h1>
+<h1>Visualisation with seaborn<a class="headerlink" href="#visualisation-with-seaborn" title="Link to this heading">#</a></h1>
 <p>Let’s also go over some data visualisation using the widely used package <a class="reference external" href="https://seaborn.pydata.org">seaborn</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1834,7 +1833,7 @@ Name: rt, dtype: object
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Load an example dataset</span>
-<span class="n">tips</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;tips&quot;</span><span class="p">)</span>
+<span class="n">tips</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">"tips"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1994,8 +1993,8 @@ Name: rt, dtype: object
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a visualization</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span>
     <span class="n">data</span><span class="o">=</span><span class="n">tips</span><span class="p">,</span>
-    <span class="n">x</span><span class="o">=</span><span class="s2">&quot;total_bill&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;tip&quot;</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">&quot;time&quot;</span><span class="p">,</span>
-    <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;smoker&quot;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;smoker&quot;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="s2">&quot;size&quot;</span><span class="p">,</span>
+    <span class="n">x</span><span class="o">=</span><span class="s2">"total_bill"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"tip"</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">"time"</span><span class="p">,</span>
+    <span class="n">hue</span><span class="o">=</span><span class="s2">"smoker"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"smoker"</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="s2">"size"</span><span class="p">,</span>
 <span class="p">)</span>
 </pre></div>
 </div>
@@ -2054,7 +2053,7 @@ Name: rt, dtype: object
 <p>The default for <code class="docutils literal notranslate"><span class="pre">relplot</span></code> are scatterplots as you can see. But you can easily change it to lineplots using the <code class="docutils literal notranslate"><span class="pre">kind</span></code> argument. Lets try it on a new dataset that is better fitted for a lineplot: timeseries data</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dots</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;dots&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dots</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">"dots"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -2188,9 +2187,9 @@ Name: rt, dtype: object
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span>
-    <span class="n">data</span><span class="o">=</span><span class="n">dots</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;line&quot;</span><span class="p">,</span>
-    <span class="n">x</span><span class="o">=</span><span class="s2">&quot;time&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;firing_rate&quot;</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">&quot;align&quot;</span><span class="p">,</span>
-    <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;choice&quot;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="s2">&quot;coherence&quot;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;choice&quot;</span><span class="p">,</span>
+    <span class="n">data</span><span class="o">=</span><span class="n">dots</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"line"</span><span class="p">,</span>
+    <span class="n">x</span><span class="o">=</span><span class="s2">"time"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"firing_rate"</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">"align"</span><span class="p">,</span>
+    <span class="n">hue</span><span class="o">=</span><span class="s2">"choice"</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="s2">"coherence"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"choice"</span><span class="p">,</span>
     <span class="n">facet_kws</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">sharex</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
 <span class="p">)</span>
 </pre></div>
@@ -2252,9 +2251,9 @@ Name: rt, dtype: object
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
   if pd.api.types.is_categorical_dtype(vector):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
@@ -2276,9 +2275,9 @@ Name: rt, dtype: object
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
   if pd.api.types.is_categorical_dtype(vector):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 </pre></div>
 </div>
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x12b227b90&gt;
@@ -2290,11 +2289,11 @@ Name: rt, dtype: object
 <p>Including statistical estimates: means and confidence intervals</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fmri</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;fmri&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fmri</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">load_dataset</span><span class="p">(</span><span class="s2">"fmri"</span><span class="p">)</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span>
-    <span class="n">data</span><span class="o">=</span><span class="n">fmri</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;line&quot;</span><span class="p">,</span>
-    <span class="n">x</span><span class="o">=</span><span class="s2">&quot;timepoint&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;signal&quot;</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">&quot;region&quot;</span><span class="p">,</span>
-    <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;event&quot;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;event&quot;</span><span class="p">,</span>
+    <span class="n">data</span><span class="o">=</span><span class="n">fmri</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"line"</span><span class="p">,</span>
+    <span class="n">x</span><span class="o">=</span><span class="s2">"timepoint"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"signal"</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">"region"</span><span class="p">,</span>
+    <span class="n">hue</span><span class="o">=</span><span class="s2">"event"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"event"</span><span class="p">,</span>
 <span class="p">)</span>
 </pre></div>
 </div>
@@ -2349,9 +2348,9 @@ Name: rt, dtype: object
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
   if pd.api.types.is_categorical_dtype(vector):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
   if pd.api.types.is_categorical_dtype(vector):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
@@ -2369,9 +2368,9 @@ Name: rt, dtype: object
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
   if pd.api.types.is_categorical_dtype(vector):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 /Users/aylinkallmayer/anaconda3/envs/pfp_2023-24/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-  with pd.option_context(&#39;mode.use_inf_as_na&#39;, True):
+  with pd.option_context('mode.use_inf_as_na', True):
 </pre></div>
 </div>
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x12b285790&gt;
@@ -2383,7 +2382,7 @@ Name: rt, dtype: object
 <p>You can also easily include a linear regression model and its uncertainty using <code class="docutils literal notranslate"><span class="pre">lmplot</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tips</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;total_bill&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;tip&quot;</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">&quot;time&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;smoker&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tips</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">"total_bill"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"tip"</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s2">"time"</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">"smoker"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -2400,8 +2399,8 @@ Name: rt, dtype: object
 <p>1.1 create a boxplot with seaborn for our gaze cue data where you plot reaction time by congruency with the colors white and blue</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;congruency&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;rt&quot;</span><span class="p">,</span>
-            <span class="n">palette</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">],</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"congruency"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"rt"</span><span class="p">,</span>
+            <span class="n">palette</span><span class="o">=</span><span class="p">[</span><span class="s2">"w"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">],</span>
             <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -2415,7 +2414,7 @@ Name: rt, dtype: object
   if pd.api.types.is_categorical_dtype(vector):
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: xlabel=&#39;congruency&#39;, ylabel=&#39;rt&#39;&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: xlabel='congruency', ylabel='rt'&gt;
 </pre></div>
 </div>
 <img alt="../_images/24987f7bfa8f8673533704dc2389c4ef6603f69ca3fbf65a512d5b0f856ad750.png" src="../_images/24987f7bfa8f8673533704dc2389c4ef6603f69ca3fbf65a512d5b0f856ad750.png" />
@@ -2424,10 +2423,10 @@ Name: rt, dtype: object
 <p>1.2 Do the same with a barplot, this time using colors of your choice</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;ticks&quot;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s2">&quot;pastel&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">"ticks"</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s2">"pastel"</span><span class="p">)</span>
 
-<span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;congruency&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;rt&quot;</span><span class="p">,</span>
-            <span class="n">palette</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">],</span> <span class="n">errorbar</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">"congruency"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"rt"</span><span class="p">,</span>
+            <span class="n">palette</span><span class="o">=</span><span class="p">[</span><span class="s2">"y"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">],</span> <span class="n">errorbar</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -2440,7 +2439,7 @@ Name: rt, dtype: object
   if pd.api.types.is_categorical_dtype(vector):
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: xlabel=&#39;congruency&#39;, ylabel=&#39;rt&#39;&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: xlabel='congruency', ylabel='rt'&gt;
 </pre></div>
 </div>
 <img alt="../_images/f405f752ede70acdffd017cab992075fca99a002328bff683c58cfe48cac6867.png" src="../_images/f405f752ede70acdffd017cab992075fca99a002328bff683c58cfe48cac6867.png" />
@@ -2518,7 +2517,7 @@ Name: rt, dtype: object
   <div class="footer-item">
     
 <p class="component-author">
-By Peer Herholz
+By Christian Fiebach, Michael Ernst, Peer Herholz
 </p>
 
   </div>
@@ -2528,7 +2527,7 @@ By Peer Herholz
 
   <p class="copyright">
     
-      © Copyright 2025.
+      © Copyright 2026.
       <br/>
     
   </p>

@@ -1,15 +1,14 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Introduction to SciPy &#8212; Winter Term - 2025/2026</title>
+    <title>Introduction to SciPy &#8212; Winter Term - 2026/2026</title>
   
   
   
@@ -29,40 +28,40 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/sphinx_highlight.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=b8b12719"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'showcases/python_scipy';</script>
+    <link rel="canonical" href="https://cfiebach.github.io/Python_For_Psychologists_26-27/showcases/python_scipy.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Introduction to scikit-learn &amp; scikit-image" href="python_scikit.html" />
@@ -158,8 +157,8 @@
       
     
     
-    <img src="../_static/pfp_logo.png" class="logo__image only-light" alt="Winter Term - 2025/2026 - Home"/>
-    <script>document.write(`<img src="../_static/pfp_logo.png" class="logo__image only-dark" alt="Winter Term - 2025/2026 - Home"/>`);</script>
+    <img src="../_static/pfp_logo.png" class="logo__image only-light" alt="Winter Term - 2026/2026 - Home"/>
+    <script>document.write(`<img src="../_static/pfp_logo.png" class="logo__image only-dark" alt="Winter Term - 2026/2026 - Home"/>`);</script>
   
   
 </a></div>
@@ -340,7 +339,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/aylinsgl/Python_For_Psychologists_23-24/master?urlpath=tree/lecture/showcases/python_scipy.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/cfiebach/Python_For_Psychologists_26-27/main?urlpath=tree/lecture/showcases/python_scipy.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -371,7 +370,7 @@
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24" target="_blank"
+      <li><a href="https://github.com/cfiebach/Python_For_Psychologists_26-27" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -388,7 +387,7 @@
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24/edit/master/lecture/showcases/python_scipy.ipynb" target="_blank"
+      <li><a href="https://github.com/cfiebach/Python_For_Psychologists_26-27/edit/main/lecture/showcases/python_scipy.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -405,7 +404,7 @@
       
       
       
-      <li><a href="https://github.com/aylinsgl/Python_For_Psychologists_23-24/issues/new?title=Issue%20on%20page%20%2Fshowcases/python_scipy.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cfiebach/Python_For_Psychologists_26-27/issues/new?title=Issue%20on%20page%20%2Fshowcases/python_scipy.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -563,11 +562,11 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-scipy">
-<h1>Introduction to SciPy<a class="headerlink" href="#introduction-to-scipy" title="Permalink to this heading">#</a></h1>
+<h1>Introduction to SciPy<a class="headerlink" href="#introduction-to-scipy" title="Link to this heading">#</a></h1>
 <p><strong>Disclaimer:</strong> Most of the content in this notebook is coming from <a class="reference external" href="http://www.scipy-lectures.org/intro/index.html">www.scipy-lectures.org</a></p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="scipy-high-level-scientific-computing">
-<h1>Scipy - High-level Scientific Computing<a class="headerlink" href="#scipy-high-level-scientific-computing" title="Permalink to this heading">#</a></h1>
+<h1>Scipy - High-level Scientific Computing<a class="headerlink" href="#scipy-high-level-scientific-computing" title="Link to this heading">#</a></h1>
 <p>The <a class="reference external" href="https://www.scipy.org/">scipy</a> package contains various toolboxes dedicated to common issues in scientific computing. Its different submodules correspond to different applications, such as interpolation, integration, optimization, image processing, statistics, special functions, etc.</p>
 <p><code class="docutils literal notranslate"><span class="pre">scipy</span></code> is composed of task-specific sub-modules:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>scipy.cluster          Clustering package
@@ -604,14 +603,14 @@ is:</p>
 </div>
 <p><strong>Warning:</strong> This tutorial is far from a complete introduction to numerical computing. As enumerating the different submodules and functions in scipy would be very boring, we concentrate instead on a few examples to give a general idea of how to use <code class="docutils literal notranslate"><span class="pre">scipy</span></code> for scientific computing.</p>
 <section id="file-input-output-scipy-io">
-<h2>File input/output: <code class="docutils literal notranslate"><span class="pre">scipy.io</span></code><a class="headerlink" href="#file-input-output-scipy-io" title="Permalink to this heading">#</a></h2>
+<h2>File input/output: <code class="docutils literal notranslate"><span class="pre">scipy.io</span></code><a class="headerlink" href="#file-input-output-scipy-io" title="Link to this heading">#</a></h2>
 <section id="load-and-save-matlab-files">
-<h3>Load and Save <code class="docutils literal notranslate"><span class="pre">MATLAB</span></code> files<a class="headerlink" href="#load-and-save-matlab-files" title="Permalink to this heading">#</a></h3>
+<h3>Load and Save <code class="docutils literal notranslate"><span class="pre">MATLAB</span></code> files<a class="headerlink" href="#load-and-save-matlab-files" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">io</span> <span class="k">as</span> <span class="n">spio</span>
 <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
-<span class="n">spio</span><span class="o">.</span><span class="n">savemat</span><span class="p">(</span><span class="s1">&#39;file.mat&#39;</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="n">a</span><span class="p">})</span> <span class="c1"># savemat expects a dictionary</span>
+<span class="n">spio</span><span class="o">.</span><span class="n">savemat</span><span class="p">(</span><span class="s1">'file.mat'</span><span class="p">,</span> <span class="p">{</span><span class="s1">'a'</span><span class="p">:</span> <span class="n">a</span><span class="p">})</span> <span class="c1"># savemat expects a dictionary</span>
 </pre></div>
 </div>
 </div>
@@ -630,8 +629,8 @@ is:</p>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">spio</span><span class="o">.</span><span class="n">loadmat</span><span class="p">(</span><span class="s1">&#39;file.mat&#39;</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">spio</span><span class="o">.</span><span class="n">loadmat</span><span class="p">(</span><span class="s1">'file.mat'</span><span class="p">)</span>
+<span class="n">data</span><span class="p">[</span><span class="s1">'a'</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -645,7 +644,7 @@ is:</p>
 </div>
 </section>
 <section id="see-also">
-<h3>See also<a class="headerlink" href="#see-also" title="Permalink to this heading">#</a></h3>
+<h3>See also<a class="headerlink" href="#see-also" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Load text files: <code class="docutils literal notranslate"><span class="pre">numpy.loadtxt</span></code>/<code class="docutils literal notranslate"><span class="pre">numpy.savetxt</span></code></p></li>
 <li><p>Clever loading of text/csv files: <code class="docutils literal notranslate"><span class="pre">numpy.genfromtxt</span></code>/<code class="docutils literal notranslate"><span class="pre">numpy.recfromcsv</span></code></p></li>
@@ -655,7 +654,7 @@ is:</p>
 </section>
 </section>
 <section id="linear-algebra-operations-scipy-linalg">
-<h2>Linear algebra operations: <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code><a class="headerlink" href="#linear-algebra-operations-scipy-linalg" title="Permalink to this heading">#</a></h2>
+<h2>Linear algebra operations: <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code><a class="headerlink" href="#linear-algebra-operations-scipy-linalg" title="Link to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code> module provides standard linear algebra operations.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.linalg.det</span></code> function computes the determinant of a square matrix:</p>
 <div class="cell docutils container">
@@ -741,11 +740,11 @@ is:</p>
 <p>SVD is commonly used in statistics and signal processing. Many other standard decompositions (QR, LU, Cholesky, Schur), as well as solvers for linear systems, are available in <code class="docutils literal notranslate"><span class="pre">scipy.linalg</span></code>.</p>
 </section>
 <section id="interpolation-scipy-interpolate">
-<h2>Interpolation: <code class="docutils literal notranslate"><span class="pre">scipy.interpolate</span></code><a class="headerlink" href="#interpolation-scipy-interpolate" title="Permalink to this heading">#</a></h2>
+<h2>Interpolation: <code class="docutils literal notranslate"><span class="pre">scipy.interpolate</span></code><a class="headerlink" href="#interpolation-scipy-interpolate" title="Link to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">scipy.interpolate</span></code> is useful for fitting a function from experimental data and thus evaluating points where no measure exists.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let&#39;s create some data</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let's create some data</span>
 <span class="n">measured_time</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 <span class="n">noise</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">*</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mf">1e-1</span>
 <span class="n">measures</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">measured_time</span><span class="p">)</span> <span class="o">+</span> <span class="n">noise</span>
@@ -769,8 +768,8 @@ function:</p>
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">measured_time</span><span class="p">,</span> <span class="n">measures</span><span class="p">,</span> <span class="s1">&#39;o&#39;</span><span class="p">,</span> <span class="n">ms</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;measures&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">interpolation_time</span><span class="p">,</span> <span class="n">linear_results</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;linear interp&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">measured_time</span><span class="p">,</span> <span class="n">measures</span><span class="p">,</span> <span class="s1">'o'</span><span class="p">,</span> <span class="n">ms</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'measures'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">interpolation_time</span><span class="p">,</span> <span class="n">linear_results</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'linear interp'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span>
 </pre></div>
 </div>
@@ -782,7 +781,7 @@ function:</p>
 <p>A cubic interpolation can also be selected by providing the <code class="docutils literal notranslate"><span class="pre">kind</span></code> optional keyword argument:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cubic_interp</span> <span class="o">=</span> <span class="n">interp1d</span><span class="p">(</span><span class="n">measured_time</span><span class="p">,</span> <span class="n">measures</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;cubic&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cubic_interp</span> <span class="o">=</span> <span class="n">interp1d</span><span class="p">(</span><span class="n">measured_time</span><span class="p">,</span> <span class="n">measures</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">'cubic'</span><span class="p">)</span>
 <span class="n">cubic_results</span> <span class="o">=</span> <span class="n">cubic_interp</span><span class="p">(</span><span class="n">interpolation_time</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -790,8 +789,8 @@ function:</p>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">measured_time</span><span class="p">,</span> <span class="n">measures</span><span class="p">,</span> <span class="s1">&#39;o&#39;</span><span class="p">,</span> <span class="n">ms</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;measures&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">interpolation_time</span><span class="p">,</span> <span class="n">cubic_results</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;cubic interp&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">measured_time</span><span class="p">,</span> <span class="n">measures</span><span class="p">,</span> <span class="s1">'o'</span><span class="p">,</span> <span class="n">ms</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'measures'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">interpolation_time</span><span class="p">,</span> <span class="n">cubic_results</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'cubic interp'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -805,7 +804,7 @@ function:</p>
 </div>
 </section>
 <section id="optimization-and-fit-scipy-optimize">
-<h2>Optimization and fit: <code class="docutils literal notranslate"><span class="pre">scipy.optimize</span></code><a class="headerlink" href="#optimization-and-fit-scipy-optimize" title="Permalink to this heading">#</a></h2>
+<h2>Optimization and fit: <code class="docutils literal notranslate"><span class="pre">scipy.optimize</span></code><a class="headerlink" href="#optimization-and-fit-scipy-optimize" title="Link to this heading">#</a></h2>
 <p>Optimization is the problem of finding a numerical solution to a minimization or equality.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.optimize</span></code> module provides algorithms for function minimization (scalar or multi-dimensional), curve fitting and root finding.</p>
 <div class="cell docutils container">
@@ -816,7 +815,7 @@ function:</p>
 </div>
 </div>
 <section id="curve-fitting">
-<h3>Curve fitting<a class="headerlink" href="#curve-fitting" title="Permalink to this heading">#</a></h3>
+<h3>Curve fitting<a class="headerlink" href="#curve-fitting" title="Link to this heading">#</a></h3>
 <p>Suppose we have data on a sine wave, with some noise:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -868,10 +867,10 @@ function:</p>
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># And plot the resulting curve on the data</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span> <span class="n">y_data</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Data&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span> <span class="n">y_data</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Data'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span> <span class="n">test_func</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span> <span class="n">params</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">params</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>
-         <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Fitted function&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;best&#39;</span><span class="p">)</span>
+         <span class="n">label</span><span class="o">=</span><span class="s1">'Fitted function'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">'best'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -882,7 +881,7 @@ function:</p>
 </div>
 </section>
 <section id="finding-the-minimum-of-a-scalar-function">
-<h3>Finding the minimum of a scalar function<a class="headerlink" href="#finding-the-minimum-of-a-scalar-function" title="Permalink to this heading">#</a></h3>
+<h3>Finding the minimum of a scalar function<a class="headerlink" href="#finding-the-minimum-of-a-scalar-function" title="Link to this heading">#</a></h3>
 <p>Let’s define the following function:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -918,7 +917,7 @@ function:</p>
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>      fun: -7.945823375615215
  hess_inv: array([[0.08589237]])
       jac: array([-1.1920929e-06])
-  message: &#39;Optimization terminated successfully.&#39;
+  message: 'Optimization terminated successfully.'
      nfev: 18
       nit: 5
      njev: 6
@@ -944,7 +943,7 @@ function:</p>
 </section>
 </section>
 <section id="fast-fourier-transforms-scipy-fftpack">
-<h2>Fast Fourier transforms: <code class="docutils literal notranslate"><span class="pre">scipy.fftpack</span></code><a class="headerlink" href="#fast-fourier-transforms-scipy-fftpack" title="Permalink to this heading">#</a></h2>
+<h2>Fast Fourier transforms: <code class="docutils literal notranslate"><span class="pre">scipy.fftpack</span></code><a class="headerlink" href="#fast-fourier-transforms-scipy-fftpack" title="Link to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">scipy.fftpack</span></code> module computes fast Fourier transforms (FFTs)
 and offers utilities to handle them. The main functions are:</p>
 <ul class="simple">
@@ -970,8 +969,8 @@ and offers utilities to handle them. The main functions are:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time_vec</span><span class="p">,</span> <span class="n">sig</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Original signal&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Signal&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time_vec</span><span class="p">,</span> <span class="n">sig</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Original signal'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Signal'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -994,9 +993,9 @@ and offers utilities to handle them. The main functions are:</p>
 <span class="c1"># Plot the FFT power</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">sample_freq</span><span class="p">[:</span><span class="mi">500</span><span class="p">],</span> <span class="n">power</span><span class="p">[:</span><span class="mi">500</span><span class="p">])</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Frequency [Hz]&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;plower&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;FFT&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Frequency [Hz]'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'plower'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'FFT'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -1027,11 +1026,11 @@ and offers utilities to handle them. The main functions are:</p>
 <span class="n">filtered_sig</span> <span class="o">=</span> <span class="n">fftpack</span><span class="o">.</span><span class="n">ifft</span><span class="p">(</span><span class="n">high_freq_fft</span><span class="p">)</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time_vec</span><span class="p">,</span> <span class="n">sig</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Original signal&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time_vec</span><span class="p">,</span> <span class="n">filtered_sig</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Filtered signal&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Time [s]&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Amplitude&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;best&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time_vec</span><span class="p">,</span> <span class="n">sig</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Original signal'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">time_vec</span><span class="p">,</span> <span class="n">filtered_sig</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Filtered signal'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Time [s]'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Amplitude'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">'best'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">();</span>
 </pre></div>
 </div>
@@ -1046,10 +1045,10 @@ and offers utilities to handle them. The main functions are:</p>
 </div>
 </section>
 <section id="signal-processing-scipy-signal">
-<h2>Signal processing: <code class="docutils literal notranslate"><span class="pre">scipy.signal</span></code><a class="headerlink" href="#signal-processing-scipy-signal" title="Permalink to this heading">#</a></h2>
+<h2>Signal processing: <code class="docutils literal notranslate"><span class="pre">scipy.signal</span></code><a class="headerlink" href="#signal-processing-scipy-signal" title="Link to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">scipy.signal</span></code> is for typical signal processing: 1D, regularly-sampled signals.</p>
 <section id="detrending-scipy-signal-detrend-remove-linear-trend-from-signal">
-<h3>Detrending <code class="docutils literal notranslate"><span class="pre">scipy.signal.detrend</span></code> - remove linear trend from signal:<a class="headerlink" href="#detrending-scipy-signal-detrend-remove-linear-trend-from-signal" title="Permalink to this heading">#</a></h3>
+<h3>Detrending <code class="docutils literal notranslate"><span class="pre">scipy.signal.detrend</span></code> - remove linear trend from signal:<a class="headerlink" href="#detrending-scipy-signal-detrend-remove-linear-trend-from-signal" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate a random signal with a trend</span>
@@ -1074,9 +1073,9 @@ and offers utilities to handle them. The main functions are:</p>
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Plot</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">x_detrended</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;x_detrended&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;best&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">"x"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">x_detrended</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">"x_detrended"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">'best'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -1189,7 +1188,7 @@ and offers utilities to handle them. The main functions are:</p>
   <div class="footer-item">
     
 <p class="component-author">
-By Peer Herholz
+By Christian Fiebach, Michael Ernst, Peer Herholz
 </p>
 
   </div>
@@ -1199,7 +1198,7 @@ By Peer Herholz
 
   <p class="copyright">
     
-      © Copyright 2025.
+      © Copyright 2026.
       <br/>
     
   </p>
