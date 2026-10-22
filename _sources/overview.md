@@ -145,7 +145,7 @@ Programming can be frustrating and it may not always be obvious what is going wr
 
 **- questions about course logistics**
 
-first, check the [overview](https://cfiebach.github.io/Python_For_Psychologists_25-26/overview.html) & [syllabus](https://cfiebach.github.io/Python_For_Psychologists_25-26/outline.html). If you can’t find the answer there, first ask a classmate. If still unsure, post on `discord`.
+first, check the [overview](https://cfiebach.github.io/Python_For_Psychologists_26-27/overview.html) & [syllabus](https://cfiebach.github.io/Python_For_Psychologists_26-27/outline.html). If you can’t find the answer there, first ask a classmate. If still unsure, post on `discord`.
 
 **- something super cool to share related to class or want to talk about a topic in further depth** 
 
