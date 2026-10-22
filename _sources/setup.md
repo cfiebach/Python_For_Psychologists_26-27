@@ -24,6 +24,9 @@ If you foresee any of these being a problem please reach out to one of the instr
 
 ## Required software
 
+**Please wait with installation until you get a final OK from our side by E-Mail!!!**
+
+
 To get the most out of the course, we ask that you to install the following software (software/things in () are not entirely necessary but definitely great to have):
 
 - `Python 3` via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html) (but see also below)
