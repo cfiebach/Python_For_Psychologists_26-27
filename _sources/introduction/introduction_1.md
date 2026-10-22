@@ -8,7 +8,7 @@ In the following you'll find the `objectives` and `materials` for each of the to
 
 ### Course overview/setup/outline
 
-First things first: what is going to happen in this course? What is it all about? Why are we doing this? These and many other questions will be addressed during this topic, including a broader view on programming & data science (within research workflows).
+First things first: what is going to happen in this course? What is it all about? Why are we doing this? These and other questions will be addressed during this topic, including a somewhat broader view on programming & data science (within research workflows).
 
 #### Objectives 📍
 - Get to know each other
@@ -34,7 +34,8 @@ Not applicable, as project related work didn't start yet.
 
 ## Tasks for subsequent meeting 🖥️✍🏽📖
 
-- Your main task for this week is to install the following software packages on your laptop computer: python3 (miniconda), the VScode editor, and the VScode extensions, as described in the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html). PLEASE WAIT UNTIL YOU GET MY 'GO-SIGNAL' FOR THE INSTALLATION ... we want to be sure everything works. There will also be the opportunity to consult a student from my lab when you have problems with the installation. Details will follw.
+- Your main task for this week is to install the following software packages on your laptop computer: python3 (miniconda) and the PyCharm editor, as described in the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html). PLEASE WAIT UNTIL YOU GET MY FINAL 'GO-SIGNAL' FOR THE INSTALLATION ... we want to be sure everything works. If you have problems with the installation, there is time for trouble shooting in the next session, hosted by Michael Ernst from our lab. Details will follw.
+- Alternatively, you can install the full version of Anaconda, as also described on the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html).
 - If you happen to have a running version of python3 and a code editor, you are good to go, even if you have different installation / software.
 - Check whether you have a bash shell on your computer, also as described on the setup page.
 - Everything else - like downloading materials for the course - we will do together in the next session.
