@@ -34,7 +34,7 @@ The course will officially run from October 22nd, 2022 until Feburary 4 or 11, 2
 
 #### Can I use my calculator?
 
-Well, depends on your calculator, but you'll need frequent access to a computer that can run Python. None of the analyses that we will be doing will be very computationally intensive, so this does not need necessarily be a modern or "fast" computer. Still, it will need to be running a standard operating system like Windows, Mac OS X, or Linux. Unfortunately, tablets running mobile operating systems (iOS, Android) probably won't work for this purpose. **If this is an issue for you, please get in touch with the instructor as soon as possible so that we can try to figure out a solution**. Regarding software and installation thereof, please check the next section.
+Well, depends on your calculator, but you'll need frequent access to a computer that can run Python. None of the analyses that we will be doing will be very computationally intensive, so this does not need necessarily be a modern or "fast" computer. Still, it will need to be running a standard operating system like Windows, Mac OS X, or Linux. ***Unfortunately, tablets running mobile operating systems (iOS, Android) probably won't work for this purpose.*** **If this is an issue for you, please get in touch with the instructor as soon as possible so that we can try to figure out a solution**. Regarding software and installation thereof, please check the next section.
 
 <iframe src="https://giphy.com/embed/DHqth0hVQoIzS" width="240" height="103" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/maths-DHqth0hVQoIzS">via GIPHY</a></p>
 
@@ -63,7 +63,7 @@ https://www.inferentialthinking.com/
 
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
-For the 2026 course, also check out the "Python for Experimental Psychologists" book by Dalmaijer et al.
+For the 2026 course, also check out the `Python for Experimental Psychologists book by Dalmaijer et al.
 
 Additional reading material might be added but will always be open & free with students being informed about any addition.
 
@@ -76,7 +76,7 @@ As this is a practical lab course intended to provide you with an introduction t
 
 ##### Active Participation 
 
-At least for the `python introductory sessions´, participation in person is not mandatory as long as the assignments are handed in to demonstrate active participation and progress. This may be different for data analysis and PsychoPy session, and will be announced.
+At least for the `python introductory sessions, participation in person is not mandatory as long as the assignments are handed in to demonstrate active participation and progress. This may be different for data analysis and PsychoPy session, and will be announced.
 
 ##### Exams and Assignments
 
@@ -92,22 +92,16 @@ Your final grade will be based on the the `final exam`.
 that there will be prominent differences depending on the start date of your studies, i.e. the `exam regulation` under which you started the master program. I'm very sorry that there will be some imbalance, I'm also not a fan of this. However, we have to comply with the `exam regulations` unfortunately.  
 ```
 
-**First semester, started winter term 22/23 or later**
-
-You can choose if you want to only obtain a participation credit **or** a grade. 
+Note that you can choose if you want to only obtain a participation credit `(Studienleistung)` **or** a `grade (Prüfungsleistung)`. 
 
 *In order to obtain your participation credit you will have to provide the following:*
 
-- `homework assignments`: There will be approx. `6 homework assignments`. You have to hand in at least `4` and thus can miss 2 in total.
-- `Class participation`: Showing up for class, demonstrating preparedness (i.e., doing the readings), contributing to class discussions, and doing the in-class labs.
+- `Class participation`: Showing up for class, demonstrating preparedness (i.e., doing the readings), contributing to class discussions, and doing the assignment (including the data acquisition at the end of the course).
+- `homework assignments`: There will be approx. `8 homework assignments`. You have to hand in at least `6` and thus can miss 2 in total.
 
 *If you want to obtain your grade for the module in this course, you will have to provide the following on top of the participation requirements:*
 
-- Final exam: The take-home, open book final exam as outlined above.
-
-**Not first semester, started earlier than winter term 21/22** 
-
-The module will be graded with the final grade being the average of the final exam grade of this class and your grade in the second course of this module. 
+- Final assignment: The take-home, open book final exam as outlined above.
 
 <iframe src="https://giphy.com/embed/yFHkrrbfITemc" width="240" height="173" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/exams-yFHkrrbfITemc">via GIPHY</a></p>
 

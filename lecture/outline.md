@@ -27,4 +27,4 @@ The optimistic schedule below may be subject of change, dependent on time constr
 | 18/12/2026 | Running Experiments in Python with PsychoPy - Part 1 (Michael Ernst) | |
 | 14/01/2027 | Running Experiments in Python with PsychoPy - Part 2 (Michael Ernst); Introduction of Project (C. Fiebach); Assignment: Data acquisition   | 20/01/2027 |
 | 21/01/2027 | most likely: Version Control with git and github |  |
-|  | Assignment: Data analysis and writing report in Jupyter Notebook  | 15/02/2027 |
+|  | Final Assignment: Data analysis and writing report in Jupyter Notebook  | 15/02/2027 |
