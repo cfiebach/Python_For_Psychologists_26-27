@@ -34,7 +34,7 @@ Miniconda is a frequently used system in scientific computing that contains pyth
 
 If you already have the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, or a have enough programming experience that you have alternative installations with similar functionality, you can use these. 
 
-`If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer (around 20 GB), but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, spyder. After installing Anaconda, all these can be opened from a central window, the Anaconda Navigator, while the tools have to be manually installed first in miniconda.
+**If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer (around 20 GB), but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, spyder. After installing Anaconda, all these can be opened from a central window, the Anaconda Navigator, while the tools have to be manually installed first in miniconda.**
 
 There are a number of further software that may become relevant in the next weeks, but do not have to be installed right now. These influde:
 
