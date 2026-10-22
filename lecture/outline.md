@@ -25,6 +25,6 @@ The optimistic schedule below may be subject of change, dependent on time constr
 | 04/12/2026 | Data Visualization in Python (Michael Ernst)| 09/12/2026 |
 | 11/12/2026 | Data Analysis in Python (Michael Ernst) | 16/12/2026 |
 | 18/12/2026 | Running Experiments in Python with PsychoPy - Part 1 (Michael Ernst) | |
-| 14/01/2027 | Running Experiments in Python with PsychoPy - Part 2 (Michael Ernst); Introduction of Project (C. Fiebach)  | |
-|  | Assignment: Data acquisition  | 21/01/2027 |
+| 14/01/2027 | Running Experiments in Python with PsychoPy - Part 2 (Michael Ernst); Introduction of Project (C. Fiebach); Assignment: Data acquisition   | 20/01/2027 |
+| 21/01/2027 | most likely: Version Control with git and github |  |
 |  | Assignment: Data analysis and writing report in Jupyter Notebook  | 15/02/2027 |
