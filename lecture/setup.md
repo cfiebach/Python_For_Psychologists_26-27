@@ -26,7 +26,7 @@ If you foresee any of these being a problem please reach out to one of the instr
 
 To get the most out of the course, we ask that you to install the following software (software/things in () are not entirely necessary but definitely great to have):
 
-- `Python 3` via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html)
+- `Python 3` via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html) (but see also below)
 - A remote-capable text editor, also called IDE or integrative development environment, for example [`PyCharm`](https://www.jetbrains.com/pycharm/)
 - A `modern web-browser`. Unfortunately, macOS users may want to have a different browser besides 'Safari', like 'Firefox' or 'Chrome'.
 
@@ -34,7 +34,7 @@ Miniconda is a frequently used system in scientific computing that contains pyth
 
 If you already have the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, or a have enough programming experience that you have alternative installations with similar functionality, you can use these. 
 
-If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer (around 20 GB), but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, spyder. After installing Anaconda, all these can be opened from a central window, the Anaconda Navigator, while the tools have to be manually installed first in miniconda. 
+`If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer (around 20 GB), but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, spyder. After installing Anaconda, all these can be opened from a central window, the Anaconda Navigator, while the tools have to be manually installed first in miniconda.
 
 There are a number of further software that may become relevant in the next weeks, but do not have to be installed right now. These influde:
 
@@ -180,7 +180,7 @@ The commandline installation procedures are described further down under 'quicks
 **Note**: If the instructions aren't working and you have spent more than 15-20 minutes troubleshooting on your own, please consider visiting the office hour offered for installation support. You will have received an email specifying when this happens. 
 
 
-### Pyton Packages
+### Python Packages
 
 For the course, we will need a few python packages that we will add to our python installation. We will do this together in the next session. 
 
