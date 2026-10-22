@@ -14,14 +14,14 @@ Please see below for our current optimistic schedule. Depending on our progress,
 The optimistic schedule below may be subject of change, dependent on time constraints and progress made in the previous meetings. The sessions for the following week or two will be updated here the week before.  
 ```
 
-| Date (day/month/year) 🗓 | Topic 💡 👨🏻‍🏫 |
+| Date (day/month/year) 🗓 | Topic 💡 👨🏻‍🏫 | Deadline for Assignment |
 |-------------------------|-------------|
-| 22/10/2026 | Introduction I: course information; homework assignment: install first parts of software |
-| 29/10/2026 | Introductory Session II: Checking and finalizing software setup; if time allows: Introduction II - Jupyter notebooks (Michael Ernst) |
-| 05/11/2026 | No in person session! Introductory Session III: Intro to Python Part I |
-| 12/11/2026 | Introductory Session IV: Recap Intro to Python Part II  |
-| 19/11/2026 | No in person session! Introductory Session V: Intro to Python Part III |
-| 26/11/2026 | Introductory Session VI - Recap and Intro to Python Part IV |
+| 22/10/2026 | Introduction I: course information; homework assignment: install first parts of software | |
+| 29/10/2026 | Introductory Session II: Checking and finalizing software setup; if time allows: Introduction II - Jupyter notebooks (Michael Ernst) | 03/11/2026 |
+| 05/11/2026 | No in person session! Introductory Session III: Intro to Python Part I | 10/11/2026 |
+| 12/11/2026 | Introductory Session IV: Recap Intro to Python Part II  | 17/11/2026 |
+| 19/11/2026 | No in person session! Introductory Session V: Intro to Python Part III | 24/11/2026 |
+| 26/11/2026 | Introductory Session VI - Recap and Intro to Python Part IV | 02/12/2026 |
 | 04/12/2026 | Data Visualization in Python (Michael Ernst)|
 | 11/12/2026 | Start of Block 2: Running Experiments in Python with PsychoPy - Part 1 (Michael Ernst) |
 | 18/12/2026 | Running Experiments in Python with PsychoPy - Part 2 (Michael Ernst) |
