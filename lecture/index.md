@@ -28,7 +28,7 @@ You can use the following sections to navigate through the content of the lectur
 
    What's this course all about? How are things implemented and supposed to work?
 
-* [General outline](https://cfiebach.github.io/Python_For_Psychologists_26-27/outline.html)
+* [Schedule and general outline](https://cfiebach.github.io/Python_For_Psychologists_26-27/outline.html)
 
    What are the specific topics and aspects taught?
 
@@ -36,6 +36,8 @@ You can use the following sections to navigate through the content of the lectur
 
    All things gotta start somewhere and using programming within research settings is no exception to
    that, but how?
+
+**Please do not look into the following links - there will definitively be changes here in the next weeks ...**
 
 * [Running experiments in Python](https://cfiebach.github.io/Python_For_Psychologists_26-27/experiments/experiments.html#)
 
@@ -61,7 +63,7 @@ You can use the following sections to navigate through the content of the lectur
 
 ## I've got a question!
 
-In case you have any questions or difficulties with the lecture and its materials, please don’t hesitate to get in touch with us. A great way to do this is to open an issue on the GitHub site of the course. You can of course further contact me via [E-mail](fiebach@psych.uni-frankfurt.de). Every feedback or idea  you might have is highly appreciated and valued. Please remember that I am teaching several courses in parallel and while I will do my best to get back to everyone in a timely manner, please be understanding if I don't and feel free to send me another reminder email or approach me after class.
+In case you have any questions or difficulties with the lecture and its materials, please don’t hesitate to get in touch with us. A great way to do this is to open an issue on the GitHub site of the course. You can of course further contact me via at 'fiebach@psych.uni-frankfurt.de'. Every feedback or idea  you might have is highly appreciated and valued. Please remember that I am teaching several courses in parallel and while I will do my best to get back to everyone in a timely manner, please be understanding if I don't and feel free to send me another reminder email or approach me after class.
 
 <p align="center"><iframe src="https://giphy.com/embed/ATt7p8OO4mvvO" width="440" height="140" frameBorder="0" vspace="0" class="giphy-embed" allowFullScreen></iframe></p><p align="center"><a href="https://giphy.com/gifs/photos-street-sesame-ATt7p8OO4mvvO"><small>via GIPHY</small></a></p></p>
 
