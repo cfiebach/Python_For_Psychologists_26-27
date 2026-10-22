@@ -29,25 +29,40 @@ If you foresee any of these being a problem please reach out to one of the instr
 
 To get the most out of the course, we ask that you to install the following software (software/things in () are not entirely necessary but definitely great to have):
 
-- `Python 3` via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html) (but see also below)
-- A remote-capable text editor, also called IDE or integrative development environment, for example [`PyCharm`](https://www.jetbrains.com/pycharm/)
-- A `modern web-browser`. Unfortunately, macOS users may want to have a different browser besides 'Safari', like 'Firefox' or 'Chrome'.
+- `Python 3` via (but see also below)
+- A remote-capable text editor, also called IDE or integrative development environment, for example  spyder (contained in Anaconda, see below), [`PyCharm`](https://www.jetbrains.com/pycharm/), or [`VSCode`](https://code.visualstudio.com)
+- A `modern web-browser`. Unfortunately, macOS users may want to have a different browser besides 'Safari' (at least as of 2025), like 'Firefox' or 'Chrome'.
 
-Miniconda is a frequently used system in scientific computing that contains python, but also is an efficient way of keeping your software packages up to date and of managing the environment in which you conduct scientific computing (like data analysis). PyCharm is a powerful user interface, which we will use to run interactive python notebooks but which also provides us with a terminal window through which we can do other things like installing packages or managing our computing environment. The web browser is not strictly necessary, but for our first steps using interactive jupyter notebooks, we will use the browser. 
+If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer, but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, called `spyder´. After installing Anaconda, all these can be opened from a central window, the `Anaconda Navigator. Let's say you should have clearly >20 GB free on your computer, to go with `Anaconda´.
 
-If you already have the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, or a have enough programming experience that you have alternative installations with similar functionality, you can use these. 
+A more lightweight variant is the installation via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html). `miniconda´ is a frequently used system in scientific computing that contains python, but also is an efficient way of keeping your software packages up to date and of managing the environment in which you conduct scientific computing (like data analysis). Packages that we will use have to be installed manually via the command line - but this is also not difficult. PyCharm is a powerful user interface, in which we can run interactive python notebooks but which also provides us with a terminal window through which we can do other things like installing packages or managing our computing environment. `spyder´ provides us with the same features, if installing through `Anaconda´. 
 
-**If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer (around 20 GB), but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, spyder. After installing Anaconda, all these can be opened from a central window, the Anaconda Navigator, while the tools have to be manually installed first in miniconda.**
+The web browser is not strictly necessary, but for our first steps using interactive jupyter notebooks, we will use the browser. 
+
+*Here is an automatically generated estimate of the storage space that our installations will require on your system:*
+
+| OS | (a) Miniconda + PyCharm + numpy, scipy, pandas, matplotlib, seaborn | (b) Anaconda (packages included, w/out PyCharm) |
+|---|---|---|
+| **Windows** | ca. 2,5-3,5 GB (Miniconda ~0,5 GB + Pakete ~1 GB + PyCharm ~1-1,5 GB) | ca. 4-5 GB |
+| **macOS** | ca. 2,5-3,5 GB (Miniconda ~0,5 GB + Pakete ~1 GB + PyCharm ~1-1,5 GB) | ca. 4-5 GB |
+| **Linux** | ca. 2,5-3,5 GB (Miniconda ~0,5 GB + Pakete ~1 GB + PyCharm ~1-1,5 GB) | ca. 4,5-6 GB |
+
+
+If you already have any of the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, or a have enough programming experience that you have alternative installations with similar functionality, you can use these. 
+
 
 There are a number of further software that may become relevant in the next weeks, but do not have to be installed right now. These influde:
 
+- Specific python packages, e.g., `numpy` or `scipy`. 
+- `PsychoPy` stand-alone ìnstallation.
+- Most likely [`Discord`](https://discord.com/) for communication purposes.
 - Most likely [`Discord`](https://discord.com/) for communication purposes.
 - A command-line shell: [`Bash`](https://www.gnu.org/software/bash/), already included in macOS and LINUX, and under windows probably best to use 'gitbash', which comes with the 'Git for Windows' package, see next bullet point.
 - A version control system: [`Git`](https://git-scm.com/).
 - A [`GitHub`](https://github.com/) account.
 
 
-The rest of this page provides more detail on installation procedures for each of the above elements, with separate instructions for each of the three major operating systems (`Windows`, `Mac OS`, and `Linux`).
+The rest of this page provides more detail on installation procedures if you want to use `miniconda` as Python environment, rather than `Anaconda`, with separate instructions for each of the three major operating systems (`Windows`, `Mac OS`, and `Linux`).
 
 
 ### Some quick general notes on instructions
@@ -186,25 +201,6 @@ The commandline installation procedures are described further down under 'quicks
 ### Python Packages
 
 For the course, we will need a few python packages that we will add to our python installation. We will do this together in the next session. 
-
-
-### Preparation of your local environment
-
-1. Please generate a folder for this course on your computer. This should be in a more or less easy to reach location (as we may have to write out the path to this folder from time to time). One possibility would be in the main folder of your account, e.g.: 
-
-   /Users/<YourUsername>/pfep_course (macOS, LINUX) or C:\Users\<YourUsername>\pfep_course (Windows)
-
-An alternative would be to locate this folder in your documents folder or in a folder for projects or similar: 
-
-      /Users/<YourUsername>/Documents/pfep_course (macOS, LINUX) or C:\Users\Documents\<YourUsername>\Documents\pfep_course (Windows)
-
-      /Users/<YourUsername>/Documents/Projects/pfep_course (macOS, LINUX) or C:\Users\Documents\Projects\<YourUsername>\Documents\Projects\pfep_course (Windows)
-
-You can generate this folder graphically in the explorer (windows) or finder (macOS) or using the command 'md' in a bash shell or terminal (all operating systems). The most important thing is that your project folder for this course is in a location that you remember. 
-
-
-2. Please download the [`environment.yml`](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
-Please move this file your project folder. We will use this file in the next session.
 
 
 ### Modern web browser

@@ -25,7 +25,7 @@ First things first: what is going to happen in this course? What is it all about
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJs_KLb0qqn146AxHr-cld2Sk3hMzjCisoeyPctHkVxb-aGCGCDekwbhcQuL7X76O_ZTX40TBrv6Uw/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQJs_KLb0qqn146AxHr-cld2Sk3hMzjCisoeyPctHkVxb-aGCGCDekwbhcQuL7X76O_ZTX40TBrv6Uw/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener">Diashow in neuem Fenster öffnen</a>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQJs_KLb0qqn146AxHr-cld2Sk3hMzjCisoeyPctHkVxb-aGCGCDekwbhcQuL7X76O_ZTX40TBrv6Uw/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener">Open slideshow in new window</a>
 
 
 ## Project related work 🥼🧑🏿‍🔬👩🏻‍🔬

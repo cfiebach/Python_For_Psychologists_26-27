@@ -10,7 +10,7 @@ Please visit these pages again in the next few weeks for further information.
 ````
 
 Hello everyone and welcome to the course page for "Python for Psychologists", taught
-within the [Psychology master programme](https://www.goethe-university-frankfurt.de/51789866/Institute_of_Psychology?) of the [Goethe-University Frankfurt](https://www.goethe-university-frankfurt.de/en) during the winter term 2026-2027. Glad to see you here!
+within the [Psychology master programme](https://www.psychologie.uni-frankfurt.de/157939571/Kognitions____Neurowissenschaften?) of the [Goethe-University Frankfurt](https://www.goethe-university-frankfurt.de/en) during the winter term 2026-2027. Glad to see you here!
 
 Within these pages, we provide the all information important to follow and conduct the course, including formal aspects, requirements, lecture materials, practicals and so on.  This [jupyter book](https://jupyterbook.org/intro.html) will include the used slides and code in a way that they can be explored in an interactive manner. You can navigate through the respective sections via the TOC (table of contents) on the left side and within sections via the TOC on the right side. The three symbols in the top allow enabling full screen mode, link to the underlying [Github repository](https://github.com/cfiebach/Python_For_Psychologists_25-26) and allow you to download the contents as a pdf or [jupyter notebook]() respectively. Some sections will additionally have a little rocket in that row which will allow you to interactively rerun certain parts of the practicals via cloud computing. All of this awesomeness (talking about the infrastructure and resource) is possible through the dedicated and second to none work of the [Jupyter community](https://jupyter.org/), specifically, the [Executable/Jupyter Book](https://executablebooks.org/en/latest/) and [mybinder project](https://mybinder.org/).
 
@@ -63,7 +63,7 @@ You can use the following sections to navigate through the content of the lectur
 
 ## I've got a question!
 
-In case you have any questions or difficulties with the lecture and its materials, please don’t hesitate to get in touch with us. A great way to do this is to open an issue on the GitHub site of the course. You can of course further contact me via at `fiebach@psych.uni-frankfurt.de´. Every feedback or idea  you might have is highly appreciated and valued. Please remember that I am teaching several courses in parallel and while I will do my best to get back to everyone in a timely manner, please be understanding if I don't and feel free to send me another reminder email or approach me after class.
+In case you have any questions or difficulties with the lecture and its materials, please don’t hesitate to get in touch with us. A great way to do this is to open an issue on the GitHub site of the course. You can of course further contact me via at `fiebach@psych.uni-frankfurt.de. Every feedback or idea  you might have is highly appreciated and valued. Please remember that I am teaching several courses in parallel and while I will do my best to get back to everyone in a timely manner, please be understanding if I don't and feel free to send me another reminder email or approach me after class.
 
 <p align="center"><iframe src="https://giphy.com/embed/ATt7p8OO4mvvO" width="440" height="140" frameBorder="0" vspace="0" class="giphy-embed" allowFullScreen></iframe></p><p align="center"><a href="https://giphy.com/gifs/photos-street-sesame-ATt7p8OO4mvvO"><small>via GIPHY</small></a></p></p>
 
