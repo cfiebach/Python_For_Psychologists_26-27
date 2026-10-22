@@ -2,7 +2,7 @@
 
 There are a few things you need to get working on your computer in order to follow this course. However, don't worry as it's all gonna be [open source](), won't require a lot of storage and will be explained in detail.
 
-In general getting `Python` & friends to work reliably on your machine is going to be very beneficial. This holds true for the course but also beyond. The following tools focusing on open and reproducible (neuro-/data-) science) will therefore not only be necessary for this course, but may allow you to build an "everyday" research workflow around them, for example when writing your Master's thesis. This even applies if you won't continue with `python` (I certainly hope you do) and instead work with `R` (of course also cool), `matlab` (weeeeeeeell...) or what have you. 
+In general getting `Python` & friends to work reliably on your machine is going to be very beneficial. This holds true for the course but also beyond. The following tools focusing on open and reproducible (neuro-/data-) science) will therefore not only be necessary for this course, but may allow you to build an "everyday" research workflow around them, for example when writing your Master's thesis. This even applies if you won't continue with `python` (we certainly hope you do) and instead work with `R` (of course also cool), `matlab` (weeeeeeeell...) or what have you. 
 
 You'll find the (hopefully) comprehensive set of install instructions below. We first focus on just two core pieces of software, and may at later points potentially add more.   
 
@@ -18,7 +18,7 @@ There are a few computing requirements for the course that are absolutely necess
 
 1. You must have administrator access to your computer (i.e., you must be able to install things yourself without requesting IT approval).
 2. You should have at least 20 GB of free disk space on your computer (but we would recommend more, to be safe).
-3. If you are using Windows you must be using Windows 10/11; Windows 7 and 8 will not be sufficient for this course.
+3. If you are using Windows you must be using Windows 10/11; Windows 7 and 8 will not be sufficient for this course. Note that on private computers, Windows 10 has security updates until October 2027, but at some point, it has to be upgraded to Windows 11.
 
 If you foresee any of these being a problem please reach out to one of the instructors and enquire what steps you can take to ensure your setup is ready for the course.
 
@@ -27,19 +27,21 @@ If you foresee any of these being a problem please reach out to one of the instr
 To get the most out of the course, we ask that you to install the following software (software/things in () are not entirely necessary but definitely great to have):
 
 - `Python 3` via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html)
-- An remote-capable text editor, also called IDE or integrative development environment : [`PyCharm`](https://www.jetbrains.com/pycharm/)
+- A remote-capable text editor, also called IDE or integrative development environment, for example [`PyCharm`](https://www.jetbrains.com/pycharm/)
 - A `modern web-browser`. Unfortunately, macOS users may want to have a different browser besides 'Safari', like 'Firefox' or 'Chrome'.
 
 Miniconda is a frequently used system in scientific computing that contains python, but also is an efficient way of keeping your software packages up to date and of managing the environment in which you conduct scientific computing (like data analysis). PyCharm is a powerful user interface, which we will use to run interactive python notebooks but which also provides us with a terminal window through which we can do other things like installing packages or managing our computing environment. The web browser is not strictly necessary, but for our first steps using interactive jupyter notebooks, we will use the browser. 
 
 If you already have the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, or a have enough programming experience that you have alternative installations with similar functionality, you can use these. 
 
+If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer (around 20 GB), but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, spyder. After installing Anaconda, all these can be opened from a central window, the Anaconda Navigator, while the tools have to be manually installed first in miniconda. 
+
 There are a number of further software that may become relevant in the next weeks, but do not have to be installed right now. These influde:
 
-- (Most likely [`Discord`](https://discord.com/) for communication purposes)
-- (A command-line shell: [`Bash`](https://www.gnu.org/software/bash/), already included in macOS and LINUX, and under windows probably best to use 'gitbash', which comes with the 'git' package, see next bullet point.)
-- (A version control system: [`Git`](https://git-scm.com/))
-- (A [`GitHub`](https://github.com/) account)
+- Most likely [`Discord`](https://discord.com/) for communication purposes.
+- A command-line shell: [`Bash`](https://www.gnu.org/software/bash/), already included in macOS and LINUX, and under windows probably best to use 'gitbash', which comes with the 'Git for Windows' package, see next bullet point.
+- A version control system: [`Git`](https://git-scm.com/).
+- A [`GitHub`](https://github.com/) account.
 
 
 The rest of this page provides more detail on installation procedures for each of the above elements, with separate instructions for each of the three major operating systems (`Windows`, `Mac OS`, and `Linux`).
@@ -187,25 +189,25 @@ For the course, we will need a few python packages that we will add to our pytho
 
 1. Please generate a folder for this course on your computer. This should be in a more or less easy to reach location (as we may have to write out the path to this folder from time to time). One possibility would be in the main folder of your account, e.g.: 
 
-   /Users/<YourUsername>/pfp_course (macOS, LINUX) or C:\Users\<YourUsername>\ (Windows)
+   /Users/<YourUsername>/pfep_course (macOS, LINUX) or C:\Users\<YourUsername>\pfep_course (Windows)
 
 An alternative would be to locate this folder in your documents folder or in a folder for projects or similar: 
 
-      /Users/<YourUsername>/Documents/pfp_course (macOS, LINUX) or C:\Users\Documents\<YourUsername>\ (Windows)
+      /Users/<YourUsername>/Documents/pfep_course (macOS, LINUX) or C:\Users\Documents\<YourUsername>\Documents\pfep_course (Windows)
 
-      /Users/<YourUsername>/Documents/Projects/pfp_course (macOS, LINUX) or C:\Users\Documents\Projects\<YourUsername>\ (Windows)
+      /Users/<YourUsername>/Documents/Projects/pfep_course (macOS, LINUX) or C:\Users\Documents\Projects\<YourUsername>\Documents\Projects\pfep_course (Windows)
 
 You can generate this folder graphically in the explorer (windows) or finder (macOS) or using the command 'md' in a bash shell or terminal (all operating systems). The most important thing is that your project folder for this course is in a location that you remember. 
 
 
-2. Please download the [`environment.yml`](https://github.com/cfiebach/Python_For_Psychologists_25-26/blob/main/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
+2. Please download the [`environment.yml`](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/environment.yml) file (e.g. with right mouse click -> Save As). Make sure that the file ends with `.yml` and not `.txt`.
 Please move this file your project folder. We will use this file in the next session.
 
 
 ### Modern web browser
 
 Install Firefox or Chrome.
-(Currently, Safari may or may not work.)
+(As of 2025, Safari did not work for what we plan to do.)
 Microsoft Edge is not modern, despite what Microsoft might try and otherwise tell you.
 
 
