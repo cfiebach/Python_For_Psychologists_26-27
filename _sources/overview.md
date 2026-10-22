@@ -10,7 +10,7 @@ While most thesis projects (undergrad and grad), PhD and other positions that ac
 ### TL;DR
 
 Within this course we will explore the [Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), specifically how it can and why it should be utilized within experimental
-psychology. To do so, we will follow a "learning by doing" approach in a tripartite manner. Starting from a basic introduction into `programming` and `python` (Block I), we will evaluate how `python` can be used to run `experiments` (Block II) and `analyze` the resulting `data` (Block III). Thus, we actively seek out `realistic examples` and `workflows`, trying to solve problems with `python`.  Along this way we will also talk about important adjacent topics such as `computing environments` and `IDE`s. For a rather precise outline of the course, please consult the [respective section](https://cfiebach.github.io/Python_For_Psychologists_25-26/setup.html).
+psychology. To do so, we will follow a "learning by doing" approach in a tripartite manner. Starting from a basic introduction into `programming` and `python` (Block I), we will evaluate how `python` can be used to run `experiments` (Block II) and `analyze` the resulting `data` (Block III). Thus, we actively seek out `realistic examples` and `workflows`, trying to solve problems with `python`.  Along this way we will also talk about important adjacent topics such as `computing environments` and `IDE`s. For a rather precise outline of the course, please consult the [respective section](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html).
 
 ### How to reach the folks in the front
 
@@ -30,7 +30,7 @@ Below you will find important details regarding the course summarized in a compa
 
 #### When and where
 
-The course will officially run from October 23th, 2025 till Feburary 12nd, 2026, and will be held Seminarpavillon Room SP 2.04. 
+The course will officially run from October 22nd, 2022 until Feburary 4 or 11, 2027, and will be held in room 5.G018 in the PEG building. 
 
 #### Can I use my calculator?
 
@@ -43,19 +43,19 @@ Well, depends on your calculator, but you'll need frequent access to a computer 
 Nah, everything we'll use is [open-source software](https://en.wikipedia.org/wiki/Open-source_software) or at minimum free of charge and publicly available. 
 Why? Because teaching students via [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) is just not fair and won't help anyone: students have to obtain licenses or use those from the university (which usually doesn't have enough for everyone), leading to tremendous problems regarding inequity now and in the future. Additionally, [open-source software](https://en.wikipedia.org/wiki/Open-source_software) can do everything, if not more than [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) and is furthermore usually better supported, tested and documented, creating a fantastic sense of community. Also, it makes collaoration and sharing resources a lot easier (especially in combination with computing environemnts) which is a MUST for reproducibility and [open science](https://en.wikipedia.org/wiki/Open_science).
 
-In order to help you get all the software required for the course, a [comprehensive installation instruction](https://cfiebach.github.io/Python_For_Psychologists_25-26/setup.html) was compiled. In a step-by-step manner it guides you through the installation process, covering several `OS`: `windows`, `macos` and `linux`. Now the installation of the required packages probably goes beyond the scope of how most people engage with their computers on a daily basis, therefore errors and following frustration may occur. **Please do not be discouraged! If any problems occur during the installation process, please contact me ASAP and we'll get that sorted out**
+In order to help you get all the software required for the course, a [comprehensive installation instruction](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html) was compiled. In a step-by-step manner it guides you through the installation process, covering several `OS`: `windows`, `macos` and `linux`. Now the installation of the required packages probably goes beyond the scope of how most people engage with their computers on a daily basis, therefore errors and following frustration may occur. **Please do not be discouraged! If any problems occur during the installation process, please contact me ASAP and we'll get that sorted out**
 
 <iframe src="https://giphy.com/embed/CTX0ivSQbI78A" width="240" height="177" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/internet-computer-technology-CTX0ivSQbI78A">via GIPHY</a></p>
 
 #### Where is everything?
 
-All course materials (lecture slides, lecture demo notebooks, lab notebooks, homework assignments, etc.) will be available on the [course website](https://cfiebach.github.io/Python_For_Psychologists_25-26/index.html), i.e. the one you're looking at right now. Everything will be completely open and free to use, thus constituting an [open educational resource](https://en.wikipedia.org/wiki/Open_educational_resources) you are **free to explore, enhance and share**. Thus, this website and all materials will also remain up for the entire duration of the course and beyond, ideally to end of the internet. The usage of this resource and the materials therein will be explained at the beginning and throughout the course.  
+All course materials (lecture slides, lecture demo notebooks, lab notebooks, homework assignments, etc.) will be available on the [course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/index.html), i.e. the one you're looking at right now. Everything will be completely open and free to use, thus constituting an [open educational resource](https://en.wikipedia.org/wiki/Open_educational_resources) you are **free to explore, enhance and share**. Thus, this website and all materials will also remain up for the entire duration of the course and beyond, ideally to end of the internet. The usage of this resource and the materials therein will be explained at the beginning and throughout the course.  
 
 <iframe src="https://giphy.com/embed/c20UV66B7zCWA" width="240" height="155" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/superman-phone-looking-c20UV66B7zCWA">via GIPHY</a></p>
 
 #### Syllabus and Text
 
-As noted above, this page serves as the syllabus for this course, with the precise outline indicated in the [respective section](https://cfiebach.github.io/Python_For_Psychologists_25-26/outline.html). This syllabus is subject to change; students who miss class are responsible for learning about any changes to the syllabus.
+As noted above, this page serves as the syllabus for this course, with the precise time schedule outlined in the [respective section](https://cfiebach.github.io/Python_For_Psychologists_26-27/outline.html). This syllabus is subject to change; students who miss class are responsible for learning about any changes to the syllabus.
 
 The course was build with the knowledge of several textbooks, all of which are online and free:
 
@@ -63,7 +63,7 @@ https://www.inferentialthinking.com/
 
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
-For the 2025 course, also check out the "Python for Experimental Psychologists" book by Dalmaijer et al.
+For the 2026 course, also check out the "Python for Experimental Psychologists" book by Dalmaijer et al.
 
 Additional reading material might be added but will always be open & free with students being informed about any addition.
 
@@ -71,11 +71,16 @@ Additional reading material might be added but will always be open & free with s
 
 #### How to get those credits?
 
-As this is a practical lab course intended to provide you with an introduction to using `python` for experimental work via a mixture of guided and independent work, your assignments and tasks will be rather diverse and quite different from other modules. In order to successfully participate in this you will need to work on and hand in multiple things, including `homework assignments`, `python scripts` and `analyses pipelines`.  While this may sound intimidating and out of the scope of your usual course load, it is intended to provide you with a holistic learning experience and the instructors with a way to assess your learning progress (somewhat) individually. The assignments and tasks aim to reflect these aspects and will entail working on research projects, evaluating that of others, reading project-related and general research-related literature and more. All of this will follow [open science practices](https://en.wikipedia.org/wiki/Open_science) & [FAIR principles](https://en.wikipedia.org/wiki/FAIR_data), meaning all work will be completely open & maximized regarding reproducibility. The different parts and grading scheme are further outlined below.  
+As this is a practical lab course intended to provide you with an introduction to using `python` for experimental work via a mixture of guided and independent work, your assignments and tasks will be rather diverse and quite different from other modules. In order to successfully participate in this you will need to work on and hand in multiple things, including `homework assignments`, `python scripts` and `analyses pipelines`.  While this may sound intimidating and out of the scope of your usual course load, it is intended to provide you with a holistic learning experience and the instructors with a way to assess your learning progress (somewhat) individually. The assignments and tasks aim to reflect these aspects and will entail working on research projects, evaluating that of others, reading project-related and general research-related literature and more. All of this will follow [open science practices](https://en.wikipedia.org/wiki/Open_science) & [FAIR principles](https://en.wikipedia.org/wiki/FAIR_data), meaning all work will be completely open & maximized regarding reproducibility. The different parts and grading scheme are further outlined below. 
+
+
+##### Active Participation 
+
+At least for the `python introductory sessions´, participation in person is not mandatory as long as the assignments are handed in to demonstrate active participation and progress. This may be different for data analysis and PsychoPy session, and will be announced.
 
 ##### Exams and Assignments
 
-There will be an assignment that will make up your final grade - a `take-home, open book final exam`. This will entail the generation of an `interactive & reproducible publication`, that is a `data analysis pipeline` which is `documented` and `run` within a `jupyter notebook`, as well as provided in a form that allows others to `openly re-run everything`.  
+There will be an assignment that will make up your final grade - a `take-home, open book final exam`. This will entail the acquisition of one dataset and the generation of an `interactive & reproducible publication`, that is a `data analysis pipeline` which is `documented` and `run` within a `jupyter notebook` applied to the combined dataset from all participants, as well as provided in a form that allows others to `openly re-run everything`.  
 
 For your **participation** there will be `a number of homework assignments`. Assignments will be communicated in the respective sections of this course and during the lectures. Please note that due to the size of the class and only one available instructor, the instructor won't be able to give individual feedback for each homework assignment. 
 
