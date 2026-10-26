@@ -34,10 +34,8 @@ Not applicable, as project related work didn't start yet.
 
 ## Tasks for subsequent meeting 🖥️✍🏽📖
 
-- Your main task for this week is to install the following software packages on your laptop computer: python3 (miniconda) and the PyCharm editor, as described in the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html). PLEASE WAIT UNTIL YOU GET MY FINAL 'GO-SIGNAL' FOR THE INSTALLATION ... we want to be sure everything works. If you have problems with the installation, there is time for trouble shooting in the next session, hosted by Michael Ernst from our lab. Details will follw.
-- Alternatively, you can install the full version of Anaconda, as also described on the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html).
+- Your main task for this week is to install the following software packages on your laptop computer: python3 and a graphical editor (IDE), as described in the [setup section of the course website](https://cfiebach.github.io/Python_For_Psychologists_26-27/setup.html). Preferred, we will use `Anaconda`. If you have problems with the installation, there is time for trouble shooting in the next session, hosted by Michael Ernst from our lab. 
 - If you happen to have a running version of python3 and a code editor, you are good to go, even if you have different installation / software.
-- Check whether you have a bash shell on your computer, also as described on the setup page.
 - Everything else - like downloading materials for the course - we will do together in the next session.
 - Your third task is to download the ebook 'Python for Experimental Psychologists' from the University Library website. 
 

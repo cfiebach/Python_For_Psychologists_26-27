@@ -29,17 +29,15 @@ If you foresee any of these being a problem please reach out to one of the instr
 
 To get the most out of the course, we ask that you to install the following software (software/things in () are not entirely necessary but definitely great to have):
 
-- `Python 3` via (but see also below)
+- `Python 3` (see below - suggested via Anaconda)
 - A remote-capable text editor, also called IDE or integrative development environment, for example  spyder (contained in Anaconda, see below), [`PyCharm`](https://www.jetbrains.com/pycharm/), or [`VSCode`](https://code.visualstudio.com)
 - A `modern web-browser`. Unfortunately, macOS users may want to have a different browser besides 'Safari' (at least as of 2025), like 'Firefox' or 'Chrome'.
 
-If your computer has enough storage space, you can go an easier route and install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/installation). Anconda requires more space on your computer, but makes life a bit easier: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including jupyter notebooks and a graphical IDE, called `spyder`. After installing Anaconda, all these can be opened from a central window, the `Anaconda Navigator`. Let's say you should have clearly >20 GB free on your computer, to go with `Anaconda`.
+The primary way we suggest is to install the [`Anaconda Distribution`](https://www.anaconda.com/docs/getting-started/main). Anconda makes life quite easy: It includes python3, as well as hundreds of data science standard packages. It brings everything you need for this course - including `jupyter notebooks` and a graphical IDE, called `spyder`. After installing Anaconda, all these can be opened from a central window, the `Anaconda Navigator`. To be on the save side, you should have around 10 GB free on your computer to go this route. (To test this, I have just installed Anaconda on a 7 or 8 year old Windows 10 laptop. During installation, it asked for around 6 GB of free disk space, the Anaconda folder on my computer now has the sizee 5.05 GB.)
 
-A more lightweight variant is the installation via [`Miniconda`](https://docs.conda.io/en/latest/miniconda.html). `miniconda` is a frequently used system in scientific computing that contains python, but also is an efficient way of keeping your software packages up to date and of managing the environment in which you conduct scientific computing (like data analysis). Packages that we will use have to be installed manually via the command line - but this is also not difficult. PyCharm is a powerful user interface, in which we can run interactive python notebooks but which also provides us with a terminal window through which we can do other things like installing packages or managing our computing environment. `spyder provides us with the same features, if installing through `Anaconda´. 
+A more lightweight variant is the installation via [`Miniconda`](https://www.anaconda.com/docs/getting-started/concepts/anaconda-or-miniconda#miniconda). `miniconda` is a frequently used system in scientific computing that contains `python` and `conda`as package management system. It is an efficient way of keeping your software packages up to date and of managing the environment in which you conduct scientific computing (like data analysis), but does not yet include a graphical IDE or specific packages. According to the provider, it only uses around 1 GB or so on your computer (but see below). Packages that we will use have to be installed manually via the command line - but this is also not difficult. `PyCharm is a powerful user interface, in which we can run interactive python notebooks but which also provides us with a terminal window through which we can do other things like installing packages or managing our computing environment. (`spyder` provides us with the same features, if installing `Anaconda`.) 
 
-The web browser is not strictly necessary, but for our first steps using interactive jupyter notebooks, we will use the browser. 
-
-*Here is an automatically generated estimate of the storage space that our installations will require on your system:*
+Here is some info on the [`difference between Anaconda and miniconda`](https://www.anaconda.com/docs/getting-started/concepts/anaconda-or-miniconda). *And here is an automatically generated estimate of the storage space that our installations will require on your system:*
 
 | OS | (a) Miniconda + PyCharm + numpy, scipy, pandas, matplotlib, seaborn | (b) Anaconda (packages included, w/out PyCharm) |
 |---|---|---|
@@ -49,7 +47,6 @@ The web browser is not strictly necessary, but for our first steps using interac
 
 
 If you already have any of the above software tools/packages installed (what are you even doing here?), or are confident you’ll be able to install them by the time the course starts, or a have enough programming experience that you have alternative installations with similar functionality, you can use these. 
-
 
 There are a number of further software that may become relevant in the next weeks, but do not have to be installed right now. These influde:
 
@@ -70,6 +67,38 @@ The rest of this page provides more detail on installation procedures if you wan
 - There is no difference between `Enter` and `Return` in these instructions, so just press whatever the equivalent on your keyboard is whenever one is stated
 - If you already have some of these things installed on your computer that should (theoretically) be okay.
 - Having multiple different `Python` installations on your computer can lead to frustrating issues that are very difficult to debug. Thus, if you have already installed `Python` via some other application (not `Miniconda`/`Anaconda`), it's strongly encouraged to uninstall it before following the instructions below. Alternatively, you should (be able to) assure that the basic needed functionality works in your setup. At the moment, this primarily involves running python interactively in jupyter notebooks.
+
+
+### Installing Anaconda
+
+Go to the [`download page`](https://www.anaconda.com/download). Choose the right side (Build with Python) but **DO NOT** click the green button (Get Started with Anaconda Distribution) but rather hit the small link below it: `Skip to download`! From here, everything should be self-explanatory.
+
+To check if the installation works, open `Anaconda`. You should see the `Anaconda Navigator`:
+```{image} static/pfep_anaconda_1_navig.jpeg
+:width: 700px
+:alt: Screenshot Anaconda Navigator
+```
+
+There, click on `jupyter Notebook`. Your browser should open a new window: 
+```{image} static/pfep_anaconda_2_nb_browser.jpeg
+:width: 700px
+:alt: Screenshot jupyter Notebook in Browser Window
+```
+
+
+Here, select `New` > `Python 3 kernel` on the right upper corner. 
+```{image} static/pfep_anaconda_3_startNB.jpeg
+:width: 700px
+:alt: Screenshot Start Notebook
+```
+
+
+A new window should open in the browser, which contains a `jupyter Notebook` with a box in which commands can be executed. Here, type `print("Hello world!")` and hit `Shift+Enter` to execute the command. You should see something like this: 
+```{image} static/pfep_anaconda_4_nb_test.jpeg
+:width: 700px
+:alt: Screenshot Test Code
+```
+
 
 
 ### OS-specific installation instructions
