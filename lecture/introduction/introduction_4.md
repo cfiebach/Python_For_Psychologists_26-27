@@ -25,7 +25,7 @@ You can also download the executable notebook itself from the 'github repository
 
 ## Homework Assignment: Tasks for subsequent meeting 🖥️✍🏽📖
 
-Your third homework assignment will entail working through a few tasks covering the contents discussed in this session within two `jupyter notebooks`. 
+Your third and fourth homework assignment will entail working through a few tasks covering the contents discussed in this session within two `jupyter notebooks`. 
 
 You can download the first part [here](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_3_intro_python_2.ipynb). 
 
