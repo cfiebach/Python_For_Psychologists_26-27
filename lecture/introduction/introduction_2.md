@@ -51,7 +51,7 @@ Please see the rendered version of the `jupyter notebook` [Introduction II - jup
 You can also download the notebook itself so that you can open it in your own browser: https://github.com/cfiebach/Python_For_Psychologists_26-27/tree/main
 
 
-### tasks for subsequent meeting 🖥️✍🏽📖
+### Tasks for subsequent meeting 🖥️✍🏽📖
 
 You should create a `jupyter notebook` with
 - **mandatory**:  `3 different cells`:
