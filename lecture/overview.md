@@ -30,7 +30,7 @@ Below you will find important details regarding the course summarized in a compa
 
 #### When and where
 
-The course will officially run from October 22nd, 2022 until Feburary 4 or 11, 2027, and will be held in room 5.G018 in the PEG building. 
+The course will officially run from October 22, 2026 until Feburary 4 or 11, 2027, and will be held in room 5.G018 in the PEG building. 
 
 #### Can I use my calculator?
 

@@ -31,7 +31,7 @@ Your fifth homework assignment will entail working through a few tasks covering 
 **Remember:** The assignment notebook itself contains info on how to name the finished notebook and where to send it.
 
 
-**Deadline: Tuesday 02/12/2025, 11:59 PM EST**
+**Deadline: Tuesday, November 24, 2026; 23:59h CET**
 
 ## optional/reading/further materials
 

@@ -4,11 +4,11 @@ In the following sections, we will look into running experiments with `psychopy`
 
 ### Experimentation I - Introduction to PsychoPy
 
-See here for more details: https://cfiebach.github.io/Python_For_Psychologists_25-26/experiments/experiments.html
+See here for more details: https://cfiebach.github.io/Python_For_Psychologists_26-27/experiments/experiments.html
 
 
 ### Experimentation II - Data Handling with Pandas
 
-See here for more details: https://cfiebach.github.io/Python_For_Psychologists_25-26/experiments/data_analysis.html
+See here for more details: https://cfiebach.github.io/Python_For_Psychologists_26-27/experiments/data_analysis.html
 
 

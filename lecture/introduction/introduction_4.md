@@ -27,13 +27,13 @@ You can also download the executable notebook itself from the 'github repository
 
 Your third homework assignment will entail working through a few tasks covering the contents discussed in this session within two `jupyter notebooks`. 
 
-You can download the first part [here](https://github.com/cfiebach/Python_For_Psychologists_25-26/blob/main/lecture/homework/PFP_assignment_3_intro_python_2.ipynb). 
+You can download the first part [here](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_3_intro_python_2.ipynb). 
 
-**Deadline: 24/11/2025, 11:59 PM EST**
+**Deadline: Tuesday, November 17, 2026; 23:59h CET**
 
-You can download the second part of the homework [here](https://github.com/cfiebach/Python_For_Psychologists_25-26/blob/main/lecture/homework/PFP_assignment_4_intro_python_2.ipynb). 
+You can download the second part of the homework [here](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_4_intro_python_2.ipynb). 
 
-**Deadline: November 26 2025, 11:59 PM** 
+**Deadline: Tuesday, November 19, 2026; 23:59h CET** 
 
 In order to open these assignments, put the `homework assignment notebook` into the folder you stored the `course materials` in, start a `jupyter notebook` as during the sessions, navigate to the `homework assignment notebook`, open it and have fun! NB: a substantial part of it will be _optional_ and thus the notebook will look way longer than it actually is. Also remember that you can work on your homework in groups, as long as you indicate at the top of the homework notebook, with whom you've worked together.
 
