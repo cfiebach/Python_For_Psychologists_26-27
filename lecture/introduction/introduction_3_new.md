@@ -29,7 +29,7 @@ Your second homework assignment will entail working through a few tasks covering
 
 **NOTE:** You actually have multiple options to work with the downloaded 'jupyter notebook'. You can start a 'jupyter server' in your web browser like we did last session. However, you can also open the jupyter notebook in 'PyCharm' or in any other interactive editor that you may happen to be using anyway (like 'VSCode'). This is up to you.
 
-**Deadline: 17.11.2025**
+**Deadline: Tuesday, November 10, 2026; 23:59h CET**
 
 ## optional/reading/further materials
 

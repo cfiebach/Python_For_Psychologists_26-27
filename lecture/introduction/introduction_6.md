@@ -12,7 +12,7 @@ This session, we'll build upon the things learned in the last weeks and see how 
 
 ## Materials 📓
 
-Please see the rendered version of the `jupyter notebook` [Introduction VI - Introduction to Python IV](https://cfiebach.github.io/Python_For_Psychologists_25-26/introduction/intro_python_IV.html) in the `ToC` on the left.
+Please see the rendered version of the `jupyter notebook` [Introduction VI - Introduction to Python IV](https://cfiebach.github.io/Python_For_Psychologists_26-27/introduction/intro_python_IV.html) in the `ToC` on the left.
 
 
 ## Project related work 🥼🧑🏿‍🔬👩🏻‍🔬
@@ -20,8 +20,10 @@ Please see the rendered version of the `jupyter notebook` [Introduction VI - Int
 Not applicable, as project related work didn't start yet.
 
 
-## tasks for subsequent meeting 🖥️✍🏽📖
-You can download the homework for next week [here](https://github.com/cfiebach/Python_For_Psychologists_25-26/blob/main/lecture/homework/PFP_assignment_6_intro_python_4.ipynb). It is due Wednesday 10.12.2025
+## Tasks for subsequent meeting 🖥️✍🏽📖
+You can download the homework for next week [here](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_6_intro_python_4.ipynb).
+
+**Deadline: Wednesday, December 02, 2026; 23:59h CET**
 
 
 ## Prepare PsychoPy installation
