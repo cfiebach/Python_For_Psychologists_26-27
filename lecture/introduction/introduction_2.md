@@ -21,11 +21,11 @@ We can also check which packages are installed in your system:
 
 Now let us generate a new environment for this course: 
 
-        conda create -n pfp2025 python=3.13
+        conda create -n pfp2026 python=3.13
 
 Use the above command to check whether it indeed extists, and then activate it: 
 
-        conda activate pfp25
+        conda activate pfp26
 
 Next, let's install some of the packages we need: 
 
@@ -45,10 +45,10 @@ Finally, let's start jupyter notebook and have a look: 'jupyter notebook'
 
 ### Materials 📓
 
-Please see the rendered version of the `jupyter notebook` [Introduction II - jupyter notebooks](https://cfiebach.github.io/Python_For_Psychologists_25-26/introduction/intro_jupyter.html) in the `ToC` on the left.
+Please see the rendered version of the `jupyter notebook` [Introduction II - jupyter notebooks](https://cfiebach.github.io/Python_For_Psychologists_26-27/introduction/intro_jupyter.html) in the `ToC` on the left.
 
 
-You can also download the notebook itself so that you can open it in your own browser: https://tinyurl.com/pfp25github
+You can also download the notebook itself so that you can open it in your own browser: https://tinyurl.com/pfp26github
 
 
 ### tasks for subsequent meeting 🖥️✍🏽📖
@@ -62,7 +62,7 @@ You should create a `jupyter notebook` with
 - **optional**: try to include a picture of your favorite animal
 - save the notebook and e-mail it to fiebach@psych.uni-frankfurt.de
 
-Please note that the deadline for the assignment is: Tuesday Nov 11 2025, 11:59 PM EST.
+Please note that the deadline for the assignment is: Tuesday Nov 3 2026, 11:59 PM EST.
 
 
 If you're eager to explore more, feel free to do so, for example [over here](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html). 
