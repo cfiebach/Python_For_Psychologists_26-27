@@ -96,7 +96,6 @@ Here, select `New` > `Python 3 kernel` on the right upper corner.
 A new window should open in the browser, which contains a `jupyter Notebook` with a box in which commands can be executed. Here, type `print("Hello world!")` and hit `Shift+Enter` to execute the command. You should see something like this: 
 
 ```{image} static/pfep_anaconda_4_nb_test.jpeg
-:width: 700px
 :alt: Screenshot Test Code
 ```
 
