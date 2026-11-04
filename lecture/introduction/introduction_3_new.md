@@ -27,7 +27,7 @@ You can download the executable notebook itself from the `github repository` of 
 
 Your second homework assignment will entail working through a few tasks covering the contents discussed in this session within a `jupyter notebook`. You can download it [here](https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_2_intro_python_1.ipynb). This links leads you to the github repository of our website, and it shows the `jupyter notebook`. Please use the download button to make a local copy of the file: 
 
-```{image} lecture/static/screenshot_download_assignment.png
+```{image} ../../static/screenshot_download_assignment.png
 :width: 700px
 :alt: Screenshot download notebook
 ```
