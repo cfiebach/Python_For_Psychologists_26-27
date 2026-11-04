@@ -5,7 +5,7 @@ Today, we will **start working with the `python` programming language** - nothin
 **Note that I cannot be in Frankfurt for this weeks' session**, so that I ask you to work on your own and at your own pace through this `jupyter notebook`. Note that there are a few exercises embedded into the jupyter notebook. We strongly encourage you to try these out, either by opening a new notebook to code in, or by downloading the executable notebook from the github repository as described below! **Please also note that there is a homework assignment going along with this week's session!**
 
 
-## Title of today's session: Introduction to Python - Part I
+## Title of today's lecture: Introduction to Python - Part I
 The big moment is finally here: we will start exploring `python` itself. Within the first block of programming with `python` we will go through some of the basics of the `python` programming language, including what `modules` and `functions` are, what `variables` are, what different `data types` exist in python, and how to `assign` data to variables.
 
 ## Objectives 📍
@@ -20,7 +20,7 @@ Please see the rendered version of the `jupyter notebook` [Introduction III - In
 
 You can download the executable notebook itself from the `github repository` of the course, here (you find it under the subfolder `lecture/introduction`; the link takes you directly to the `lecture`folder): https://tinyurl.com/pfp26github
 
-**NOTE:** Download the 'jupyter notebook' and store it on your computer, at a location where you can easily find (e.g., a folder for the course). Start `jupyter notebook` from `Anaconda`, like you have done it last week. In `jupyter notebook`, use the `File` menu (top left) and then `Open ...` to  navigate to the downloaded file and open it. You can now work with an active `python notebook`!
+**NOTE:** Download the 'jupyter notebook' and store it on your computer, at a location where you can easily find (e.g., a folder for the course). Start `jupyter notebook` from `Anaconda`, like you have done it last week. In `jupyter notebook, use the `File` menu (top left) and then `Open ...` to  navigate to the downloaded file and open it. You can now work with an active `python notebook`!
 
 
 ## Homework Assignment
