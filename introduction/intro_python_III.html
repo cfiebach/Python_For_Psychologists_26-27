@@ -206,8 +206,6 @@
 <li class="toctree-l3 current active"><a class="current reference internal" href="#">Introductory Session V: Introduction to Python - Part III</a></li>
 
 
-
-
 </ul>
 </details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="introduction_6.html">Introductory Session VI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -550,19 +548,20 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">Objectives 📍</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">Indentation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#control-flow-structures">Control Flow &amp; Structures</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditional-statements-if-elif-else">Conditional statements: if, elif, else</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditional-statements-if-elif-else">Conditional statements: if, elif, else</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-1">Exercise 2.1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-2">Exercise 2.2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-3-last-one-promised">Exercise 2.3 - Last one, promised!</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><center><img src="https://www.alphacodingskills.com/python/img/python-if-elif-else.png" width="600"/></center></a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#alphacodingskills-python-if-elif-else"><center><a href="https://www.alphacodingskills.com/python/img/python-if-elif-else.png">alphacodingskills: Python-if-elif-else</a></center></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-1">Exercise 2.1</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-2">Exercise 2.2</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-3-last-one-i-promise">Exercise 2.3 - Last one, I promise!</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#loops">Loops</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#break-continue-and-pass"><code class="docutils literal notranslate"><span class="pre">break</span></code>, <code class="docutils literal notranslate"><span class="pre">continue</span></code> and <code class="docutils literal notranslate"><span class="pre">pass</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-1">Exercise 3.1</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-2">Exercise 3.2</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-3">Exercise 3.3</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#last-but-not-least-list-comprehensions-creating-lists-using-for-loops"><strong>LAST BUT NOT LEAST: List comprehensions - creating lists using <code class="docutils literal notranslate"><span class="pre">for</span></code> loops</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-4">Exercise 3.4</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-5">Exercise 3.5</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-6">Exercise 3.6</a></li>
@@ -876,27 +875,11 @@ A single <code class="docutils literal notranslate"><span class="pre">whitespace
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-    <span class="n">current_day</span> <span class="o">=</span> <span class="s1">'Saturday'</span>
-    <span class="o">^</span>
-<span class="ne">IndentationError</span>: unexpected indent
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>    <span class="n">days_til_christmas</span> <span class="o">=</span> <span class="mi">51</span>
         <span class="n">current_day</span> <span class="o">=</span> <span class="s1">'Saturday'</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-    <span class="n">current_day</span> <span class="o">=</span> <span class="s1">'Saturday'</span>
-    <span class="o">^</span>
-<span class="ne">IndentationError</span>: unexpected indent
 </pre></div>
 </div>
 </div>
@@ -924,15 +907,8 @@ A single <code class="docutils literal notranslate"><span class="pre">whitespace
 <br>
 <center><a href="https://www.learnbyexample.org/wp-content/uploads/python/Python-elif-Statement-Syntax.png">learnbyexample: Python-elif-Statement-Syntax</a></center>
 <p>Here is another way of visualizing this:</p>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1><center><img src="https://www.alphacodingskills.com/python/img/python-if-elif-else.png" width=600></center><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="alphacodingskills-python-if-elif-else">
-<h1><center><a href="https://www.alphacodingskills.com/python/img/python-if-elif-else.png">alphacodingskills: Python-if-elif-else</a></center><a class="headerlink" href="#alphacodingskills-python-if-elif-else" title="Permalink to this heading">#</a></h1>
 <p align="center">
-  <img src="images/if_elif_else.gif" width="600" alt="Python if / elif / else: which branch runs for three reaction times">
+  <img src="../static/if_elif_else.gif" width="600" alt="Python if / elif / else: which branch runs for three reaction times">
 </p>
 <p>To quickly demonstrate, we’ll define two <code class="docutils literal notranslate"><span class="pre">False</span></code> statements and see how <code class="docutils literal notranslate"><span class="pre">if</span></code>, <code class="docutils literal notranslate"><span class="pre">elif</span></code> and <code class="docutils literal notranslate"><span class="pre">else</span></code> deal with <code class="docutils literal notranslate"><span class="pre">boolean</span></code>s:</p>
 <div class="cell docutils container">
@@ -948,11 +924,6 @@ A single <code class="docutils literal notranslate"><span class="pre">whitespace
     
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"statement1 and statement2 are False"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>statement1 and statement2 are False
 </pre></div>
 </div>
 </div>
@@ -1055,7 +1026,7 @@ OK: `If` `conditionals` care about `indentation`. What happens if we're not on t
 </div>
 </div>
 <section id="exercise-2-1">
-<h2>Exercise 2.1<a class="headerlink" href="#exercise-2-1" title="Permalink to this heading">#</a></h2>
+<h3>Exercise 2.1<a class="headerlink" href="#exercise-2-1" title="Permalink to this heading">#</a></h3>
 <p>You want to go to the cinema, but you first need to check whether you have enough money.
 First define a <code class="docutils literal notranslate"><span class="pre">variable</span></code> indicating the amount of money in your wallet <code class="docutils literal notranslate"><span class="pre">money_in_wallet</span></code> as <code class="docutils literal notranslate"><span class="pre">6</span> <span class="pre">EUR</span></code> and the ticket price for the cinema <code class="docutils literal notranslate"><span class="pre">ticket_price</span></code> as <code class="docutils literal notranslate"><span class="pre">10</span> <span class="pre">EUR</span></code>.</p>
 <p>Indicate with a <code class="docutils literal notranslate"><span class="pre">print</span></code> statement <code class="docutils literal notranslate"><span class="pre">IF</span></code> you can afford to go to the cinema! Use both <code class="docutils literal notranslate"><span class="pre">if</span></code> and <code class="docutils literal notranslate"><span class="pre">else</span></code> <code class="docutils literal notranslate"><span class="pre">conditionals</span></code> to print wether you’re going out or staying home.</p>
@@ -1068,7 +1039,7 @@ First define a <code class="docutils literal notranslate"><span class="pre">vari
 </div>
 </section>
 <section id="exercise-2-2">
-<h2>Exercise 2.2<a class="headerlink" href="#exercise-2-2" title="Permalink to this heading">#</a></h2>
+<h3>Exercise 2.2<a class="headerlink" href="#exercise-2-2" title="Permalink to this heading">#</a></h3>
 <p>Different films cost different amounts of money. Use <code class="docutils literal notranslate"><span class="pre">if</span></code> statements to tests <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">films</span></code> you can afford and <code class="docutils literal notranslate"><span class="pre">print</span></code> those. The films cost:</p>
 <ul class="simple">
 <li><p>Napoleon: 15 EUR</p></li>
@@ -1085,8 +1056,8 @@ First define a <code class="docutils literal notranslate"><span class="pre">vari
 </div>
 </div>
 </section>
-<section id="exercise-2-3-last-one-i-promise">
-<h2>Exercise 2.3 - Last one, I promise!<a class="headerlink" href="#exercise-2-3-last-one-i-promise" title="Permalink to this heading">#</a></h2>
+<section id="exercise-2-3-last-one-promised">
+<h3>Exercise 2.3 - Last one, promised!<a class="headerlink" href="#exercise-2-3-last-one-promised" title="Permalink to this heading">#</a></h3>
 <p>This year you want to treat your dog with a christmas present but obviously only if it was a <code class="docutils literal notranslate"><span class="pre">good</span> <span class="pre">boy</span></code>. Depending on the <code class="docutils literal notranslate"><span class="pre">money</span> <span class="pre">in</span> <span class="pre">your</span> <span class="pre">wallet</span></code>, you can <code class="docutils literal notranslate"><span class="pre">either</span></code> buy a <code class="docutils literal notranslate"><span class="pre">new</span> <span class="pre">toy</span></code> for <code class="docutils literal notranslate"><span class="pre">10</span> <span class="pre">EUR</span></code> or <code class="docutils literal notranslate"><span class="pre">instead</span></code> go on a <code class="docutils literal notranslate"><span class="pre">nice</span> <span class="pre">long</span> <span class="pre">walk</span></code> <code class="docutils literal notranslate"><span class="pre">if</span></code> you don’t have any money.</p>
 <p>Write a <code class="docutils literal notranslate"><span class="pre">nested</span></code> <code class="docutils literal notranslate"><span class="pre">if</span></code> statement to test which present you can buy if your dog was a <code class="docutils literal notranslate"><span class="pre">good</span> <span class="pre">boy</span></code>. Your current endowment is <code class="docutils literal notranslate"><span class="pre">11</span> <span class="pre">EUR</span></code>.</p>
 </br>
@@ -1102,6 +1073,7 @@ First define a <code class="docutils literal notranslate"><span class="pre">vari
 </br>
 <center><img src="https://i.pinimg.com/736x/f1/be/86/f1be8629d5673e3261726e5011c46e5a.jpg"></center>
 <p>Wait no more. We have a solution (at least for some situations)!</p>
+</section>
 </section>
 <section id="loops">
 <h2>Loops<a class="headerlink" href="#loops" title="Permalink to this heading">#</a></h2>
@@ -1171,7 +1143,7 @@ For example:</p>
 </div>
 </div>
 </div>
-<p>Note: <code class="docutils literal notranslate"><span class="pre">range(4)</span></code> does not include <code class="docutils literal notranslate"><span class="pre">4</span></code>! Try to remember the aspects of <code class="docutils literal notranslate"><span class="pre">indexing</span></code> and <code class="docutils literal notranslate"><span class="pre">slicing</span></code> we addressed during the session on <code class="docutils literal notranslate"><span class="pre">string</span></code>s and <code class="docutils literal notranslate"><span class="pre">list</span></code>s.</p>
+<p>Note: <code class="docutils literal notranslate"><span class="pre">range(4)</span></code> does not include <code class="docutils literal notranslate"><span class="pre">4</span></code>! Try to remember the aspects of <code class="docutils literal notranslate"><span class="pre">indexing</span></code> and <code class="docutils literal notranslate"><span class="pre">slicing</span></code> we addressed during last week’s session on <code class="docutils literal notranslate"><span class="pre">string</span></code>s and <code class="docutils literal notranslate"><span class="pre">list</span></code>s.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">):</span>
@@ -1415,15 +1387,18 @@ For example:</p>
 </div>
 </div>
 </div>
-<p><strong>LAST BUT NOT LEAST: List comprehensions: Creating lists using <code class="docutils literal notranslate"><span class="pre">for</span></code> loops</strong>:</p>
-<p>Now you might encounter some strange looking loops when looking for code online. To keep code sparse and simple looking, programmers may sometimes opt to use a single line instead of an indented block for their loops by using <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehensions</span></code>.</p>
+<br>
+</section>
+</section>
+<section id="last-but-not-least-list-comprehensions-creating-lists-using-for-loops">
+<h3><strong>LAST BUT NOT LEAST: List comprehensions - creating lists using <code class="docutils literal notranslate"><span class="pre">for</span></code> loops</strong><a class="headerlink" href="#last-but-not-least-list-comprehensions-creating-lists-using-for-loops" title="Permalink to this heading">#</a></h3>
+<p>Now - you might encounter some strange looking loops when looking for code online. To keep code sparse and simple looking, programmers may sometimes opt to use a single line instead of an indented block for their loops by using <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehensions</span></code>.</p>
 <p>A convenient and compact way to initialize lists would then look like this:</p>
 </br>
 <center><img src="https://www.learnbyexample.org/wp-content/uploads/python/Python-List-Comprehension-Syntax.png" width=600></center>
 <center><small><small><small><small><small><small><small>https://www.learnbyexample.org/wp-content/uploads/python/Python-List-Comprehension-Syntax.png</small></small></small></small></small></small></small></center>
 </br>
-How would you explains this code snippet in natural language?<center><img src="https://4.bp.blogspot.com/-uRPZqKbIGwQ/XRtgWhC6qqI/AAAAAAAAH0w/--oGnwKsnpo00GwQgH2gV3RPwHwK8uONgCLcBGAs/s1600/comprehension.PNG" width=600></center>
-<center><small><small><small><small><small><small><small>https://4.bp.blogspot.com/-uRPZqKbIGwQ/XRtgWhC6qqI/AAAAAAAAH0w/--oGnwKsnpo00GwQgH2gV3RPwHwK8uONgCLcBGAs/s1600/comprehension.PNG</small></small></small></small></small></small></small></center><p>We’ll use it to <code class="docutils literal notranslate"><span class="pre">square</span></code> every number <code class="docutils literal notranslate"><span class="pre">x</span></code> in a <code class="docutils literal notranslate"><span class="pre">list</span></code> containing the numbers 0 - 4 and add those to a new <code class="docutils literal notranslate"><span class="pre">list</span></code> called <code class="docutils literal notranslate"><span class="pre">list_x_squared</span></code>:</p>
+How would you explains this code snippet in natural language?<p>Now let’s try to use this syntax to <code class="docutils literal notranslate"><span class="pre">square</span></code> every number <code class="docutils literal notranslate"><span class="pre">x</span></code> in a <code class="docutils literal notranslate"><span class="pre">list</span></code> containing the numbers 0 - 4 and add those to a new <code class="docutils literal notranslate"><span class="pre">list</span></code> called <code class="docutils literal notranslate"><span class="pre">list_x_squared</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">list_x_squared</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">)]</span>
@@ -1433,7 +1408,9 @@ How would you explains this code snippet in natural language?<center><img src="h
 </div>
 </div>
 </div>
-<p>You can also use an <code class="docutils literal notranslate"><span class="pre">if</span> <span class="pre">statement</span></code> in your <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehension</span></code>. But be careful with the <code class="docutils literal notranslate"><span class="pre">ordering</span></code>. A <em>single if</em> can be after the for loop. However, <em>if and else together</em> have to be in front. Lets see some examples.</p>
+<p>Let’s make things even a bit more complex (but very efficient …):</p>
+<center><img src="https://4.bp.blogspot.com/-uRPZqKbIGwQ/XRtgWhC6qqI/AAAAAAAAH0w/--oGnwKsnpo00GwQgH2gV3RPwHwK8uONgCLcBGAs/s1600/comprehension.PNG" width=600></center>
+<center><small><small><small><small><small><small><small>https://4.bp.blogspot.com/-uRPZqKbIGwQ/XRtgWhC6qqI/AAAAAAAAH0w/--oGnwKsnpo00GwQgH2gV3RPwHwK8uONgCLcBGAs/s1600/comprehension.PNG</small></small></small></small></small></small></small></center><p>You can also use an <code class="docutils literal notranslate"><span class="pre">if</span> <span class="pre">statement</span></code> in your <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehension</span></code>. But be careful with the <code class="docutils literal notranslate"><span class="pre">ordering</span></code>. A <em>single if</em> can be after the for loop. However, <em>if and else together</em> have to be in front. Lets see some examples.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># if our x is greater than 2, run the list comprehension</span>
@@ -1461,7 +1438,6 @@ How would you explains this code snippet in natural language?<center><img src="h
 </div>
 </div>
 <p>Don’t be discouraged if that looks confusing, you’ll get the hang of it once you actually start working or fiddling  with <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehensions</span></code>. Further, it is always fine to use the explicit loop structure, we’ve learned before!</p>
-</section>
 <section id="exercise-3-4">
 <h4>Exercise 3.4<a class="headerlink" href="#exercise-3-4" title="Permalink to this heading">#</a></h4>
 <p>Use a <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehension</span></code> to create a <code class="docutils literal notranslate"><span class="pre">list</span></code> containing <code class="docutils literal notranslate"><span class="pre">all</span> <span class="pre">letters</span></code> that are in the word ‘human’.</p>
@@ -1478,6 +1454,13 @@ How would you explains this code snippet in natural language?<center><img src="h
 <h4>Exercise 3.5<a class="headerlink" href="#exercise-3-5" title="Permalink to this heading">#</a></h4>
 <p>Use a <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">comprehension</span></code> to create a <code class="docutils literal notranslate"><span class="pre">list</span></code> with all <strong>even</strong> numbers from <code class="docutils literal notranslate"><span class="pre">0</span> <span class="pre">to</span> <span class="pre">19</span></code>.</p>
 <p><em>Where would you use your <code class="docutils literal notranslate"><span class="pre">if</span></code> statement?</em></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">### Write your solution here ###</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="exercise-3-6">
 <h4>Exercise 3.6<a class="headerlink" href="#exercise-3-6" title="Permalink to this heading">#</a></h4>
@@ -1490,6 +1473,7 @@ How would you explains this code snippet in natural language?<center><img src="h
 </div>
 </div>
 </div>
+<br>
 </section>
 </section>
 </section>
@@ -1575,13 +1559,13 @@ How would you explains this code snippet in natural language?<center><img src="h
 </div>
 </div>
 </div>
+<br>
 </section>
 </section>
 <section id="homework-assignment-5">
 <h2>Homework assignment #5<a class="headerlink" href="#homework-assignment-5" title="Permalink to this heading">#</a></h2>
-<p>Your fifth homework assignment will entail working through a few tasks covering the contents discussed in this session within of a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code>. You can download it <a class="reference external" href="https://github.com/cfiebach/Python_For_Psychologists_25-26/blob/main/lecture/homework/PFP_assignment_5_intro_python_3.ipynb">here</a>. In order to open it, put the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code> within the folder in which you stored the <code class="docutils literal notranslate"><span class="pre">course</span> <span class="pre">materials</span></code>, start a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code> as always, navigate to the new <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code>, open it and have fun! NB: a substantial part of it will be <em>optional</em> and thus the notebook will look way longer than it actually is.</p>
-<p><strong>Deadline: Tuesday 02/12/2025, 11:59 PM EST</strong></p>
-<p>Also, in preparation for our switch to more applied things, i.e. starting with experiments in <code class="docutils literal notranslate"><span class="pre">python</span></code>. We’ll have to install <code class="docutils literal notranslate"><span class="pre">psychopy</span></code>. To do that please download the programm from <a class="reference external" href="https://www.psychopy.org/download.html">here</a> and follow the instructions for your specific operating system. If you encounter any Problems, please let me know!</p>
+<p>Your fifth homework assignment will entail working through a few tasks covering the contents discussed in this session within of a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code>. You can download it <a class="reference external" href="https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_5_intro_python_3.ipynb">here</a>. In order to open it, put the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code> into the folder in which you store your <code class="docutils literal notranslate"><span class="pre">course</span> <span class="pre">materials</span></code>, start a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code> as always, navigate to the new <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code>, open it and have fun! NB: a substantial part of it will be <em>optional</em> and thus the notebook will look way longer than it actually is.</p>
+<p><strong>Deadline: Tuesday 24/11/2026, 11:59 PM EST</strong></p>
 <section id="and-this-concludes-today-s-session">
 <h3>And this concludes today’s session.<a class="headerlink" href="#and-this-concludes-today-s-session" title="Permalink to this heading">#</a></h3>
 <p>Great work everyone! You’re on your way to actually understand this madness!</p>
@@ -1675,19 +1659,20 @@ How would you explains this code snippet in natural language?<center><img src="h
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">Objectives 📍</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indentation">Indentation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#control-flow-structures">Control Flow &amp; Structures</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditional-statements-if-elif-else">Conditional statements: if, elif, else</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conditional-statements-if-elif-else">Conditional statements: if, elif, else</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-1">Exercise 2.1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-2">Exercise 2.2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-3-last-one-promised">Exercise 2.3 - Last one, promised!</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><center><img src="https://www.alphacodingskills.com/python/img/python-if-elif-else.png" width="600"/></center></a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#alphacodingskills-python-if-elif-else"><center><a href="https://www.alphacodingskills.com/python/img/python-if-elif-else.png">alphacodingskills: Python-if-elif-else</a></center></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-1">Exercise 2.1</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-2">Exercise 2.2</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-3-last-one-i-promise">Exercise 2.3 - Last one, I promise!</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#loops">Loops</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#break-continue-and-pass"><code class="docutils literal notranslate"><span class="pre">break</span></code>, <code class="docutils literal notranslate"><span class="pre">continue</span></code> and <code class="docutils literal notranslate"><span class="pre">pass</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-1">Exercise 3.1</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-2">Exercise 3.2</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-3">Exercise 3.3</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#last-but-not-least-list-comprehensions-creating-lists-using-for-loops"><strong>LAST BUT NOT LEAST: List comprehensions - creating lists using <code class="docutils literal notranslate"><span class="pre">for</span></code> loops</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-4">Exercise 3.4</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-5">Exercise 3.5</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-6">Exercise 3.6</a></li>
