@@ -530,7 +530,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Introductory Session VI: Introduction to Python - Part IV</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#before-we-get-started">Before we get started …</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#here-s-what-we-will-focus-on-in-today-s-block">Here’s what we will focus on in today’s block:**</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#here-s-what-we-will-focus-on-in-today-s-block">Here’s what we will focus on in today’s block:</a></li>
 </ul>
 </li>
 </ul>
@@ -540,12 +540,10 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#if-conditionals">if conditionals</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#while-loops">while loops</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functions">Functions</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#very-important-functions-local-vs-global-variables"><strong>Very important</strong>: functions &amp; local vs. global variables</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#very-important-functions-local-vs-global-variables"><strong>Very important</strong>: functions &amp; <code class="docutils literal notranslate"><span class="pre">local</span></code> vs. <code class="docutils literal notranslate"><span class="pre">global</span></code> variables</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-docstring">The <code class="docutils literal notranslate"><span class="pre">docstring</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positional-vs-keyword-arguments">Positional vs. keyword arguments</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#default-values">Default values</a></li>
-</ul>
-</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positional-vs-keyword-arguments">Positional vs. keyword arguments</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#default-values">Default values</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#let-s-quickly-talk-about-function-names">Let’s quickly talk about function names…</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument-unpacking-with-args-and-kwargs">Argument unpacking with <code class="docutils literal notranslate"><span class="pre">*args</span></code> and <code class="docutils literal notranslate"><span class="pre">*kwargs</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-1">Exercise 4.1</a></li>
@@ -579,18 +577,15 @@ document.write(`
 <p><a class="reference external" href="http://www.fiebachlab.org/">Fiebach Lab</a>, <a class="reference external" href="https://www.psychologie.uni-frankfurt.de/49868684/Abteilungen">Neurocognitive Psychology</a> at <a class="reference external" href="https://www.goethe-university-frankfurt.de/en?locale=en">Goethe-University Frankfurt</a></p>
 <section id="before-we-get-started">
 <h2>Before we get started …<a class="headerlink" href="#before-we-get-started" title="Permalink to this heading">#</a></h2>
-<br>
-- most of what you’ll see within this lecture was prepared by Ross Markello, Michael Notter and Peer Herholz and further adapted for this course by Maren Wehrheim, Michael Ernst, and Aylin Kallmayer
-- based on Tal Yarkoni's ["Introduction to Python" lecture at Neurohackademy 2019](https://neurohackademy.org/course/introduction-to-python-2/)
-- based on [IPython notebooks from J. R. Johansson](http://github.com/jrjohansson/scientific-python-lectures)
-- based on http://www.stavros.io/tutorials/python/ & http://www.swaroopch.com/notes/python
-- based on https://github.com/oesteban/biss2016 &  https://github.com/jvns/pandas-cookbook
-<p><a class="reference internal" href="#"><span class="xref myst">Maren Wehrheim</span></a></p>
-<p>Phd student - <a class="reference external" href="https://www.fias.science/en/life-and-neurosciences/research-groups/matthias-kaschube/">FIAS(Frankfurt Institute for Advanced Studies) - Kaschube-Lab</a> and <a class="reference external" href="http://www.fiebachlab.org/">Fiebach Lab</a>, <a class="reference external" href="https://www.psychologie.uni-frankfurt.de/49868684/Abteilungen">Neurocognitive Psychology</a> at <a class="reference external" href="https://www.goethe-university-frankfurt.de/en?locale=en">Goethe-University Frankfurt</a>
-<img align="left" src="https://raw.githubusercontent.com/G0RELLA/gorella_mwn/master/lecture/static/GitHub-Mark-120px-plus.png" alt="logo" title="Github" width="30" height="20" /></p>
-<p><a class="reference external" href="https://github.com/maren7794">&#64;maren7794</a></p>
-<p>What we will do in this section of the course is a <em>short</em> introduction to <code class="docutils literal notranslate"><span class="pre">Python</span></code> to help beginners to get familiar with this <code class="docutils literal notranslate"><span class="pre">programming</span> <span class="pre">language</span></code>.</p>
-<p>It is divided into the following chapters:</p>
+<ul class="simple">
+<li><p>most of what you’ll see within this lecture was prepared by Ross Markello, Michael Notter and Peer Herholz and further adapted for this course by Maren Wehrheim, Michael Ernst, and Aylin Kallmayer</p></li>
+<li><p>based on Tal Yarkoni’s <a class="reference external" href="https://neurohackademy.org/course/introduction-to-python-2/">“Introduction to Python” lecture at Neurohackademy 2019</a></p></li>
+<li><p>based on <a class="reference external" href="http://github.com/jrjohansson/scientific-python-lectures">IPython notebooks from J. R. Johansson</a></p></li>
+<li><p>based on <a class="reference external" href="http://www.stavros.io/tutorials/python/">http://www.stavros.io/tutorials/python/</a> &amp; <a class="reference external" href="http://www.swaroopch.com/notes/python">http://www.swaroopch.com/notes/python</a></p></li>
+<li><p>based on <a class="github reference external" href="https://github.com/oesteban/biss2016">oesteban/biss2016</a> &amp;  <a class="github reference external" href="https://github.com/jvns/pandas-cookbook">jvns/pandas-cookbook</a></p></li>
+</ul>
+<p>What we are doing in this first part of the course is a <em>short</em> introduction to <code class="docutils literal notranslate"><span class="pre">Python</span></code> to help beginners to get familiar with this <code class="docutils literal notranslate"><span class="pre">programming</span> <span class="pre">language</span></code>.</p>
+<p>As you already know, it is divided into the following chapters:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#Module"><span class="xref myst">Module</span></a></p></li>
 <li><p><a class="reference internal" href="#Help-and-Descriptions"><span class="xref myst">Help and Descriptions</span></a></p></li>
@@ -634,7 +629,7 @@ document.write(`
 </li>
 </ul>
 <section id="here-s-what-we-will-focus-on-in-today-s-block">
-<h3>Here’s what we will focus on in today’s block:**<a class="headerlink" href="#here-s-what-we-will-focus-on-in-today-s-block" title="Permalink to this heading">#</a></h3>
+<h3>Here’s what we will focus on in today’s block:<a class="headerlink" href="#here-s-what-we-will-focus-on-in-today-s-block" title="Permalink to this heading">#</a></h3>
 <p><strong>Recap from last session:</strong></p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#Indentation"><span class="xref myst">Indentation</span></a></p></li>
@@ -667,7 +662,7 @@ document.write(`
 <h1>Recap of the last session<a class="headerlink" href="#recap-of-the-last-session" title="Permalink to this heading">#</a></h1>
 <section id="indentation-for-loops">
 <h2>Indentation, for loops<a class="headerlink" href="#indentation-for-loops" title="Permalink to this heading">#</a></h2>
-<p>We want to program an experiment and need a list of all possible combinations of four different experimental conditions (cond_a to cond_d), stimuli (20 stimuli per condition), and response hands (left vs. right). We could type this in Excel by hand resulting in 160 lines, or we could automatically write some <code class="docutils literal notranslate"><span class="pre">python</span></code> code with <code class="docutils literal notranslate"><span class="pre">for</span> <span class="pre">loops</span></code> to get the job done more quickly.</p>
+<p><em>Example application:</em> We want to program an experiment and need a list of all possible combinations of four different experimental conditions (cond_a to cond_d), stimuli (20 stimuli per condition), and response hands (left vs. right). We could type this in Excel by hand resulting in 160 lines, or we could automatically write some <code class="docutils literal notranslate"><span class="pre">python</span></code> code with <code class="docutils literal notranslate"><span class="pre">for</span> <span class="pre">loops</span></code> to get the job done more quickly.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Please write your solution here</span>
@@ -675,7 +670,6 @@ document.write(`
 <span class="n">stimuli</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">21</span><span class="p">))</span>
 <span class="n">hands</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"left"</span><span class="p">,</span> <span class="s2">"right"</span><span class="p">]</span>
 <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">output_dict</span> <span class="o">=</span> <span class="p">{</span><span class="mi">00</span><span class="p">}</span>
 
 <span class="k">for</span> <span class="n">cond</span> <span class="ow">in</span> <span class="n">conditions</span><span class="p">:</span>
     
@@ -688,6 +682,18 @@ document.write(`
             <span class="c1">#output_dict = {counter: output_list}</span>
             
 <span class="c1">#print(output_dict)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Here is some code that allows you to randomly shuffle the order of the values, using a temporary variable that holds the values and then reassignes the values in their new order to the original dictionary. Try to understand the code for this:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
+
+<span class="n">shuffled_values</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">output_dict</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span> <span class="n">k</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">output_dict</span><span class="p">))</span>
+<span class="n">output_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">output_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">shuffled_values</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">output_dict</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -716,8 +722,8 @@ document.write(`
 </section>
 <section id="functions">
 <h2>Functions<a class="headerlink" href="#functions" title="Permalink to this heading">#</a></h2>
-<p>Now let’s look into a new topic for the final session: <code class="docutils literal notranslate"><span class="pre">functions</span></code>.</p>
-<p>Let’s start with a rule of thumb for great <code class="docutils literal notranslate"><span class="pre">programming</span></code>: “Whenever you copy-paste while coding, you do something wrong.’</p>
+<p>Now let’s look into a new topic for the final introductory python session: <code class="docutils literal notranslate"><span class="pre">functions</span></code>.</p>
+<p>Let’s start with a rule of thumb for <code class="docutils literal notranslate"><span class="pre">great</span> <span class="pre">programming</span></code>: “Whenever you copy-paste while coding, you do something wrong.’</p>
 <p>We use <code class="docutils literal notranslate"><span class="pre">functions</span></code> to solve problems that are <code class="docutils literal notranslate"><span class="pre">repetitive</span></code>.</p>
 <p>What should you put into a <code class="docutils literal notranslate"><span class="pre">function</span></code>:</p>
 <ul class="simple">
@@ -729,10 +735,10 @@ document.write(`
 <ul class="simple">
 <li><p>is a <code class="docutils literal notranslate"><span class="pre">block</span> <span class="pre">of</span> <span class="pre">code</span></code> that only runs when explicitly called</p></li>
 <li><p>can accept <code class="docutils literal notranslate"><span class="pre">arguments</span></code> (or <code class="docutils literal notranslate"><span class="pre">parameters</span></code>) that <code class="docutils literal notranslate"><span class="pre">alter</span></code> its <code class="docutils literal notranslate"><span class="pre">behavior</span></code></p></li>
-<li><p>can accept any number/<code class="docutils literal notranslate"><span class="pre">type</span></code> of <code class="docutils literal notranslate"><span class="pre">inputs</span></code>, but always <code class="docutils literal notranslate"><span class="pre">return</span></code> a <code class="docutils literal notranslate"><span class="pre">single</span> <span class="pre">object</span></code></p></li>
+<li><p>can accept any number/<code class="docutils literal notranslate"><span class="pre">type</span></code> of <code class="docutils literal notranslate"><span class="pre">inputs</span></code>, but always <code class="docutils literal notranslate"><span class="pre">returns</span></code> a <code class="docutils literal notranslate"><span class="pre">single</span> <span class="pre">object</span></code></p></li>
 </ul>
 <p>Note: <code class="docutils literal notranslate"><span class="pre">functions</span></code> can return <code class="docutils literal notranslate"><span class="pre">tuples</span></code> (may look like <code class="docutils literal notranslate"><span class="pre">multiple</span> <span class="pre">objects</span></code>)</p>
-<p>A function in <code class="docutils literal notranslate"><span class="pre">Python</span></code> is defined using the keyword <code class="docutils literal notranslate"><span class="pre">def</span></code>, followed by a <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">name</span></code>, a <code class="docutils literal notranslate"><span class="pre">signature</span></code> within parentheses <code class="docutils literal notranslate"><span class="pre">()</span></code>, and a colon <code class="docutils literal notranslate"><span class="pre">:</span></code>. The <code class="docutils literal notranslate"><span class="pre">code</span></code> following the colon, with one additional level of <code class="docutils literal notranslate"><span class="pre">indentation</span></code>, is the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">body</span></code>. The <code class="docutils literal notranslate"><span class="pre">return</span></code> statement at the end of the function defines what the <code class="docutils literal notranslate"><span class="pre">ouput</span></code> will be, when the function is called. This is how a function generally looks like:</p>
+<p>A function in <code class="docutils literal notranslate"><span class="pre">Python</span></code> is defined using the keyword <code class="docutils literal notranslate"><span class="pre">def</span></code>, followed by a <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">name</span></code>, a <code class="docutils literal notranslate"><span class="pre">signature</span></code> within parentheses <code class="docutils literal notranslate"><span class="pre">()</span></code>, and a colon <code class="docutils literal notranslate"><span class="pre">:</span></code>. The <code class="docutils literal notranslate"><span class="pre">code</span></code> following the colon, with one level of <code class="docutils literal notranslate"><span class="pre">indentation</span></code>, is the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">body</span></code>. The <code class="docutils literal notranslate"><span class="pre">return</span></code> statement at the end of the function defines what the <code class="docutils literal notranslate"><span class="pre">output</span></code> will be, when the function is called. This is how a function generally looks like:</p>
 </br>
 <center><img src="https://raw.githubusercontent.com/PeerHerholz/Python_for_Psychologists_Winter2021/master/lecture/static/python_functions.png" width=700></center>
 </br>
@@ -773,7 +779,7 @@ Somewhat intimidating, right? Let's check the different components in further de
 </div>
 </div>
 <p>As you see, the <code class="docutils literal notranslate"><span class="pre">function</span></code> still printed the <code class="docutils literal notranslate"><span class="pre">'hello</span> <span class="pre">world'</span></code> but the returned <code class="docutils literal notranslate"><span class="pre">value</span></code> that was stored in <code class="docutils literal notranslate"><span class="pre">greetings</span></code> is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
-<p>A <code class="docutils literal notranslate"><span class="pre">function</span></code> can also accept <code class="docutils literal notranslate"><span class="pre">arguments</span></code> within the <code class="docutils literal notranslate"><span class="pre">parentheses</span></code>, making it super flexible. For example:</p>
+<p>As we saw above, a <code class="docutils literal notranslate"><span class="pre">function</span></code> can accept <code class="docutils literal notranslate"><span class="pre">arguments</span></code> within the <code class="docutils literal notranslate"><span class="pre">parentheses</span></code>, making it super flexible. For example:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">calc_power</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">p</span><span class="p">):</span>
@@ -806,7 +812,7 @@ Somewhat intimidating, right? Let's check the different components in further de
 <p>What happens if we’re missing an input argument?</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">calc_power</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">calc_power</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -898,6 +904,7 @@ Somewhat intimidating, right? Let's check the different components in further de
 </div>
 </div>
 </div>
+<p>Do you remember what a <code class="docutils literal notranslate"><span class="pre">tuple</span></code> is (for example, as opposed to a <code class="docutils literal notranslate"><span class="pre">list</span></code>)? If not, have a quick look at <code class="docutils literal notranslate"><span class="pre">Introduction</span> <span class="pre">to</span> <span class="pre">Python</span> <span class="pre">-</span> <span class="pre">Part</span> <span class="pre">II</span></code>, where <code class="docutils literal notranslate"><span class="pre">tuples</span></code> were introduced!</p>
 <p>As you see, your <code class="docutils literal notranslate"><span class="pre">output</span> <span class="pre">variable</span></code> <code class="docutils literal notranslate"><span class="pre">powers</span></code> is a <code class="docutils literal notranslate"><span class="pre">tuple</span></code> that contains the <code class="docutils literal notranslate"><span class="pre">output</span> <span class="pre">values</span></code> of the <code class="docutils literal notranslate"><span class="pre">function</span></code>. We can however, split this <code class="docutils literal notranslate"><span class="pre">tuple</span></code> directly into the specific <code class="docutils literal notranslate"><span class="pre">values</span></code>. This can help to make your <code class="docutils literal notranslate"><span class="pre">code</span></code> more readable. Make sure to speficy the same number of variables to assign to as values your return statements provide. Makes sense?</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -908,9 +915,10 @@ Somewhat intimidating, right? Let's check the different components in further de
 </div>
 </div>
 <section id="very-important-functions-local-vs-global-variables">
-<h3><strong>Very important</strong>: functions &amp; local vs. global variables<a class="headerlink" href="#very-important-functions-local-vs-global-variables" title="Permalink to this heading">#</a></h3>
+<h3><strong>Very important</strong>: functions &amp; <code class="docutils literal notranslate"><span class="pre">local</span></code> vs. <code class="docutils literal notranslate"><span class="pre">global</span></code> variables<a class="headerlink" href="#very-important-functions-local-vs-global-variables" title="Permalink to this heading">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">Variables</span></code> inside a <code class="docutils literal notranslate"><span class="pre">function</span></code> are treated as <code class="docutils literal notranslate"><span class="pre">local</span> <span class="pre">variables</span></code> and therefore don’t interfere with <code class="docutils literal notranslate"><span class="pre">variables</span></code> outside the scope of the <code class="docutils literal notranslate"><span class="pre">function</span></code>. This further means that a variable that is defined in a function is not defined outside of the function.</p>
-<p>Sounds confusing? To demonstrate let’s first define a function using the local variable <code class="docutils literal notranslate"><span class="pre">x</span></code>:</p>
+<p>Sounds confusing? But we have already seen this above. Can you find, where we used the same <code class="docutils literal notranslate"><span class="pre">variable</span> <span class="pre">name</span></code> inside and outside the <code class="docutils literal notranslate"><span class="pre">function</span></code>?</p>
+<p>To demonstrate this, let’s first define a function using the local variable <code class="docutils literal notranslate"><span class="pre">x</span></code>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">func</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -948,7 +956,7 @@ Somewhat intimidating, right? Let's check the different components in further de
 </div>
 </div>
 <p>So the function-internal <code class="docutils literal notranslate"><span class="pre">x</span></code> variable and the externally defined <code class="docutils literal notranslate"><span class="pre">x</span></code> variable are to different instances.</p>
-<p>To change our so called <code class="docutils literal notranslate"><span class="pre">global</span></code> variable (the variable defined outside of the function), we could implement a <code class="docutils literal notranslate"><span class="pre">return</span></code> statement as shown above and assign the function output to the <code class="docutils literal notranslate"><span class="pre">x</span></code> variable.</p>
+<p>To change our so-called <code class="docutils literal notranslate"><span class="pre">global</span></code> variable (the variable defined outside of the function), we could implement a <code class="docutils literal notranslate"><span class="pre">return</span></code> statement as shown above and assign the function output to the <code class="docutils literal notranslate"><span class="pre">x</span></code> variable.</p>
 <p>Another way to get the same result is to access a <code class="docutils literal notranslate"><span class="pre">local</span> <span class="pre">function</span> <span class="pre">variable</span></code>, by extending it’s <code class="docutils literal notranslate"><span class="pre">&quot;local</span> <span class="pre">scope&quot;</span></code> with the keyword <code class="docutils literal notranslate"><span class="pre">global</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -972,7 +980,7 @@ Somewhat intimidating, right? Let's check the different components in further de
 </section>
 <section id="the-docstring">
 <h3>The <code class="docutils literal notranslate"><span class="pre">docstring</span></code><a class="headerlink" href="#the-docstring" title="Permalink to this heading">#</a></h3>
-<p>Optionally, but highly recommended, we can define a so called <code class="docutils literal notranslate"><span class="pre">&quot;docstring&quot;</span></code>, which is a <code class="docutils literal notranslate"><span class="pre">description</span></code> of the <code class="docutils literal notranslate"><span class="pre">functions</span></code> purpose and behavior. The <code class="docutils literal notranslate"><span class="pre">docstring</span></code> should follow directly after the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">definition</span></code>, before the <code class="docutils literal notranslate"><span class="pre">code</span></code> in the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">body</span></code>.</p>
+<p>Optionally, but highly recommended, we can define a so called <code class="docutils literal notranslate"><span class="pre">&quot;docstring&quot;</span></code>, which is a <code class="docutils literal notranslate"><span class="pre">description</span></code> of the <code class="docutils literal notranslate"><span class="pre">functions</span></code> purpose and behavior. The <code class="docutils literal notranslate"><span class="pre">docstring</span></code> always follows directly after the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">definition</span></code>, i.e., before the <code class="docutils literal notranslate"><span class="pre">code</span></code> in the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">body</span></code>.</p>
 <p>You can also define the <code class="docutils literal notranslate"><span class="pre">input</span></code> and <code class="docutils literal notranslate"><span class="pre">return</span></code> <code class="docutils literal notranslate"><span class="pre">parameters</span></code> in the <code class="docutils literal notranslate"><span class="pre">docstring</span></code>. There are several <code class="docutils literal notranslate"><span class="pre">conventions</span></code> to do this. You can find them <a class="reference external" href="https://peps.python.org/pep-0257/">here</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1014,12 +1022,12 @@ Somewhat intimidating, right? Let's check the different components in further de
 </li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Keyword</span> <span class="pre">arguments</span></code> are values passed into a function using the parameter name.</p>
 <ul>
-<li><p>This makes the argument order (cf. positional arguments) irrelevant. <code class="docutils literal notranslate"><span class="pre">default</span> <span class="pre">value</span></code>.</p></li>
-<li><p>That is, during definition, you pre-specify an order of the function’s parameters, but when calling the function, you can pass the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> either positional (i.e., following the order used in the function definition) or you can be pass them in <em>arbitrary order</em> when using keywords.</p></li>
-<li><p>Note that here were use the term ‘argument’ for the values passed during calling the function, and the term <code class="docutils literal notranslate"><span class="pre">parameter</span></code>for the arguments (…) used during function definition.</p></li>
+<li><p>This makes the argument order (cf. positional arguments) irrelevant.</p></li>
+<li><p>That is, during definition, you pre-specify an order of the function’s parameters, <strong>but when <em>calling</em> the function</strong>, you can pass the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> either positionally (i.e., following the order used in the function definition) or you can be pass them in <em>arbitrary order</em> when using keywords.</p></li>
+<li><p>Note that here we use the term <code class="docutils literal notranslate"><span class="pre">argument</span></code> for the values passed during calling the function, and the term <code class="docutils literal notranslate"><span class="pre">parameter</span></code> for the arguments (…) used during function definition.</p></li>
 </ul>
 </li>
-<li><p>Note that when combining the two, keyword arguments need to be passed <em>after any <code class="docutils literal notranslate"><span class="pre">positional</span> <span class="pre">arguments</span></code></em>!!</p></li>
+<li><p>Note that when combining the two, <strong>keyword arguments need to be passed <em>after any <code class="docutils literal notranslate"><span class="pre">positional</span> <span class="pre">arguments</span></code></em>!!</strong></p></li>
 </ul>
 <p>You might not think that at the moment, but <code class="docutils literal notranslate"><span class="pre">coding</span></code> is all about readability. You only write it once, but you will probably read it several times.</p>
 <p>In <code class="docutils literal notranslate"><span class="pre">Python</span></code> we can increase readability when calling a <code class="docutils literal notranslate"><span class="pre">function</span></code> by also naming our <code class="docutils literal notranslate"><span class="pre">positional</span> <span class="pre">arguments</span></code>. For example:</p>
@@ -1050,8 +1058,9 @@ We can increase readability by calling the <code class="docutils literal notrans
 </div>
 <p>Now everyone that looks at your code, can directly see what is happening. If we explicitly list the name of the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> in the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">calls</span></code>, they do not need to come in the same order as in the <code class="docutils literal notranslate"><span class="pre">function</span> <span class="pre">definition</span></code>. This is called <strong>keyword</strong> <code class="docutils literal notranslate"><span class="pre">arguments</span></code> and is often very useful in <code class="docutils literal notranslate"><span class="pre">functions</span></code> that take a lot of <code class="docutils literal notranslate"><span class="pre">optional</span> <span class="pre">arguments</span></code>.</p>
 <br>
+</section>
 <section id="default-values">
-<h4>Default values<a class="headerlink" href="#default-values" title="Permalink to this heading">#</a></h4>
+<h3>Default values<a class="headerlink" href="#default-values" title="Permalink to this heading">#</a></h3>
 <p>Additionally we could also give <code class="docutils literal notranslate"><span class="pre">default</span> <span class="pre">values</span></code> to the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> the <code class="docutils literal notranslate"><span class="pre">function</span></code> takes. We do this when defining the function, like this:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1070,6 +1079,7 @@ We can increase readability by calling the <code class="docutils literal notrans
 </div>
 </div>
 </div>
+<p><em>Remember that above, we received an error when passing only one argument into the function! Now, this is ok, because the second argument has a <code class="docutils literal notranslate"><span class="pre">default</span> <span class="pre">value</span></code>.</em></p>
 <p>Such <code class="docutils literal notranslate"><span class="pre">default</span> <span class="pre">values</span></code> are especially useful for <code class="docutils literal notranslate"><span class="pre">functions</span></code> that take a lot of <code class="docutils literal notranslate"><span class="pre">arguments</span></code>, as it reduces the amount of <code class="docutils literal notranslate"><span class="pre">arguments</span></code> that you have to pass to the <code class="docutils literal notranslate"><span class="pre">function</span></code>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">Arguments</span></code> with a <code class="docutils literal notranslate"><span class="pre">default</span> <span class="pre">value</span></code> …</p>
 <ul class="simple">
@@ -1079,14 +1089,13 @@ We can increase readability by calling the <code class="docutils literal notrans
 <p>So, what is wrong in the following function definition? Can you fix it?</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">calc_power</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">power</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">calc_power</span><span class="p">(</span><span class="n">power</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">x</span> <span class="o">**</span> <span class="n">power</span>
 </pre></div>
 </div>
 </div>
 </div>
 <br>
-</section>
 </section>
 <section id="let-s-quickly-talk-about-function-names">
 <h3>Let’s quickly talk about function names…<a class="headerlink" href="#let-s-quickly-talk-about-function-names" title="Permalink to this heading">#</a></h3>
@@ -1102,28 +1111,25 @@ We can increase readability by calling the <code class="docutils literal notrans
 </section>
 <section id="argument-unpacking-with-args-and-kwargs">
 <h3>Argument unpacking with <code class="docutils literal notranslate"><span class="pre">*args</span></code> and <code class="docutils literal notranslate"><span class="pre">*kwargs</span></code><a class="headerlink" href="#argument-unpacking-with-args-and-kwargs" title="Permalink to this heading">#</a></h3>
-<p>Sometimes functions need to accept arbitrary/unknown arguments..</p>
-<ul class="simple">
-<li><p>Python handles this elegantly via the <code class="docutils literal notranslate"><span class="pre">*</span></code> and <code class="docutils literal notranslate"><span class="pre">**</span></code> conventions:</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">*args</span></code>: a list of all unassigned <code class="docutils literal notranslate"><span class="pre">positional</span></code> arguments assigned to the name <code class="docutils literal notranslate"><span class="pre">args</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">**kwargs</span></code>: a dictionary of all unassigned <code class="docutils literal notranslate"><span class="pre">keyword</span></code> arguments (i.e., key-value pairs) assigned to the name <code class="docutils literal notranslate"><span class="pre">kwargs</span></code></p></li>
-</ul>
-</li>
-</ul>
+<p>Sometimes functions need to accept arbitrary/unknown arguments.</p>
+<p>Python handles this elegantly via the <code class="docutils literal notranslate"><span class="pre">*</span></code> and <code class="docutils literal notranslate"><span class="pre">**</span></code> conventions:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- `*args`: a list of all unassigned `positional` arguments is assigned to the name `args`
+- `**kwargs`: a dictionary of all unassigned `keyword` arguments (i.e., key-value pairs) assigned to the name `kwargs`
+</pre></div>
+</div>
 <p>So next we’ll try to understand what that actually means by playing around with a new function called <code class="docutils literal notranslate"><span class="pre">print_args_and_kwargs()</span></code></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># source: Source: Tal Yarkoni's intro to python at https://github.com/neurohackademy/introduction-to-python/blob/master/introduction-to-python.ipynb</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Source: Tal Yarkoni's intro to python at https://github.com/neurohackademy/introduction-to-python/blob/master/introduction-to-python.ipynb</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">print_args_and_kwargs</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Args:"</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Kwargs:"</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Arguments:"</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Keyword arguments:"</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
-<p>The great thing is that <code class="docutils literal notranslate"><span class="pre">*args</span></code> allows us to pass a varying number of positional arguments, instead of us being limited to the amount of arguments we specified when we defined functions before.</p>
+<p>The great thing is that <code class="docutils literal notranslate"><span class="pre">*args</span></code> allows us to <em><strong>pass a varying number of positional arguments</strong></em>, instead of us being limited to the amount of arguments we specified when we defined functions before.</p>
 <p>Let’s try that:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1148,7 +1154,6 @@ We can increase readability by calling the <code class="docutils literal notrans
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">return_args</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"Args:"</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">args</span>
-
 
 <span class="n">args</span> <span class="o">=</span> <span class="n">return_args</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span> <span class="mi">7</span><span class="p">,</span> <span class="s1">'str'</span><span class="p">)</span>
 <span class="nb">type</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
@@ -1218,9 +1223,8 @@ We can increase readability by calling the <code class="docutils literal notrans
 </section>
 <section id="homework-assignment-6">
 <h2>Homework assignment #6<a class="headerlink" href="#homework-assignment-6" title="Permalink to this heading">#</a></h2>
-<p>Your fifth homework assignment will entail working through a few tasks covering the contents discussed in this session within of a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code>. You can download it <a class="reference external" href="https://github.com/cfiebach/Python_For_Psychologists_25-26/blob/main/lecture/homework/PFP_assignment_6_intro_python_4.ipynb">here</a>. In order to open it, put the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code> into the folder in which you stored the <code class="docutils literal notranslate"><span class="pre">course</span> <span class="pre">materials</span></code>, start a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code> as always, navigate to the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code>, open it and have fun! NB: Some of it will be <em>optional</em> and thus the notebook will look way longer than it actually is.</p>
-<p><strong>Deadline: Wednesday, 10/12/2025, 11:59 PM EST</strong></p>
-<p>Also, we now switch to more applied things, i.e. next week we start with experiments in <code class="docutils literal notranslate"><span class="pre">python</span></code>. In preparation for this, we’ll have to install <code class="docutils literal notranslate"><span class="pre">psychopy</span></code>. To do that please download the program from <a class="reference external" href="https://www.psychopy.org/download.html">here</a> and follow the instructions for your specific operating system. If you encounter any Problems, please let me know!</p>
+<p>Your fifth homework assignment will entail working through a few tasks covering the contents discussed in this session within a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code>. You can download it <a class="reference external" href="https://github.com/cfiebach/Python_For_Psychologists_26-27/blob/main/lecture/homework/PFP_assignment_6_intro_python_4.ipynb">here</a>. In order to open it, put the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code> into the folder in which you stored the <code class="docutils literal notranslate"><span class="pre">course</span> <span class="pre">materials</span></code>, start a <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span></code> as always, navigate to the <code class="docutils literal notranslate"><span class="pre">homework</span> <span class="pre">assignment</span> <span class="pre">notebook</span></code>, open it and have fun! NB: Some of it will be <em>optional</em> and thus the notebook will look way longer than it actually is.</p>
+<p><strong>Deadline: Tuesday, Dec. 1st, 2026, 11:59 PM EST</strong></p>
 <section id="and-this-concludes-our-introduction-sessions">
 <h3>And this concludes our introduction sessions.<a class="headerlink" href="#and-this-concludes-our-introduction-sessions" title="Permalink to this heading">#</a></h3>
 <p>Great work everyone! You’re on your way to actually understand this madness!</p>
@@ -1296,7 +1300,7 @@ We can increase readability by calling the <code class="docutils literal notrans
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Introductory Session VI: Introduction to Python - Part IV</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#before-we-get-started">Before we get started …</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#here-s-what-we-will-focus-on-in-today-s-block">Here’s what we will focus on in today’s block:**</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#here-s-what-we-will-focus-on-in-today-s-block">Here’s what we will focus on in today’s block:</a></li>
 </ul>
 </li>
 </ul>
@@ -1306,12 +1310,10 @@ We can increase readability by calling the <code class="docutils literal notrans
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#if-conditionals">if conditionals</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#while-loops">while loops</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functions">Functions</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#very-important-functions-local-vs-global-variables"><strong>Very important</strong>: functions &amp; local vs. global variables</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#very-important-functions-local-vs-global-variables"><strong>Very important</strong>: functions &amp; <code class="docutils literal notranslate"><span class="pre">local</span></code> vs. <code class="docutils literal notranslate"><span class="pre">global</span></code> variables</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-docstring">The <code class="docutils literal notranslate"><span class="pre">docstring</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positional-vs-keyword-arguments">Positional vs. keyword arguments</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#default-values">Default values</a></li>
-</ul>
-</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positional-vs-keyword-arguments">Positional vs. keyword arguments</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#default-values">Default values</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#let-s-quickly-talk-about-function-names">Let’s quickly talk about function names…</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument-unpacking-with-args-and-kwargs">Argument unpacking with <code class="docutils literal notranslate"><span class="pre">*args</span></code> and <code class="docutils literal notranslate"><span class="pre">*kwargs</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-1">Exercise 4.1</a></li>
