@@ -14,6 +14,9 @@ This session, we'll build upon the things learned in the last weeks and see how 
 
 Please see the rendered version of the `jupyter notebook` [Introduction VI - Introduction to Python IV](https://cfiebach.github.io/Python_For_Psychologists_26-27/introduction/intro_python_IV.html) in the `ToC` on the left.
 
+You can download the ***executable notebook*** from the `github repository` of the course, here: https://tinyurl.com/pfp26github
+(You find it in the subfolder `lecture/introduction` under the title `intro_python_IV.ipynb`.) 
+
 
 ## Project related work 🥼🧑🏿‍🔬👩🏻‍🔬
 
