@@ -22,9 +22,9 @@ The optimistic schedule below may be subject of change, dependent on time constr
 | 12/11/2026 | Introductory Session IV: Recap Intro to Python Part II  | 17/11/2026 |
 | 19/11/2026 | No in person session! Introductory Session V: Intro to Python Part III | 24/11/2026 |
 | 26/11/2026 | Introductory Session VI - Recap and Intro to Python Part IV | 02/12/2026 |
-| 04/12/2026 | Data Visualization in Python (Michael Ernst)| 09/12/2026 |
-| 11/12/2026 | Data Analysis in Python (Michael Ernst) | 16/12/2026 |
-| 18/12/2026 | Running Experiments in Python with PsychoPy - Part 1 (Michael Ernst) | |
-| 14/01/2027 | Running Experiments in Python with PsychoPy - Part 2 (Michael Ernst); Introduction of Project (C. Fiebach); Assignment: Data acquisition   | 20/01/2027 |
-| 21/01/2027 | most likely: Version Control with git and github |  |
+| 04/12/2026 | Running Experiments in Python with PsychoPy - Part 1 (Michael Ernst) |  |
+| 11/12/2026 | Running Experiments in Python with PsychoPy - Part 2 (Michael Ernst); Introduction of Project (C. Fiebach); Assignment: Data acquisition   | TBA|
+| 14/01/2027 | Data Visualization in Python (Michael Ernst)| TBA |
+| 21/01/2027 | Data Analysis in Python (Michael Ernst) | TBA  |
+| 28/01/2027 | most likely: Version Control with git and github |  |
 |  | Final Assignment: Data analysis and writing report in Jupyter Notebook  | 15/02/2027 |
