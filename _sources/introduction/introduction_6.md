@@ -29,7 +29,7 @@ You can download the homework for next week [here](https://github.com/cfiebach/P
 
 ## Prepare PsychoPy installation
 
-Also, in preparation for our switch to more applied things, i.e. starting with experiments in `python`, we will soon install `psychopy`. We will provide you with details in the next days!
+Also, we now switch to more applied things, i.e. next week we start with experiments in `python`. In preparation for this, we'll have to install `psychopy`. To do that please download the most recent **stable version** from [here](https://www.psychopy.org/download.html) and follow the instructions for your specific operating system. If you encounter any Problems, please let us know via `Discord`!
 
 
 ## Optional/reading/further materials
